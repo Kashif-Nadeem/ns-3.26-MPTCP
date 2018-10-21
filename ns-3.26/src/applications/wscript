@@ -1,0 +1,67 @@
+## -*- Mode: python; py-indent-offset: 4; indent-tabs-mode: nil; coding: utf-8; -*-
+
+def build(bld):
+    module = bld.create_ns3_module('applications', ['internet', 'config-store','stats'])
+    module.source = [
+        'model/bulk-send-application.cc',
+        'model/onoff-application.cc',
+        'model/packet-sink.cc',
+        'model/udp-client.cc',
+        'model/udp-server.cc',
+        'model/seq-ts-header.cc',
+        'model/udp-trace-client.cc',
+        'model/packet-loss-counter.cc',
+        'model/udp-echo-client.cc',
+        'model/udp-echo-server.cc',
+        'model/my-first-client.cc',
+        'model/my-first-server.cc',
+        'model/random-traffic-application.cc',
+        'model/random-traffic-udp.cc',
+        'model/my-tag.cc',
+        'model/application-packet-probe.cc',
+        'helper/bulk-send-helper.cc',
+        'helper/on-off-helper.cc',
+        'helper/packet-sink-helper.cc',
+        'helper/random-traffic-helper.cc',
+        'helper/random-traffic-udp-helper.cc',
+        'helper/udp-client-server-helper.cc',
+        'helper/udp-echo-helper.cc',
+        'helper/my-first-helper.cc',
+        ]
+
+    applications_test = bld.create_ns3_module_test_library('applications')
+    applications_test.source = [
+        'test/udp-client-server-test.cc',
+        ]
+
+    headers = bld(features='ns3header')
+    headers.module = 'applications'
+    headers.source = [
+        'model/bulk-send-application.h',
+        'model/onoff-application.h',
+        'model/packet-sink.h',
+        'model/udp-client.h',
+        'model/udp-server.h',
+        'model/seq-ts-header.h',
+        'model/udp-trace-client.h',
+        'model/packet-loss-counter.h',
+        'model/udp-echo-client.h',
+        'model/udp-echo-server.h',
+        'model/my-first-client.h',
+        'model/random-traffic-application.h',
+        'model/random-traffic-udp.h',
+        'model/my-first-server.h',
+        'model/my-tag.h',
+        'model/application-packet-probe.h',
+        'helper/bulk-send-helper.h',
+        'helper/random-traffic-helper.h',
+        'helper/random-traffic-udp-helper.h',
+        'helper/on-off-helper.h',
+        'helper/packet-sink-helper.h',
+        'helper/udp-client-server-helper.h',
+        'helper/udp-echo-helper.h',
+        'helper/my-first-helper.h',
+        
+        ]
+
+    bld.ns3_python_bindings()

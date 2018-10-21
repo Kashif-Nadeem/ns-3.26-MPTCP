@@ -1,0 +1,28 @@
+<Test>
+  <Name>time</Name>
+  <Result>FAIL</Result>
+  <Time real="0.000" user="0.000" system="0.000"/>
+  <Test>
+    <Name>Checks times that have plus or minus signs</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Input,output from,to strings</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Sanity check of common time operations</Name>
+    <Result>FAIL</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+      <FailureDetails>
+        <Condition>MicroSeconds (1).GetMicroSeconds () (actual) == 1 (limit)</Condition>
+        <Actual>0</Actual>
+        <Limit>1</Limit>
+        <Message>is 1us really 1us ?</Message>
+        <File>../../src/core/test/time-test-suite.cc</File>
+        <Line>80</Line>
+      </FailureDetails>
+  </Test>
+</Test>

@@ -1,0 +1,58 @@
+#include "ns3/log.h"
+#include "ns3/address.h"
+#include "ns3/node.h"
+#include "ns3/nstime.h"
+#include "ns3/socket.h"
+#include "ns3/simulator.h"
+#include "ns3/socket-factory.h"
+#include "ns3/packet.h"
+#include "ns3/uinteger.h"
+#include "ns3/random-variable-stream.h"
+#include "ns3/trace-source-accessor.h"
+#include "ns3/tcp-socket-factory.h"
+#include "random-traffic-application.h"
+
+namespace ns3 {
+
+NS_LOG_COMPONENT_DEFINE ("RandomTrafficApplication");
+
+NS_OBJECT_ENSURE_REGISTERED (RandomTrafficApplication);
+
+TypeId
+RandomTrafficApplication::GetTypeId (void)
+{
+  static TypeId tid = TypeId ("ns3::RandomTrafficApplication")
+    .SetParent<Application> ()
+    .SetGroupName("Applications") 
+    .AddConstructor<RandomTrafficApplication> ()
+    .AddAttribute ("Remote", "The address of the destination",
+                   AddressValue (),
+                   MakeAddressAccessor (&RandomTrafficApplication::m_peer),
+                   MakeAddressChecker ())
+    .AddAttribute ("MaxBytes",
+                   "The total number of bytes to send. "
+                   "Once these bytes are sent, "
+                   "no data  is sent again. The value zero means "
+                   "that there is no limit.",
+                   UintegerValue (0),
+                   MakeUintegerAccessor (&BulkSendApplication::m_maxBytes),
+                   MakeUintegerChecker<uint64_t> ())
+    .AddAttribute ("Protocol", "The type of protocol to use.",
+                   TypeIdValue (TcpSocketFactory::GetTypeId ()),
+                   MakeTypeIdAccessor (&RandomTrafficApplication::m_tid),
+                   MakeTypeIdChecker ())
+    .AddAttribute ("Delay", "The delay between two packets (s)",
+           RandomVariableValue (ConstantVariable (1.0)),
+           MakeRandomVariableAccessor (&RandomTrafficApplication::m_delay),
+           MakeRandomVariableChecker ())
+    .AddAttribute ("PacketSize", "The size of each packet (bytes)",
+           RandomVariableValue (ConstantVariable (2000)),
+           MakeRandomVariableAccessor (&RandomTrafficApplication::m_size),
+           MakeRandomVariableChecker ())
+    .AddTraceSource ("Tx", "A new packet is created and is sent",
+                     MakeTraceSourceAccessor (&RandomTrafficApplication::m_txTrace),
+                     "ns3::Packet::TracedCallback")static TypeId tid = TypeId ("RandomTrafficApp")
+    
+    ;
+  return tid;
+}

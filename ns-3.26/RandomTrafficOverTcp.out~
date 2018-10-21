@@ -1,0 +1,536 @@
+Waf: Entering directory `/home/kashif/ns3/ns-allinone-3.26/ns-3.26/build'
+[1610/2699] Compiling src/applications/model/random-traffic-application.cc
+[2313/2699] Compiling examples/MyPrograms/random-traffic.cc
+[2432/2699] Linking build/libns3.26-applications-debug.so
+[2435/2699] Linking build/examples/routing/ns3.26-static-routing-slash32-debug
+[2436/2699] Linking build/src/traffic-control/examples/ns3.26-codel-vs-pfifo-basic-test-debug
+[2438/2699] Linking build/src/uan/examples/ns3.26-uan-rc-example-debug
+[2439/2699] Linking build/examples/tutorial/ns3.26-seventh-debug
+[2442/2699] Linking build/examples/tcp/ns3.26-tcp-variants-comparison-debug
+[2442/2699] Linking build/src/csma/examples/ns3.26-csma-packet-socket-debug
+[2443/2699] Linking build/src/wimax/examples/ns3.26-wimax-simple-debug
+[2445/2699] Linking build/examples/routing/ns3.26-mixed-global-routing-debug
+[2448/2699] Linking build/examples/tcp/ns3.26-tcp-pcap-nanosec-example-debug
+[2449/2699] Linking build/examples/socket/ns3.26-socket-bound-tcp-static-routing-debug
+[2453/2699] Linking build/examples/udp/ns3.26-udp-echo-debug
+[2453/2699] Linking build/src/wimax/examples/ns3.26-wimax-multicast-debug
+[2455/2699] Linking build/src/fd-net-device/examples/ns3.26-fd-emu-onoff-debug
+[2456/2699] Linking build/src/virtual-net-device/examples/ns3.26-virtual-net-device-debug
+[2459/2699] Linking build/examples/tcp/ns3.26-tcp-nsc-zoo-debug
+[2461/2699] Linking build/examples/tcp/ns3.26-tcp-large-transfer-debug
+[2463/2699] Linking build/examples/tutorial/ns3.26-second-debug
+[2466/2699] Linking build/src/traffic-control/examples/ns3.26-pie-example-debug
+[2467/2699] Linking build/src/fd-net-device/examples/ns3.26-realtime-fd2fd-onoff-debug
+[2471/2699] Linking build/examples/tcp/ns3.26-tcp-nsc-comparison-debug
+[2473/2699] Linking build/examples/error-model/ns3.26-simple-error-model-debug
+[2474/2699] Linking build/examples/routing/ns3.26-simple-alternate-routing-debug
+[2476/2699] Linking build/src/mpi/examples/ns3.26-simple-distributed-empty-node-debug
+[2480/2699] Linking build/examples/routing/ns3.26-dynamic-global-routing-debug
+[2483/2699] Linking build/src/mpi/examples/ns3.26-nms-p2p-nix-distributed-debug
+[2484/2699] Linking build/src/fd-net-device/examples/ns3.26-fd2fd-onoff-debug
+[2485/2699] Linking build/src/spectrum/examples/ns3.26-adhoc-aloha-ideal-phy-with-microwave-oven-debug
+[2486/2699] Linking build/src/traffic-control/examples/ns3.26-red-tests-debug
+[2487/2699] Linking build/examples/realtime/ns3.26-realtime-udp-echo-debug
+[2488/2699] Linking build/examples/wireless/ns3.26-multirate-debug
+[2489/2699] Linking build/src/mpi/examples/ns3.26-simple-distributed-debug
+[2494/2699] Linking build/src/internet/examples/ns3.26-main-simple-debug
+[2494/2699] Linking build/src/spectrum/examples/ns3.26-adhoc-aloha-ideal-phy-matrix-propagation-loss-model-debug
+[2496/2699] Linking build/examples/traffic-control/ns3.26-traffic-control-debug
+[2498/2699] Linking build/examples/routing/ns3.26-simple-global-routing-debug
+[2500/2699] Linking build/examples/udp-client-server/ns3.26-udp-trace-client-server-debug
+[2502/2699] Linking build/examples/wireless/ns3.26-ht-wifi-network-debug
+[2503/2699] Linking build/libns3.26-fnss-debug.so
+[2504/2699] Linking build/examples/tcp/ns3.26-tcp-nsc-lfn-debug
+[2505/2699] Linking build/examples/tcp/ns3.26-tcp-star-server-debug
+[2507/2699] Linking build/examples/wireless/ns3.26-wifi-aggregation-debug
+[2508/2699] Linking build/libns3.26-applications-test-debug.so
+[2509/2699] Linking build/examples/wireless/ns3.26-wifi-spectrum-saturation-example-debug
+[2512/2699] Linking build/src/traffic-control/examples/ns3.26-codel-vs-pfifo-asymmetric-debug
+[2516/2699] Linking build/src/csma/examples/ns3.26-csma-ping-debug
+[2517/2699] Linking build/src/bridge/examples/ns3.26-csma-bridge-debug
+[2518/2699] Linking build/examples/tutorial/ns3.26-sixth-debug
+[2519/2699] Linking build/examples/wireless/ns3.26-wifi-spectrum-per-interference-debug
+[2523/2699] Linking build/src/tap-bridge/examples/ns3.26-tap-wifi-dumbbell-debug
+[2525/2699] Linking build/examples/routing/ns3.26-global-routing-multi-switch-plus-router-debug
+[2526/2699] Linking build/examples/udp/ns3.26-my-first-debug
+[2527/2699] Linking build/src/csma/examples/ns3.26-csma-multicast-debug
+[2528/2699] Linking build/examples/wireless/ns3.26-wifi-sleep-debug
+[2529/2699] Linking build/src/csma/examples/ns3.26-csma-raw-ip-socket-debug
+[2531/2699] Linking build/examples/wireless/ns3.26-wifi-hidden-terminal-debug
+[2532/2699] Linking build/examples/tutorial/ns3.26-third-debug
+[2534/2699] Linking build/examples/routing/ns3.26-global-routing-slash32-debug
+[2535/2699] Linking build/src/nix-vector-routing/examples/ns3.26-nix-simple-debug
+[2538/2699] Linking build/examples/tcp/ns3.26-tcp-bulk-send-debug
+[2539/2699] Linking build/examples/routing/ns3.26-global-injection-slash32-debug
+[2540/2699] Linking build/src/traffic-control/examples/ns3.26-adaptive-red-tests-debug
+[2541/2699] Linking build/examples/wireless/ns3.26-80211n-mimo-debug
+[2542/2699] Linking build/examples/tutorial/ns3.26-fifth-debug
+[2543/2699] Linking build/examples/wireless/ns3.26-wifi-ap-debug
+[2544/2699] Linking build/libns3.26-lte-debug.so
+[2545/2699] Linking build/src/csma/examples/ns3.26-csma-broadcast-debug
+[2546/2699] Linking build/examples/tutorial/ns3.26-first-debug
+[2547/2699] Linking build/src/olsr/examples/ns3.26-simple-point-to-point-olsr-debug
+[2551/2699] Linking build/src/csma-layout/examples/ns3.26-csma-star-debug
+[2553/2699] Linking build/src/bridge/examples/ns3.26-csma-bridge-one-hop-debug
+[2555/2699] Linking build/src/spectrum/examples/ns3.26-adhoc-aloha-ideal-phy-debug
+[2556/2699] Linking build/src/traffic-control/examples/ns3.26-pfifo-vs-red-debug
+[2557/2699] Linking build/examples/wireless/ns3.26-wifi-blockack-debug
+[2558/2699] Linking build/src/uan/examples/ns3.26-uan-cw-example-debug
+[2563/2699] Linking build/examples/wireless/ns3.26-rate-adaptation-distance-debug
+[2568/2699] Linking build/examples/naming/ns3.26-object-names-debug
+[2571/2699] Linking build/src/csma/examples/ns3.26-csma-one-subnet-debug
+[2572/2699] Linking build/src/wimax/examples/ns3.26-wimax-ipv4-debug
+[2573/2699] Linking build/examples/MyPrograms/ns3.26-myprogram-debug
+[2575/2699] Linking build/examples/wireless/ns3.26-wifi-wired-bridging-debug
+[2579/2699] Linking build/examples/udp-client-server/ns3.26-udp-client-server-debug
+[2582/2699] Linking build/libns3.26-fnss-test-debug.so
+[2587/2699] Linking build/src/fd-net-device/examples/ns3.26-fd-emu-udp-echo-debug
+[2588/2699] Linking build/src/nix-vector-routing/examples/ns3.26-nms-p2p-nix-debug
+[2589/2699] Linking build/src/topology-read/examples/ns3.26-topology-example-sim-debug
+[2591/2699] Linking build/examples/wireless/ns3.26-wifi-spectrum-per-example-debug
+[2591/2699] Linking build/examples/wireless/ns3.26-wifi-adhoc-debug
+[2592/2699] Linking build/src/mpi/examples/ns3.26-third-distributed-debug
+[2593/2699] Linking build/examples/wireless/ns3.26-vht-wifi-network-debug
+[2594/2699] Linking build/examples/wireless/ns3.26-wifi-tcp-debug
+[2595/2699] Linking build/src/dsdv/examples/ns3.26-dsdv-manet-debug
+[2596/2699] Linking build/examples/wireless/ns3.26-wifi-timing-attributes-debug
+[2597/2699] Linking build/examples/wireless/ns3.26-power-adaptation-distance-debug
+[2598/2699] Linking build/src/fnss/examples/ns3.26-fnss-example-debug
+[2599/2699] Linking build/examples/wireless/ns3.26-80211e-txop-debug
+[2600/2699] Linking build/examples/traffic-control/ns3.26-queue-discs-benchmark-debug
+[2601/2699] Linking build/examples/wireless/ns3.26-power-adaptation-interference-debug
+[2602/2699] Linking build/examples/wireless/ns3.26-simple-ht-hidden-stations-debug
+[2604/2699] Linking build/examples/wireless/ns3.26-mixed-bg-network-debug
+[2604/2699] Linking build/src/traffic-control/examples/ns3.26-red-vs-ared-debug
+[2605/2699] Linking build/src/wave/examples/ns3.26-wave-simple-80211p-debug
+[2606/2699] Linking build/src/wave/examples/ns3.26-wave-simple-device-debug
+[2607/2699] Linking build/examples/routing/ns3.26-manet-routing-compare-debug
+[2608/2699] Linking build/src/mesh/examples/ns3.26-mesh-debug
+[2609/2699] Linking build/src/wave/examples/ns3.26-vanet-routing-compare-debug
+[2611/2699] Linking build/src/dsr/examples/ns3.26-dsr-debug
+[2611/2699] Linking build/src/lte/examples/ns3.26-lena-x2-handover-debug
+[2612/2699] Linking build/src/lte/examples/ns3.26-lena-rem-debug
+[2613/2699] Linking build/src/lte/examples/ns3.26-lena-pathloss-traces-debug
+[2614/2699] Linking build/src/lte/examples/ns3.26-lena-fading-debug
+[2615/2699] Linking build/src/lte/examples/ns3.26-lena-rem-sector-antenna-debug
+[2616/2699] Linking build/src/lte/examples/ns3.26-lena-cqi-threshold-debug
+[2617/2699] Linking build/src/lte/examples/ns3.26-lena-profiling-debug
+[2618/2699] Linking build/src/lte/examples/ns3.26-lena-intercell-interference-debug
+[2619/2699] Linking build/libns3.26-netanim-debug.so
+[2620/2699] Linking build/src/lte/examples/ns3.26-lena-simple-epc-debug
+[2621/2699] Linking build/libns3.26-lte-test-debug.so
+[2622/2699] Linking build/src/lte/examples/ns3.26-lena-dual-stripe-debug
+[2623/2699] Linking build/src/lte/examples/ns3.26-lena-deactivate-bearer-debug
+[2624/2699] Linking build/src/lte/examples/ns3.26-lena-rlc-traces-debug
+[2625/2699] Linking build/src/lte/examples/ns3.26-lena-frequency-reuse-debug
+[2626/2699] Linking build/src/lte/examples/ns3.26-lena-x2-handover-measures-debug
+[2627/2699] Linking build/libns3.26-test-debug.so
+[2628/2699] Linking build/src/lte/examples/ns3.26-lena-simple-debug
+[2629/2699] Linking build/src/lte/examples/ns3.26-lena-distributed-ffr-debug
+[2630/2699] Linking build/src/lte/examples/ns3.26-lena-uplink-power-control-debug
+[2631/2699] Linking build/src/netanim/examples/ns3.26-resources-counters-debug
+[2632/2699] Linking build/src/netanim/examples/ns3.26-uan-animation-debug
+[2633/2699] Linking build/src/netanim/examples/ns3.26-colors-link-description-debug
+[2635/2699] Linking build/examples/wireless/ns3.26-mixed-wireless-debug
+[2635/2699] Linking build/src/netanim/examples/ns3.26-wireless-animation-debug
+[2636/2699] Linking build/src/netanim/examples/ns3.26-grid-animation-debug
+[2637/2699] Linking build/src/netanim/examples/ns3.26-dumbbell-animation-debug
+[2638/2699] Linking build/examples/tcp/ns3.26-star-debug
+[2639/2699] Linking build/libns3.26-netanim-test-debug.so
+[2640/2699] Linking build/examples/MyPrograms/ns3.26-random-traffic-example-debug
+[2641/2699] Linking build/examples/MyPrograms/ns3.26-random-traffic-debug
+[2642/2699] Linking build/examples/matrix-topology/ns3.26-matrix-topology-debug
+[2643/2699] Linking build/src/netanim/examples/ns3.26-star-animation-debug
+[2644/2699] Linking build/scratch/scratch-simulator
+[2645/2699] Linking build/bindings/python/ns/csma.so
+[2646/2699] Linking build/bindings/python/ns/wifi.so
+[2647/2699] Linking build/scratch/fat-tree-alfares
+[2648/2699] Linking build/bindings/python/ns/config_store.so
+[2649/2699] Linking build/bindings/python/ns/bridge.so
+[2650/2699] Linking build/bindings/python/ns/point_to_point.so
+[2651/2699] Linking build/bindings/python/ns/mesh.so
+[2652/2699] Linking build/bindings/python/ns/traffic_control.so
+[2653/2699] Linking build/bindings/python/ns/internet_apps.so
+[2654/2699] Linking build/bindings/python/ns/_core.so
+[2655/2699] Linking build/bindings/python/ns/lr_wpan.so
+[2656/2699] Linking build/bindings/python/ns/mpi.so
+[2657/2699] Linking build/bindings/python/ns/olsr.so
+[2658/2699] Linking build/bindings/python/ns/wimax.so
+[2659/2699] Linking build/bindings/python/ns/dsdv.so
+[2660/2699] Linking build/bindings/python/ns/nix_vector_routing.so
+[2661/2699] Linking build/libns3.26-test-test-debug.so
+[2662/2699] Linking build/bindings/python/ns/flow_monitor.so
+[2663/2699] Linking build/bindings/python/ns/stats.so
+[2664/2699] Linking build/bindings/python/ns/mobility.so
+[2665/2699] Linking build/bindings/python/ns/energy.so
+[2666/2699] Linking build/bindings/python/ns/buildings.so
+[2668/2699] Linking build/bindings/python/ns/lte.so
+[2668/2699] Linking build/bindings/python/ns/virtual_net_device.so
+[2669/2699] Linking build/bindings/python/ns/dsr.so
+[2670/2699] Linking build/bindings/python/ns/fd_net_device.so
+[2671/2699] Linking build/bindings/python/ns/internet.so
+[2672/2699] Linking build/bindings/python/ns/wave.so
+[2673/2699] Linking build/bindings/python/ns/topology_read.so
+[2674/2699] Linking build/bindings/python/ns/network.so
+[2675/2699] Linking build/bindings/python/ns/uan.so
+[2676/2699] Linking build/bindings/python/ns/applications.so
+[2677/2699] Linking build/bindings/python/ns/sixlowpan.so
+[2678/2699] Linking build/bindings/python/ns/point_to_point_layout.so
+[2679/2699] Linking build/bindings/python/ns/antenna.so
+[2680/2699] Linking build/scratch/subdir/subdir
+[2681/2699] Linking build/bindings/python/ns/spectrum.so
+[2682/2699] Linking build/bindings/python/ns/tap_bridge.so
+[2683/2699] Linking build/bindings/python/ns/csma_layout.so
+[2684/2699] Linking build/bindings/python/ns/aodv.so
+[2685/2699] Linking build/bindings/python/ns/propagation.so
+[2686/2699] Linking build/bindings/python/ns/visualizer.so
+[2687/2699] Linking build/utils/ns3.26-print-introspected-doxygen-debug
+[2688/2699] Linking build/utils/ns3.26-test-runner-debug
+Waf: Leaving directory `/home/kashif/ns3/ns-allinone-3.26/ns-3.26/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (2m5.658s)
+TcpL4Protocol:TcpL4Protocol()
+Made a TcpL4Protocol 0x9665500
+TcpL4Protocol:NotifyNewAggregate(0x9665500)
+TcpL4Protocol:SetNode(0x9665500)
+ [node 0] TcpL4Protocol:NotifyNewAggregate(0x9665500)
+ [node 0] TcpL4Protocol:NotifyNewAggregate(0x9665500)
+TcpL4Protocol:TcpL4Protocol()
+Made a TcpL4Protocol 0x964c898
+TcpL4Protocol:NotifyNewAggregate(0x964c898)
+TcpL4Protocol:SetNode(0x964c898)
+ [node 1] TcpL4Protocol:NotifyNewAggregate(0x964c898)
+ [node 1] TcpL4Protocol:NotifyNewAggregate(0x964c898)
+ [node 0] TcpL4Protocol:CreateSocket(0x9665500, "ns3::TcpNewReno")
+AnimationInterface WARNING:Node:0 Does not have a mobility model. Use SetConstantPosition if it is stationary
+AnimationInterface WARNING:Node:1 Does not have a mobility model. Use SetConstantPosition if it is stationary
+AnimationInterface WARNING:Node:0 Does not have a mobility model. Use SetConstantPosition if it is stationary
+AnimationInterface WARNING:Node:1 Does not have a mobility model. Use SetConstantPosition if it is stationary
+ [node 0] TcpL4Protocol:NotifyNewAggregate(0x9665500)
+ [node 1] TcpL4Protocol:NotifyNewAggregate(0x964c898)
+ [node 0] TcpL4Protocol:CreateSocket(0x9665500, "ns3::TcpNewReno")
+ [node 0] TcpL4Protocol:Allocate()
+ [node 0] TcpL4Protocol:AddSocket(0x9665500, 0x9641e10)
+ [node 0] TcpL4Protocol:SendPacket(0x9665500, 0x9674578, 49153 > 9 [SYN] Seq=0 Ack=0 Win=65535 ns3::TcpOptionTS(0;0) ns3::TcpOptionWinScale(2), 05-04-0a:01:01:01, 05-04-0a:01:01:02, 0)
+ [node 0] TcpL4Protocol:SendPacketV4(0x9665500, 0x9674578, 10.1.1.1, 10.1.1.2, 0)
+Tcp Sending packet 0 at 0 data size 0
+ [node 0] TcpL4Protocol 0x9665500 sending seq 0 ack 0 flags SYN data size 0
+ [node 1] TcpL4Protocol:CreateSocket(0x964c898, "ns3::TcpNewReno")
+ [node 1] TcpL4Protocol:Allocate(0x964c898, 9)
+ [node 1] TcpL4Protocol:AddSocket(0x964c898, 0x9642fe8)
+ [node 1] TcpL4Protocol:Receive(0x964c898, 0x9643660, tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 0 protocol 6 offset (bytes) 0 flags [none] length: 56 10.1.1.1 > 10.1.1.2, 0x96743f8)
+ [node 1] TcpL4Protocol:PacketReceived(0x964c898, 0x9643660, 0 > 0 Seq=0 Ack=0 Win=65535, 05-04-0a:01:01:01, 05-04-0a:01:01:02)
+Tcp received a packet 1 at 0.0010928 data size 36
+ [node 1] TcpL4Protocol 0x964c898 receiving seq 0 ack 0 flags SYN data size 36
+ [node 1] TcpL4Protocol 0x964c898 received a packet and now forwarding it up to endpoint/socket
+ [node 1] TcpL4Protocol:Allocate(0x964c898, 10.1.1.2, 9, 10.1.1.1, 49153)
+ [node 1] TcpL4Protocol:AddSocket(0x964c898, 0x96437b0)
+ [node 1] TcpL4Protocol:SendPacket(0x964c898, 0x96436b0, 9 > 49153 [SYN|ACK] Seq=0 Ack=1 Win=65535 ns3::TcpOptionTS(1;0) ns3::TcpOptionWinScale(2), 05-04-0a:01:01:02, 05-04-0a:01:01:01, 0)
+ [node 1] TcpL4Protocol:SendPacketV4(0x964c898, 0x96436b0, 10.1.1.2, 10.1.1.1, 0)
+Tcp Sending packet 1 at 0.0010928 data size 0
+ [node 1] TcpL4Protocol 0x964c898 sending seq 0 ack 1 flags SYN|ACK data size 0
+ [node 0] TcpL4Protocol:Receive(0x9665500, 0x96436b0, tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 0 protocol 6 offset (bytes) 0 flags [none] length: 56 10.1.1.2 > 10.1.1.1, 0x9647d08)
+ [node 0] TcpL4Protocol:PacketReceived(0x9665500, 0x96436b0, 0 > 0 Seq=0 Ack=0 Win=65535, 05-04-0a:01:01:02, 05-04-0a:01:01:01)
+Tcp received a packet 2 at 0.0021856 data size 36
+ [node 0] TcpL4Protocol 0x9665500 receiving seq 0 ack 1 flags SYN|ACK data size 36
+ [node 0] TcpL4Protocol 0x9665500 received a packet and now forwarding it up to endpoint/socket
+ [node 0] TcpL4Protocol:SendPacket(0x9665500, 0x9640cd0, 49153 > 9 [ACK] Seq=1 Ack=1 Win=32768 ns3::TcpOptionTS(2;1), 05-04-0a:01:01:01, 05-04-0a:01:01:02, 0)
+ [node 0] TcpL4Protocol:SendPacketV4(0x9665500, 0x9640cd0, 10.1.1.1, 10.1.1.2, 0)
+Tcp Sending packet 2 at 0.0021856 data size 0
+ [node 0] TcpL4Protocol 0x9665500 sending seq 1 ack 1 flags ACK data size 0
+ Packet interval+12894390.0ns
+ [node 1] TcpL4Protocol:Receive(0x964c898, 0x9643cb0, tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 1 protocol 6 offset (bytes) 0 flags [none] length: 52 10.1.1.1 > 10.1.1.2, 0x96743f8)
+ [node 1] TcpL4Protocol:PacketReceived(0x964c898, 0x9643cb0, 0 > 0 Seq=0 Ack=0 Win=65535, 05-04-0a:01:01:01, 05-04-0a:01:01:02)
+Tcp received a packet 3 at 0.003272 data size 32
+ [node 1] TcpL4Protocol 0x964c898 receiving seq 1 ack 1 flags ACK data size 32
+ [node 1] TcpL4Protocol 0x964c898 received a packet and now forwarding it up to endpoint/socket
+ packet size 1217
+At time 0.01508s random-traffic application sent packet# 1 1217 bytes to 10.1.1.2 port 9 total Tx 1217 bytes
+ Packet interval+10468810.0ns
+ [node 0] TcpL4Protocol:SendPacket(0x9665500, 0x9679560, 49153 > 9 [ACK] Seq=1 Ack=1 Win=32768 ns3::TcpOptionTS(15;1), 05-04-0a:01:01:01, 05-04-0a:01:01:02, 0)
+ [node 0] TcpL4Protocol:SendPacketV4(0x9665500, 0x9679560, 10.1.1.1, 10.1.1.2, 0)
+Tcp Sending packet 3 at 0.01508 data size 536
+ [node 0] TcpL4Protocol 0x9665500 sending seq 1 ack 1 flags ACK data size 536
+ [node 1] TcpL4Protocol:Receive(0x964c898, 0x9643740, tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 2 protocol 6 offset (bytes) 0 flags [none] length: 588 10.1.1.1 > 10.1.1.2, 0x96743f8)
+ [node 1] TcpL4Protocol:PacketReceived(0x964c898, 0x9643740, 0 > 0 Seq=0 Ack=0 Win=65535, 05-04-0a:01:01:01, 05-04-0a:01:01:02)
+Tcp received a packet 4 at 0.017024 data size 568
+ [node 1] TcpL4Protocol 0x964c898 receiving seq 1 ack 1 flags ACK data size 568
+ [node 1] TcpL4Protocol 0x964c898 received a packet and now forwarding it up to endpoint/socket
+ [node 1] TcpL4Protocol:SendPacket(0x964c898, 0x9643670, 9 > 49153 [ACK] Seq=1 Ack=537 Win=32768 ns3::TcpOptionTS(17;15), 05-04-0a:01:01:02, 05-04-0a:01:01:01, 0)
+ [node 1] TcpL4Protocol:SendPacketV4(0x964c898, 0x9643670, 10.1.1.2, 10.1.1.1, 0)
+Tcp Sending packet 4 at 0.017024 data size 0
+ [node 1] TcpL4Protocol 0x964c898 sending seq 1 ack 537 flags ACK data size 0
+At time 0.017024s packet sink received packet 6 of 536 bytes from 10.1.1.1 port 49153 total Rx 536 bytes
+deadline=+347000000.0ns
+total packets received6
+ [node 0] TcpL4Protocol:Receive(0x9665500, 0x9640d40, tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 1 protocol 6 offset (bytes) 0 flags [none] length: 52 10.1.1.2 > 10.1.1.1, 0x9647d08)
+ [node 0] TcpL4Protocol:PacketReceived(0x9665500, 0x9640d40, 0 > 0 Seq=0 Ack=0 Win=65535, 05-04-0a:01:01:02, 05-04-0a:01:01:01)
+Tcp received a packet 5 at 0.0181104 data size 32
+ [node 0] TcpL4Protocol 0x9665500 receiving seq 1 ack 537 flags ACK data size 32
+ [node 0] TcpL4Protocol 0x9665500 received a packet and now forwarding it up to endpoint/socket
+ [node 0] TcpL4Protocol:SendPacket(0x9665500, 0x9643cb0, 49153 > 9 [ACK] Seq=537 Ack=1 Win=32768 ns3::TcpOptionTS(18;17), 05-04-0a:01:01:01, 05-04-0a:01:01:02, 0)
+ [node 0] TcpL4Protocol:SendPacketV4(0x9665500, 0x9643cb0, 10.1.1.1, 10.1.1.2, 0)
+Tcp Sending packet 6 at 0.0181104 data size 536
+ [node 0] TcpL4Protocol 0x9665500 sending seq 537 ack 1 flags ACK data size 536
+ [node 0] TcpL4Protocol:SendPacket(0x9665500, 0x9643b40, 49153 > 9 [ACK] Seq=1073 Ack=1 Win=32768 ns3::TcpOptionTS(18;17), 05-04-0a:01:01:01, 05-04-0a:01:01:02, 0)
+ [node 0] TcpL4Protocol:SendPacketV4(0x9665500, 0x9643b40, 10.1.1.1, 10.1.1.2, 0)
+Tcp Sending packet 7 at 0.0181104 data size 145
+ [node 0] TcpL4Protocol 0x9665500 sending seq 1073 ack 1 flags ACK data size 145
+ [node 1] TcpL4Protocol:Receive(0x964c898, 0x9643740, tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 3 protocol 6 offset (bytes) 0 flags [none] length: 588 10.1.1.1 > 10.1.1.2, 0x96743f8)
+ [node 1] TcpL4Protocol:PacketReceived(0x964c898, 0x9643740, 0 > 0 Seq=0 Ack=0 Win=65535, 05-04-0a:01:01:01, 05-04-0a:01:01:02)
+Tcp received a packet 6 at 0.0200544 data size 568
+ [node 1] TcpL4Protocol 0x964c898 receiving seq 537 ack 1 flags ACK data size 568
+ [node 1] TcpL4Protocol 0x964c898 received a packet and now forwarding it up to endpoint/socket
+At time 0.0200544s packet sink received packet 9 of 536 bytes from 10.1.1.1 port 49153 total Rx 1072 bytes
+deadline=+347000000.0ns
+total packets received9
+ [node 1] TcpL4Protocol:Receive(0x964c898, 0x9643b40, tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 4 protocol 6 offset (bytes) 0 flags [none] length: 197 10.1.1.1 > 10.1.1.2, 0x96743f8)
+ [node 1] TcpL4Protocol:PacketReceived(0x964c898, 0x9643b40, 0 > 0 Seq=0 Ack=0 Win=65535, 05-04-0a:01:01:01, 05-04-0a:01:01:02)
+Tcp received a packet 7 at 0.0203728 data size 177
+ [node 1] TcpL4Protocol 0x964c898 receiving seq 1073 ack 1 flags ACK data size 177
+ [node 1] TcpL4Protocol 0x964c898 received a packet and now forwarding it up to endpoint/socket
+ [node 1] TcpL4Protocol:SendPacket(0x964c898, 0x9641cf8, 9 > 49153 [ACK] Seq=1 Ack=1218 Win=32768 ns3::TcpOptionTS(20;18), 05-04-0a:01:01:02, 05-04-0a:01:01:01, 0)
+ [node 1] TcpL4Protocol:SendPacketV4(0x964c898, 0x9641cf8, 10.1.1.2, 10.1.1.1, 0)
+Tcp Sending packet 9 at 0.0203728 data size 0
+ [node 1] TcpL4Protocol 0x964c898 sending seq 1 ack 1218 flags ACK data size 0
+At time 0.0203728s packet sink received packet 11 of 145 bytes from 10.1.1.1 port 49153 total Rx 1217 bytes
+deadline=+347000000.0ns
+total packets received11
+ [node 0] TcpL4Protocol:Receive(0x9665500, 0x9640de0, tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 2 protocol 6 offset (bytes) 0 flags [none] length: 52 10.1.1.2 > 10.1.1.1, 0x9647d08)
+ [node 0] TcpL4Protocol:PacketReceived(0x9665500, 0x9640de0, 0 > 0 Seq=0 Ack=0 Win=65535, 05-04-0a:01:01:02, 05-04-0a:01:01:01)
+Tcp received a packet 8 at 0.0214592 data size 32
+ [node 0] TcpL4Protocol 0x9665500 receiving seq 1 ack 1218 flags ACK data size 32
+ [node 0] TcpL4Protocol 0x9665500 received a packet and now forwarding it up to endpoint/socket
+ packet size 165
+At time 0.0255488s random-traffic application sent packet# 2 165 bytes to 10.1.1.2 port 9 total Tx 1382 bytes
+ Packet interval+128628186.0ns
+ [node 0] TcpL4Protocol:SendPacket(0x9665500, 0x9643cb0, 49153 > 9 [ACK] Seq=1218 Ack=1 Win=32768 ns3::TcpOptionTS(25;20), 05-04-0a:01:01:01, 05-04-0a:01:01:02, 0)
+ [node 0] TcpL4Protocol:SendPacketV4(0x9665500, 0x9643cb0, 10.1.1.1, 10.1.1.2, 0)
+Tcp Sending packet 11 at 0.0255488 data size 165
+ [node 0] TcpL4Protocol 0x9665500 sending seq 1218 ack 1 flags ACK data size 165
+ [node 1] TcpL4Protocol:Receive(0x964c898, 0x9641cf8, tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 5 protocol 6 offset (bytes) 0 flags [none] length: 217 10.1.1.1 > 10.1.1.2, 0x96743f8)
+ [node 1] TcpL4Protocol:PacketReceived(0x964c898, 0x9641cf8, 0 > 0 Seq=0 Ack=0 Win=65535, 05-04-0a:01:01:01, 05-04-0a:01:01:02)
+Tcp received a packet 9 at 0.0268992 data size 197
+ [node 1] TcpL4Protocol 0x964c898 receiving seq 1218 ack 1 flags ACK data size 197
+ [node 1] TcpL4Protocol 0x964c898 received a packet and now forwarding it up to endpoint/socket
+At time 0.0268992s packet sink received packet 13 of 165 bytes from 10.1.1.1 port 49153 total Rx 1382 bytes
+deadline=+246000000.0ns
+total packets received13
+ packet size 369
+At time 0.154177s random-traffic application sent packet# 3 369 bytes to 10.1.1.2 port 9 total Tx 1751 bytes
+ Packet interval+49450969.0ns
+ [node 0] TcpL4Protocol:SendPacket(0x9665500, 0x9643cb0, 49153 > 9 [ACK] Seq=1383 Ack=1 Win=32768 ns3::TcpOptionTS(154;20), 05-04-0a:01:01:01, 05-04-0a:01:01:02, 0)
+ [node 0] TcpL4Protocol:SendPacketV4(0x9665500, 0x9643cb0, 10.1.1.1, 10.1.1.2, 0)
+Tcp Sending packet 13 at 0.154177 data size 369
+ [node 0] TcpL4Protocol 0x9665500 sending seq 1383 ack 1 flags ACK data size 369
+ [node 1] TcpL4Protocol:Receive(0x964c898, 0x9643dc0, tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 6 protocol 6 offset (bytes) 0 flags [none] length: 421 10.1.1.1 > 10.1.1.2, 0x96743f8)
+ [node 1] TcpL4Protocol:PacketReceived(0x964c898, 0x9643dc0, 0 > 0 Seq=0 Ack=0 Win=65535, 05-04-0a:01:01:01, 05-04-0a:01:01:02)
+Tcp received a packet 10 at 0.155854 data size 401
+ [node 1] TcpL4Protocol 0x964c898 receiving seq 1383 ack 1 flags ACK data size 401
+ [node 1] TcpL4Protocol 0x964c898 received a packet and now forwarding it up to endpoint/socket
+ [node 1] TcpL4Protocol:SendPacket(0x964c898, 0x9643670, 9 > 49153 [ACK] Seq=1 Ack=1752 Win=32768 ns3::TcpOptionTS(155;25), 05-04-0a:01:01:02, 05-04-0a:01:01:01, 0)
+ [node 1] TcpL4Protocol:SendPacketV4(0x964c898, 0x9643670, 10.1.1.2, 10.1.1.1, 0)
+Tcp Sending packet 14 at 0.155854 data size 0
+ [node 1] TcpL4Protocol 0x964c898 sending seq 1 ack 1752 flags ACK data size 0
+At time 0.155854s packet sink received packet 16 of 369 bytes from 10.1.1.1 port 49153 total Rx 1751 bytes
+deadline=+333000000.0ns
+total packets received16
+ [node 0] TcpL4Protocol:Receive(0x9665500, 0x9640d40, tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 3 protocol 6 offset (bytes) 0 flags [none] length: 52 10.1.1.2 > 10.1.1.1, 0x9647d08)
+ [node 0] TcpL4Protocol:PacketReceived(0x9665500, 0x9640d40, 0 > 0 Seq=0 Ack=0 Win=65535, 05-04-0a:01:01:02, 05-04-0a:01:01:01)
+Tcp received a packet 11 at 0.15694 data size 32
+ [node 0] TcpL4Protocol 0x9665500 receiving seq 1 ack 1752 flags ACK data size 32
+ [node 0] TcpL4Protocol 0x9665500 received a packet and now forwarding it up to endpoint/socket
+ packet size 2128
+At time 0.203628s random-traffic application sent packet# 4 2128 bytes to 10.1.1.2 port 9 total Tx 3879 bytes
+ Packet interval+447729483.0ns
+ [node 0] TcpL4Protocol:SendPacket(0x9665500, 0x96439f8, 49153 > 9 [ACK] Seq=1752 Ack=1 Win=32768 ns3::TcpOptionTS(203;155), 05-04-0a:01:01:01, 05-04-0a:01:01:02, 0)
+ [node 0] TcpL4Protocol:SendPacketV4(0x9665500, 0x96439f8, 10.1.1.1, 10.1.1.2, 0)
+Tcp Sending packet 16 at 0.203628 data size 536
+ [node 0] TcpL4Protocol 0x9665500 sending seq 1752 ack 1 flags ACK data size 536
+ [node 0] TcpL4Protocol:SendPacket(0x9665500, 0x9643cb0, 49153 > 9 [ACK] Seq=2288 Ack=1 Win=32768 ns3::TcpOptionTS(203;155), 05-04-0a:01:01:01, 05-04-0a:01:01:02, 0)
+ [node 0] TcpL4Protocol:SendPacketV4(0x9665500, 0x9643cb0, 10.1.1.1, 10.1.1.2, 0)
+Tcp Sending packet 17 at 0.203628 data size 536
+ [node 0] TcpL4Protocol 0x9665500 sending seq 2288 ack 1 flags ACK data size 536
+ [node 0] TcpL4Protocol:SendPacket(0x9665500, 0x9643cb0, 49153 > 9 [ACK] Seq=2824 Ack=1 Win=32768 ns3::TcpOptionTS(203;155), 05-04-0a:01:01:01, 05-04-0a:01:01:02, 0)
+ [node 0] TcpL4Protocol:SendPacketV4(0x9665500, 0x9643cb0, 10.1.1.1, 10.1.1.2, 0)
+Tcp Sending packet 18 at 0.203628 data size 536
+ [node 0] TcpL4Protocol 0x9665500 sending seq 2824 ack 1 flags ACK data size 536
+ [node 0] TcpL4Protocol:SendPacket(0x9665500, 0x9643620, 49153 > 9 [ACK] Seq=3360 Ack=1 Win=32768 ns3::TcpOptionTS(203;155), 05-04-0a:01:01:01, 05-04-0a:01:01:02, 0)
+ [node 0] TcpL4Protocol:SendPacketV4(0x9665500, 0x9643620, 10.1.1.1, 10.1.1.2, 0)
+Tcp Sending packet 19 at 0.203628 data size 520
+ [node 0] TcpL4Protocol 0x9665500 sending seq 3360 ack 1 flags ACK data size 520
+ [node 1] TcpL4Protocol:Receive(0x964c898, 0x9643dc0, tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 7 protocol 6 offset (bytes) 0 flags [none] length: 588 10.1.1.1 > 10.1.1.2, 0x96743f8)
+ [node 1] TcpL4Protocol:PacketReceived(0x964c898, 0x9643dc0, 0 > 0 Seq=0 Ack=0 Win=65535, 05-04-0a:01:01:01, 05-04-0a:01:01:02)
+Tcp received a packet 12 at 0.205572 data size 568
+ [node 1] TcpL4Protocol 0x964c898 receiving seq 1752 ack 1 flags ACK data size 568
+ [node 1] TcpL4Protocol 0x964c898 received a packet and now forwarding it up to endpoint/socket
+At time 0.205572s packet sink received packet 21 of 536 bytes from 10.1.1.1 port 49153 total Rx 2287 bytes
+deadline=+29000000.0ns
+total packets received21
+ [node 1] TcpL4Protocol:Receive(0x964c898, 0x9679560, tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 8 protocol 6 offset (bytes) 0 flags [none] length: 588 10.1.1.1 > 10.1.1.2, 0x96743f8)
+ [node 1] TcpL4Protocol:PacketReceived(0x964c898, 0x9679560, 0 > 0 Seq=0 Ack=0 Win=65535, 05-04-0a:01:01:01, 05-04-0a:01:01:02)
+Tcp received a packet 13 at 0.206516 data size 568
+ [node 1] TcpL4Protocol 0x964c898 receiving seq 2288 ack 1 flags ACK data size 568
+ [node 1] TcpL4Protocol 0x964c898 received a packet and now forwarding it up to endpoint/socket
+ [node 1] TcpL4Protocol:SendPacket(0x964c898, 0x9643dc0, 9 > 49153 [ACK] Seq=1 Ack=2824 Win=32768 ns3::TcpOptionTS(206;203), 05-04-0a:01:01:02, 05-04-0a:01:01:01, 0)
+ [node 1] TcpL4Protocol:SendPacketV4(0x964c898, 0x9643dc0, 10.1.1.2, 10.1.1.1, 0)
+Tcp Sending packet 21 at 0.206516 data size 0
+ [node 1] TcpL4Protocol 0x964c898 sending seq 1 ack 2824 flags ACK data size 0
+At time 0.206516s packet sink received packet 23 of 536 bytes from 10.1.1.1 port 49153 total Rx 2823 bytes
+deadline=+29000000.0ns
+total packets received23
+ [node 1] TcpL4Protocol:Receive(0x964c898, 0x96410d8, tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 9 protocol 6 offset (bytes) 0 flags [none] length: 588 10.1.1.1 > 10.1.1.2, 0x96743f8)
+ [node 1] TcpL4Protocol:PacketReceived(0x964c898, 0x96410d8, 0 > 0 Seq=0 Ack=0 Win=65535, 05-04-0a:01:01:01, 05-04-0a:01:01:02)
+Tcp received a packet 14 at 0.20746 data size 568
+ [node 1] TcpL4Protocol 0x964c898 receiving seq 2824 ack 1 flags ACK data size 568
+ [node 1] TcpL4Protocol 0x964c898 received a packet and now forwarding it up to endpoint/socket
+At time 0.20746s packet sink received packet 24 of 536 bytes from 10.1.1.1 port 49153 total Rx 3359 bytes
+deadline=+29000000.0ns
+total packets received24
+ [node 0] TcpL4Protocol:Receive(0x9665500, 0x9640de0, tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 4 protocol 6 offset (bytes) 0 flags [none] length: 52 10.1.1.2 > 10.1.1.1, 0x9647d08)
+ [node 0] TcpL4Protocol:PacketReceived(0x9665500, 0x9640de0, 0 > 0 Seq=0 Ack=0 Win=65535, 05-04-0a:01:01:02, 05-04-0a:01:01:01)
+Tcp received a packet 15 at 0.207602 data size 32
+ [node 0] TcpL4Protocol 0x9665500 receiving seq 1 ack 2824 flags ACK data size 32
+ [node 0] TcpL4Protocol 0x9665500 received a packet and now forwarding it up to endpoint/socket
+ [node 1] TcpL4Protocol:Receive(0x964c898, 0x9643740, tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 10 protocol 6 offset (bytes) 0 flags [none] length: 572 10.1.1.1 > 10.1.1.2, 0x96743f8)
+ [node 1] TcpL4Protocol:PacketReceived(0x964c898, 0x9643740, 0 > 0 Seq=0 Ack=0 Win=65535, 05-04-0a:01:01:01, 05-04-0a:01:01:02)
+Tcp received a packet 16 at 0.208378 data size 552
+ [node 1] TcpL4Protocol 0x964c898 receiving seq 3360 ack 1 flags ACK data size 552
+ [node 1] TcpL4Protocol 0x964c898 received a packet and now forwarding it up to endpoint/socket
+ [node 1] TcpL4Protocol:SendPacket(0x964c898, 0x9679560, 9 > 49153 [ACK] Seq=1 Ack=3880 Win=32768 ns3::TcpOptionTS(208;203), 05-04-0a:01:01:02, 05-04-0a:01:01:01, 0)
+ [node 1] TcpL4Protocol:SendPacketV4(0x964c898, 0x9679560, 10.1.1.2, 10.1.1.1, 0)
+Tcp Sending packet 24 at 0.208378 data size 0
+ [node 1] TcpL4Protocol 0x964c898 sending seq 1 ack 3880 flags ACK data size 0
+At time 0.208378s packet sink received packet 26 of 520 bytes from 10.1.1.1 port 49153 total Rx 3879 bytes
+deadline=+29000000.0ns
+total packets received26
+ [node 0] TcpL4Protocol:Receive(0x9665500, 0x9640d40, tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 5 protocol 6 offset (bytes) 0 flags [none] length: 52 10.1.1.2 > 10.1.1.1, 0x9647d08)
+ [node 0] TcpL4Protocol:PacketReceived(0x9665500, 0x9640d40, 0 > 0 Seq=0 Ack=0 Win=65535, 05-04-0a:01:01:02, 05-04-0a:01:01:01)
+Tcp received a packet 17 at 0.209465 data size 32
+ [node 0] TcpL4Protocol 0x9665500 receiving seq 1 ack 3880 flags ACK data size 32
+ [node 0] TcpL4Protocol 0x9665500 received a packet and now forwarding it up to endpoint/socket
+ packet size 166
+At time 0.651357s random-traffic application sent packet# 5 166 bytes to 10.1.1.2 port 9 total Tx 4045 bytes
+ Packet interval+52135273.0ns
+ [node 0] TcpL4Protocol:SendPacket(0x9665500, 0x9679560, 49153 > 9 [ACK] Seq=3880 Ack=1 Win=32768 ns3::TcpOptionTS(651;208), 05-04-0a:01:01:01, 05-04-0a:01:01:02, 0)
+ [node 0] TcpL4Protocol:SendPacketV4(0x9665500, 0x9679560, 10.1.1.1, 10.1.1.2, 0)
+Tcp Sending packet 26 at 0.651357 data size 166
+ [node 0] TcpL4Protocol 0x9665500 sending seq 3880 ack 1 flags ACK data size 166
+ [node 1] TcpL4Protocol:Receive(0x964c898, 0x9641cf8, tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 11 protocol 6 offset (bytes) 0 flags [none] length: 218 10.1.1.1 > 10.1.1.2, 0x96743f8)
+ [node 1] TcpL4Protocol:PacketReceived(0x964c898, 0x9641cf8, 0 > 0 Seq=0 Ack=0 Win=65535, 05-04-0a:01:01:01, 05-04-0a:01:01:02)
+Tcp received a packet 18 at 0.652709 data size 198
+ [node 1] TcpL4Protocol 0x964c898 receiving seq 3880 ack 1 flags ACK data size 198
+ [node 1] TcpL4Protocol 0x964c898 received a packet and now forwarding it up to endpoint/socket
+At time 0.652709s packet sink received packet 28 of 166 bytes from 10.1.1.1 port 49153 total Rx 4045 bytes
+deadline=+319000000.0ns
+total packets received28
+ packet size 483
+At time 0.703493s random-traffic application sent packet# 6 483 bytes to 10.1.1.2 port 9 total Tx 4528 bytes
+ Packet interval+1854920.0ns
+ [node 0] TcpL4Protocol:SendPacket(0x9665500, 0x9679560, 49153 > 9 [ACK] Seq=4046 Ack=1 Win=32768 ns3::TcpOptionTS(703;208), 05-04-0a:01:01:01, 05-04-0a:01:01:02, 0)
+ [node 0] TcpL4Protocol:SendPacketV4(0x9665500, 0x9679560, 10.1.1.1, 10.1.1.2, 0)
+Tcp Sending packet 28 at 0.703493 data size 483
+ [node 0] TcpL4Protocol 0x9665500 sending seq 4046 ack 1 flags ACK data size 483
+ packet size 120
+At time 0.705348s random-traffic application sent packet# 7 120 bytes to 10.1.1.2 port 9 total Tx 4648 bytes
+ Packet interval+121243016.0ns
+ [node 0] TcpL4Protocol:SendPacket(0x9665500, 0x9643cb0, 49153 > 9 [ACK] Seq=4529 Ack=1 Win=32768 ns3::TcpOptionTS(705;208), 05-04-0a:01:01:01, 05-04-0a:01:01:02, 0)
+ [node 0] TcpL4Protocol:SendPacketV4(0x9665500, 0x9643cb0, 10.1.1.1, 10.1.1.2, 0)
+Tcp Sending packet 29 at 0.705348 data size 120
+ [node 0] TcpL4Protocol 0x9665500 sending seq 4529 ack 1 flags ACK data size 120
+ [node 1] TcpL4Protocol:Receive(0x964c898, 0x9640cb8, tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 12 protocol 6 offset (bytes) 0 flags [none] length: 535 10.1.1.1 > 10.1.1.2, 0x96743f8)
+ [node 1] TcpL4Protocol:PacketReceived(0x964c898, 0x9640cb8, 0 > 0 Seq=0 Ack=0 Win=65535, 05-04-0a:01:01:01, 05-04-0a:01:01:02)
+Tcp received a packet 19 at 0.705352 data size 515
+ [node 1] TcpL4Protocol 0x964c898 receiving seq 4046 ack 1 flags ACK data size 515
+ [node 1] TcpL4Protocol 0x964c898 received a packet and now forwarding it up to endpoint/socket
+ [node 1] TcpL4Protocol:SendPacket(0x964c898, 0x9640e90, 9 > 49153 [ACK] Seq=1 Ack=4529 Win=32768 ns3::TcpOptionTS(705;651), 05-04-0a:01:01:02, 05-04-0a:01:01:01, 0)
+ [node 1] TcpL4Protocol:SendPacketV4(0x964c898, 0x9640e90, 10.1.1.2, 10.1.1.1, 0)
+Tcp Sending packet 30 at 0.705352 data size 0
+ [node 1] TcpL4Protocol 0x964c898 sending seq 1 ack 4529 flags ACK data size 0
+At time 0.705352s packet sink received packet 32 of 483 bytes from 10.1.1.1 port 49153 total Rx 4528 bytes
+deadline=+44000000.0ns
+total packets received32
+ [node 0] TcpL4Protocol:Receive(0x9665500, 0x9643cb0, tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 6 protocol 6 offset (bytes) 0 flags [none] length: 52 10.1.1.2 > 10.1.1.1, 0x9647d08)
+ [node 0] TcpL4Protocol:PacketReceived(0x9665500, 0x9643cb0, 0 > 0 Seq=0 Ack=0 Win=65535, 05-04-0a:01:01:02, 05-04-0a:01:01:01)
+Tcp received a packet 20 at 0.706438 data size 32
+ [node 0] TcpL4Protocol 0x9665500 receiving seq 1 ack 4529 flags ACK data size 32
+ [node 0] TcpL4Protocol 0x9665500 received a packet and now forwarding it up to endpoint/socket
+ [node 1] TcpL4Protocol:Receive(0x964c898, 0x9640d40, tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 13 protocol 6 offset (bytes) 0 flags [none] length: 172 10.1.1.1 > 10.1.1.2, 0x96743f8)
+ [node 1] TcpL4Protocol:PacketReceived(0x964c898, 0x9640d40, 0 > 0 Seq=0 Ack=0 Win=65535, 05-04-0a:01:01:01, 05-04-0a:01:01:02)
+Tcp received a packet 21 at 0.706626 data size 152
+ [node 1] TcpL4Protocol 0x964c898 receiving seq 4529 ack 1 flags ACK data size 152
+ [node 1] TcpL4Protocol 0x964c898 received a packet and now forwarding it up to endpoint/socket
+At time 0.706626s packet sink received packet 33 of 120 bytes from 10.1.1.1 port 49153 total Rx 4648 bytes
+deadline=+207000000.0ns
+total packets received33
+ packet size 804
+At time 0.826591s random-traffic application sent packet# 8 804 bytes to 10.1.1.2 port 9 total Tx 5452 bytes
+ [node 0] TcpL4Protocol:SendPacket(0x9665500, 0x9643cb0, 49153 > 9 [ACK] Seq=4649 Ack=1 Win=32768 ns3::TcpOptionTS(826;705), 05-04-0a:01:01:01, 05-04-0a:01:01:02, 0)
+ [node 0] TcpL4Protocol:SendPacketV4(0x9665500, 0x9643cb0, 10.1.1.1, 10.1.1.2, 0)
+Tcp Sending packet 33 at 0.826591 data size 536
+ [node 0] TcpL4Protocol 0x9665500 sending seq 4649 ack 1 flags ACK data size 536
+ [node 0] TcpL4Protocol:SendPacket(0x9665500, 0x9640de0, 49153 > 9 [FIN|ACK] Seq=5185 Ack=1 Win=32768 ns3::TcpOptionTS(826;705), 05-04-0a:01:01:01, 05-04-0a:01:01:02, 0)
+ [node 0] TcpL4Protocol:SendPacketV4(0x9665500, 0x9640de0, 10.1.1.1, 10.1.1.2, 0)
+Tcp Sending packet 34 at 0.826591 data size 268
+ [node 0] TcpL4Protocol 0x9665500 sending seq 5185 ack 1 flags FIN|ACK data size 268
+ [node 1] TcpL4Protocol:Receive(0x964c898, 0x9640de0, tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 14 protocol 6 offset (bytes) 0 flags [none] length: 588 10.1.1.1 > 10.1.1.2, 0x96743f8)
+ [node 1] TcpL4Protocol:PacketReceived(0x964c898, 0x9640de0, 0 > 0 Seq=0 Ack=0 Win=65535, 05-04-0a:01:01:01, 05-04-0a:01:01:02)
+Tcp received a packet 22 at 0.828535 data size 568
+ [node 1] TcpL4Protocol 0x964c898 receiving seq 4649 ack 1 flags ACK data size 568
+ [node 1] TcpL4Protocol 0x964c898 received a packet and now forwarding it up to endpoint/socket
+ [node 1] TcpL4Protocol:SendPacket(0x964c898, 0x96439f8, 9 > 49153 [ACK] Seq=1 Ack=5185 Win=32768 ns3::TcpOptionTS(828;705), 05-04-0a:01:01:02, 05-04-0a:01:01:01, 0)
+ [node 1] TcpL4Protocol:SendPacketV4(0x964c898, 0x96439f8, 10.1.1.2, 10.1.1.1, 0)
+Tcp Sending packet 35 at 0.828535 data size 0
+ [node 1] TcpL4Protocol 0x964c898 sending seq 1 ack 5185 flags ACK data size 0
+At time 0.828535s packet sink received packet 37 of 536 bytes from 10.1.1.1 port 49153 total Rx 5184 bytes
+deadline=+114000000.0ns
+total packets received37
+ [node 1] TcpL4Protocol:Receive(0x964c898, 0x96410d8, tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 15 protocol 6 offset (bytes) 0 flags [none] length: 320 10.1.1.1 > 10.1.1.2, 0x96743f8)
+ [node 1] TcpL4Protocol:PacketReceived(0x964c898, 0x96410d8, 0 > 0 Seq=0 Ack=0 Win=65535, 05-04-0a:01:01:01, 05-04-0a:01:01:02)
+Tcp received a packet 23 at 0.82905 data size 300
+ [node 1] TcpL4Protocol 0x964c898 receiving seq 5185 ack 1 flags FIN|ACK data size 300
+ [node 1] TcpL4Protocol 0x964c898 received a packet and now forwarding it up to endpoint/socket
+ [node 1] TcpL4Protocol:SendPacket(0x964c898, 0x9640fa8, 9 > 49153 [ACK] Seq=1 Ack=5454 Win=32768 ns3::TcpOptionTS(829;826), 05-04-0a:01:01:02, 05-04-0a:01:01:01, 0)
+ [node 1] TcpL4Protocol:SendPacketV4(0x964c898, 0x9640fa8, 10.1.1.2, 10.1.1.1, 0)
+Tcp Sending packet 37 at 0.82905 data size 0
+ [node 1] TcpL4Protocol 0x964c898 sending seq 1 ack 5454 flags ACK data size 0
+At time 0.82905s packet sink received packet 39 of 268 bytes from 10.1.1.1 port 49153 total Rx 5452 bytes
+deadline=+114000000.0ns
+total packets received39
+ [node 1] TcpL4Protocol:SendPacket(0x964c898, 0x9640fa8, 9 > 49153 [FIN|ACK] Seq=1 Ack=5454 Win=32768 ns3::TcpOptionTS(829;826), 05-04-0a:01:01:02, 05-04-0a:01:01:01, 0)
+ [node 1] TcpL4Protocol:SendPacketV4(0x964c898, 0x9640fa8, 10.1.1.2, 10.1.1.1, 0)
+Tcp Sending packet 39 at 0.82905 data size 0
+ [node 1] TcpL4Protocol 0x964c898 sending seq 1 ack 5454 flags FIN|ACK data size 0
+ [node 0] TcpL4Protocol:Receive(0x9665500, 0x9640de0, tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 7 protocol 6 offset (bytes) 0 flags [none] length: 52 10.1.1.2 > 10.1.1.1, 0x9647d08)
+ [node 0] TcpL4Protocol:PacketReceived(0x9665500, 0x9640de0, 0 > 0 Seq=0 Ack=0 Win=65535, 05-04-0a:01:01:02, 05-04-0a:01:01:01)
+Tcp received a packet 24 at 0.829621 data size 32
+ [node 0] TcpL4Protocol 0x9665500 receiving seq 1 ack 5185 flags ACK data size 32
+ [node 0] TcpL4Protocol 0x9665500 received a packet and now forwarding it up to endpoint/socket
+ [node 0] TcpL4Protocol:Receive(0x9665500, 0x9643b40, tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 8 protocol 6 offset (bytes) 0 flags [none] length: 52 10.1.1.2 > 10.1.1.1, 0x9647d08)
+ [node 0] TcpL4Protocol:PacketReceived(0x9665500, 0x9643b40, 0 > 0 Seq=0 Ack=0 Win=65535, 05-04-0a:01:01:02, 05-04-0a:01:01:01)
+Tcp received a packet 25 at 0.830136 data size 32
+ [node 0] TcpL4Protocol 0x9665500 receiving seq 1 ack 5454 flags ACK data size 32
+ [node 0] TcpL4Protocol 0x9665500 received a packet and now forwarding it up to endpoint/socket
+ [node 0] TcpL4Protocol:Receive(0x9665500, 0x9640fa8, tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 9 protocol 6 offset (bytes) 0 flags [none] length: 52 10.1.1.2 > 10.1.1.1, 0x9647d08)
+ [node 0] TcpL4Protocol:PacketReceived(0x9665500, 0x9640fa8, 0 > 0 Seq=0 Ack=0 Win=65535, 05-04-0a:01:01:02, 05-04-0a:01:01:01)
+Tcp received a packet 26 at 0.830223 data size 32
+ [node 0] TcpL4Protocol 0x9665500 receiving seq 1 ack 5454 flags FIN|ACK data size 32
+ [node 0] TcpL4Protocol 0x9665500 received a packet and now forwarding it up to endpoint/socket
+ [node 0] TcpL4Protocol:SendPacket(0x9665500, 0x9679560, 49153 > 9 [ACK] Seq=5454 Ack=2 Win=32768 ns3::TcpOptionTS(830;829), 05-04-0a:01:01:01, 05-04-0a:01:01:02, 0)
+ [node 0] TcpL4Protocol:SendPacketV4(0x9665500, 0x9679560, 10.1.1.1, 10.1.1.2, 0)
+Tcp Sending packet 40 at 0.830223 data size 0
+ [node 0] TcpL4Protocol 0x9665500 sending seq 5454 ack 2 flags ACK data size 0
+ [node 1] TcpL4Protocol:Receive(0x964c898, 0x9643620, tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 16 protocol 6 offset (bytes) 0 flags [none] length: 52 10.1.1.1 > 10.1.1.2, 0x96743f8)
+ [node 1] TcpL4Protocol:PacketReceived(0x964c898, 0x9643620, 0 > 0 Seq=0 Ack=0 Win=65535, 05-04-0a:01:01:01, 05-04-0a:01:01:02)
+Tcp received a packet 27 at 0.831309 data size 32
+ [node 1] TcpL4Protocol 0x964c898 receiving seq 5454 ack 2 flags ACK data size 32
+ [node 1] TcpL4Protocol 0x964c898 received a packet and now forwarding it up to endpoint/socket
+ [node 1] TcpL4Protocol:DeAllocate(0x964c898, 0x9640c08)
+ [node 1] TcpL4Protocol:RemoveSocket(0x964c898, 0x96437b0)
+ [node 0] TcpL4Protocol:DoDispose(0x9665500)
+ [node 0] TcpL4Protocol:RemoveSocket(0x9665500, 0x9641e10)
+ [node 1] TcpL4Protocol:DoDispose(0x964c898)
+ [node 1] TcpL4Protocol:RemoveSocket(0x964c898, 0x9642fe8)
+Total Bytes Received: 5452
+TcpL4Protocol:~TcpL4Protocol(0x9665500)
+TcpL4Protocol:~TcpL4Protocol(0x964c898)

@@ -1,0 +1,397 @@
+
+
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <cassert>
+
+#include "ns3/flow-monitor-module.h"
+#include "ns3/bridge-helper.h"
+#include "ns3/bridge-net-device.h"
+#include "ns3/core-module.h"
+#include "ns3/network-module.h"
+#include "ns3/internet-module.h"
+#include "ns3/point-to-point-module.h"
+#include "ns3/applications-module.h"
+#include "ns3/ipv4-global-routing-helper.h"
+#include "ns3/csma-module.h"
+#include "ns3/ipv4-nix-vector-helper.h"
+#include "ns3/random-variable-stream.h"
+#include "ns3/netanim-module.h"
+/*
+	- This work goes along with the paper "Towards Reproducible Performance Studies of Datacenter Network Architectures Using An Open-Source Simulation Approach"
+
+	- The code is constructed in the following order:
+		1. Creation of Node Containers 
+		2. Initialize settings for On/Off Application
+		3. Connect hosts to leaf switches
+		4. Connect leaf switches to spine switches
+		6. Start Simulation
+
+	- Addressing scheme:
+		1. Address of host: 10.core.sleaf.0 /24
+		2. Address of leaf switch: 10.core.leaf.0 /16
+		3. Address of core switch: 10.core.leaf.0 /8
+
+	- On/Off Traffic of the simulation: addresses of client and server are randomly selected everytime
+	
+	- Simulation Settings:
+                - Number of nodes: 16-3456
+                - Number of pods (k): 4, 16, 24
+		- Simulation running time: 100 seconds
+		- Packet size: 1024 bytes
+		- Data rate for packet sending: 96 Mbps
+		- Data rate for device channel: 1536 Mbps
+		- Delay time for device: 0.001 ms
+		- Communication pairs selection: Random Selection with uniform probability
+		- Traffic flow pattern: Exponential random traffic
+		- Routing protocol: Nix-Vector
+
+
+        - Statistics Output:
+                - Flowmonitor XML output file: Fat-tree-AlFares.xml is located in the /statistics folder
+                 
+
+
+*/
+
+using namespace ns3;
+using namespace std;
+NS_LOG_COMPONENT_DEFINE ("Fat-Tree-Architecture");
+
+// Function to create address string from numbers
+//
+char * toString(int a,int b, int c, int d){
+
+	int first = a;
+	int second = b;
+	int third = c;
+	int fourth = d;
+
+	char *address =  new char[30];
+	char firstOctet[30], secondOctet[30], thirdOctet[30], fourthOctet[30];	
+	//address = firstOctet.secondOctet.thirdOctet.fourthOctet;
+
+	bzero(address,30);
+
+	snprintf(firstOctet,10,"%d",first);
+	strcat(firstOctet,".");
+	snprintf(secondOctet,10,"%d",second);
+	strcat(secondOctet,".");
+	snprintf(thirdOctet,10,"%d",third);
+	strcat(thirdOctet,".");
+	snprintf(fourthOctet,10,"%d",fourth);
+
+	strcat(thirdOctet,fourthOctet);
+	strcat(secondOctet,thirdOctet);
+	strcat(firstOctet,secondOctet);
+	strcat(address,firstOctet);
+
+	return address;
+}
+
+// Main function
+//
+int 
+	main(int argc, char *argv[])
+{
+//=========== Define parameters ===========//
+//
+
+	int n_host = 4;		// number of hosts under a leaf switch
+	int n_leaf = 9;		// number of leaf switch in a pod
+	int n_core = 4;		// number of core switches
+	int total_host = n_host*n_leaf;	// number of hosts in the entire network	
+	char filename [] = "leaf-spine.xml";// filename for Flow Monitor xml output file
+
+// Define variables for On/Off Application
+// These values will be used to serve the purpose that addresses of server and client are selected randomly
+// Note: the format of host's address is 10.pod.switch.(host+2)
+//
+	int coreRand = 0;	//	
+	int leafRand = 0;		// Random values for servers' address
+	int hostRand = 0;	//
+
+	int rand1 =0;		//
+	int rand2 =0;		// Random values for clients' address	
+	//int rand3 =0;		//
+
+// Initialize other variables
+//
+	int i = 0;	
+	int j = 0;	
+	//float an=0.0;
+
+// Initialize parameters for On/Off application
+//
+	int port = 9;
+	int packetSize = 1024;		// 1024 bytes
+	char dataRate_OnOff [] = "96Mbps";
+	char maxBytes [] = "70000";	// 70,000 bytes
+
+// Initialize parameters for Csma and PointToPoint protocol
+//
+	char dataRate [] = "1536Mbps";	// 1Gbps
+	int delay = 0.001;		// 0.001 ms
+
+	
+// Output some useful information
+	std::cout << "Total number of hosts =  "<< total_host <<"\n";
+	std::cout << "Number of hosts under each leaf switch =  "<< n_host<<"\n";
+	std::cout << "Number of leaf switches under each core switch =  "<< n_leaf<<"\n";
+	std::cout << "Number of core switches =  "<< n_core<<"\n";
+	std::cout << "------------- "<<"\n";
+
+// Initialize Internet Stack and Routing Protocols
+//	
+	InternetStackHelper internet;
+	Ipv4NixVectorHelper nixRouting; 
+	Ipv4StaticRoutingHelper staticRouting;
+	Ipv4ListRoutingHelper list;
+	list.Add (staticRouting, 0);	
+	list.Add (nixRouting, 10);	
+	internet.SetRoutingHelper(list);
+
+//=========== Creation of Node Containers ===========//
+//
+	NodeContainer core;				// NodeContainer for core switches	
+		core.Create (n_core);
+		internet.Install (core);		
+	
+	NodeContainer leaf;				// NodeContainer for leaf switches 	
+		leaf.Create (n_leaf);
+		internet.Install (leaf);
+
+NodeContainer host[n_leaf][n_host];		// NodeContainer for hosts
+  	for (i=0; i<n_leaf;i++){
+		for (j=0;j<n_host;j++){  	
+			host[i][j].Create (1);		
+			internet.Install (host[i][j]);
+		}
+	}
+//NodeContainer host[num_pod][num_bridge];		// NodeContainer for hosts
+  //	for (i=0; i<k;i++){
+	//	for (j=0;j<num_bridge;j++){  	
+	//		host[i][j].Create (num_host);		
+	//		internet.Install (host[i][j]);
+	//	}
+	//}
+
+//=========== Initialize settings for On/Off Application ===========//
+//
+
+// Generate traffics for the simulation
+//	
+	ApplicationContainer app[total_host];
+	for (i=0; i<total_host; i++){	
+	// Randomly select a server
+		coreRand = rand() % n_core + 0;
+		leafRand = rand() % n_leaf + 0;
+		hostRand = rand() % n_host + 0;
+		hostRand = hostRand+4;
+		char *add;
+		add = toString(10, coreRand, leafRand, hostRand);
+
+		//std::cout << add << endl;
+
+	// Initialize On/Off Application with addresss of server
+		OnOffHelper oo = OnOffHelper("ns3::UdpSocketFactory",Address(InetSocketAddress(Ipv4Address(add), port))); // ip address of server
+
+//-------------------------**********ARFATH AHAMED**********----------------------------------------
+
+	/*		---------------*********CODE THAT IS CHANGED FOR VERSIONS HIGHER THAN NS-3.15************------------------
+							The way random variable are used.
+						CHANGED BY: ARFATH AHAMED email: arfathsm@gmail.com
+		oo.SetAttribute("OnTime",RandomVariableValue(ExponentialVariable(1)));  
+	        oo.SetAttribute("OffTime",RandomVariableValue(ExponentialVariable(1)));
+	*/
+
+	        oo.SetAttribute("OnTime",StringValue("ns3::ConstantRandomVariable[Constant=1]"));  
+	        oo.SetAttribute("OffTime",StringValue("ns3::ConstantRandomVariable[Constant=1]")); 
+
+//-------------------------**********ARFATH AHAMED**********----------------------------------------
+
+ 	        oo.SetAttribute("PacketSize",UintegerValue (packetSize));
+ 	       	oo.SetAttribute("DataRate",StringValue (dataRate_OnOff));      
+	        oo.SetAttribute("MaxBytes",StringValue (maxBytes));
+
+	// Randomly select a client
+		rand1 = rand() % n_core + 0;
+		rand2 = rand() % n_leaf + 0;
+		//rand3 = rand() % n_host + 0;
+
+		while (rand1== coreRand && leafRand == rand2 ){
+			rand1 = rand() % n_core + 0;
+			rand2 = rand() % n_leaf + 0;
+			//rand3 = rand() % n_host + 0;
+		} // to make sure that client and server are different
+
+	// Install On/Off Application to the client
+		NodeContainer onoff;
+		onoff.Add(host[rand1][rand2]);
+	     	app[i] = oo.Install (onoff);
+	}
+	std::cout << "Finished creating On/Off traffic"<< i << "\n";
+	//std::cout << "app installed"<< app << std::endl; 
+
+// Inintialize Address Helper
+//	
+  	Ipv4AddressHelper address;
+
+// Initialize PointtoPoint helper
+//	
+	PointToPointHelper p2p;
+  	p2p.SetDeviceAttribute ("DataRate", StringValue (dataRate));
+  	p2p.SetChannelAttribute ("Delay", TimeValue (MilliSeconds (delay)));
+
+// Initialize Csma helper
+//
+  	CsmaHelper csma;
+  	csma.SetChannelAttribute ("DataRate", StringValue (dataRate));
+  	csma.SetChannelAttribute ("Delay", TimeValue (MilliSeconds (delay)));
+
+
+//=========== Connect leaf switches to hosts ===========//
+//
+	NetDeviceContainer hl[n_leaf][n_host]; 	
+	Ipv4InterfaceContainer iphlContainer[n_leaf][n_host];
+
+	int fourth_octet = 1;
+	for (i=0;i<n_leaf;i++){
+		for (j=0;j<n_host;j++){
+				hl[i][j] = p2p.Install(leaf.Get(i),host[i][j].Get(0));
+
+				int second_octet = i;		
+				int third_octet = j;
+				//Assign subnet
+				char *subnet;
+				subnet = toString(10, second_octet, third_octet, 0);
+				//std::cout << "subnet"<< subnet<<endl;
+				//Assign base
+				char *base;
+				base = toString(0, 0, 0, fourth_octet);
+				address.SetBase (subnet, "255.255.255.0",base);
+				//std::cout<< "10."<< second_octet<<"."<< third_octet <<"."<< fourth_octet<<endl;
+				iphlContainer[i][j] = address.Assign(hl[i][j]);	
+				fourth_octet = j+1;		
+		}		
+	}
+	std::cout << "Finished connecting leaf switches and hosts  "<< "\n";
+
+//=========== Connect core switches to leaf switches ===========//
+//
+	NetDeviceContainer cl[n_core][n_leaf]; 		
+	Ipv4InterfaceContainer ipclContainer[n_core][n_leaf];
+	
+	for (i=0; i<n_core; i++){		
+		for (j=0; j < n_leaf; j++){ std::cout<<n_leaf<<endl;		
+				cl[i][j] = p2p.Install(core.Get(i), leaf.Get(j)); 	
+
+				int second_octet = n_core+i;		
+				int third_octet = n_leaf+j;
+				//Assign subnet
+				char *subnet;
+				subnet = toString(10, second_octet, third_octet, 0);
+		std::cout << "subnet"<< subnet<<endl;
+				//Assign base
+				char *base;
+				base = toString(0, 0, 0, fourth_octet);
+		std::cout<< "10."<< second_octet<<"."<< third_octet <<"."<< fourth_octet<<endl;
+				address.SetBase (subnet, "255.255.255.0",base);
+				ipclContainer[i][j] = address.Assign(cl[i][j]);
+				//fourth_octet +=2 ;
+			
+		}
+	}
+	std::cout << "Finished connecting core switches and leaf switches  "<< "\n";
+	std::cout << "------------- "<<"\n";
+
+//=========== Start the simulation ===========//
+//
+
+	std::cout << "Start Simulation.. "<<"\n";
+	for (i=0;i<total_host;i++){
+		app[i].Start (Seconds (0.0));
+  		app[i].Stop (Seconds (100.0));
+	}
+  	Ipv4GlobalRoutingHelper::PopulateRoutingTables ();
+// Calculate Throughput using Flowmonitor
+//
+  	FlowMonitorHelper flowmon;
+	Ptr<FlowMonitor> monitor = flowmon.InstallAll();
+// Run simulation.
+//
+//-------------------------**********ARFATH AHAMED**********----------------------------------------
+/*
+	Use of NetAnim 
+	Animation code added BY: ARFATH AHAMED email: arfathsm@gmail.com
+
+	AnimationInterface anim("fattreealfares.xml");
+
+// NodeContainer for core switches
+	for (i=0; i<num_group;i++){  	
+		anim.SetConstantPosition(core[i].Get(0),an+0.5,0.0);
+	anim.SetConstantPosition(core[i].Get(1),an+1.5,0.0);
+	an=an+2.0;	
+	if(i==num_group-1){an=0.0;}
+	}
+
+
+// NodeContainer for aggregation switches
+	for (i=0; i<num_pod;i++){  	
+		anim.SetConstantPosition(agg[i].Get(0),an+0.5,1.0);
+	anim.SetConstantPosition(agg[i].Get(1),an+1.0,1.0);
+	an=an+1.0;	
+	if(i==num_pod-1){
+		an=0.0;}	
+	}
+
+// NodeContainer for edge switches
+  	for (i=0; i<num_pod;i++){  	
+	anim.SetConstantPosition(edge[i].Get(0),an+0.5,2.0);
+	anim.SetConstantPosition(edge[i].Get(1),an+1.0,2.0);
+	an=an+1.0;	
+	if(i==num_pod-1){
+		an=0.0;}
+	}	
+	
+
+// NodeContainer for edge bridges
+  	for (i=0; i<num_pod;i++){  	
+	anim.SetConstantPosition(bridge[i].Get(0),an+0.5,3.0);
+	anim.SetConstantPosition(bridge[i].Get(1),an+1.0,3.0);
+	an=an+1.0;	
+	if(i==num_pod-1){
+		an=0.0;}
+	}	
+	
+// NodeContainer for hosts
+  	for (i=0; i<k;i++){
+		for (j=0;j<num_bridge;j++){  
+	anim.SetConstantPosition(host[i][j].Get(0),an+0.0,4.0);
+	anim.SetConstantPosition(host[i][j].Get(1),an+0.3,4.0);	
+	an=an+0.6;
+		}
+	}  	
+	
+*/
+//-------------------------**********ARFATH AHAMED**********----------------------------------------
+
+  	NS_LOG_INFO ("Run Simulation.");
+  	Simulator::Stop (Seconds(101.0));
+  	Simulator::Run ();
+
+  	monitor->CheckForLostPackets ();
+  	monitor->SerializeToXmlFile(filename, true, true);
+
+	std::cout << "Simulation finished "<<"\n";
+
+  	Simulator::Destroy ();
+  	NS_LOG_INFO ("Done.");
+
+	return 0;
+}
+
+
+
+

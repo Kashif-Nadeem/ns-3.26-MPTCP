@@ -1,0 +1,26 @@
+<Test>
+  <Name>simulator</Name>
+  <Result>FAIL</Result>
+  <Time real="0.010" user="0.000" system="0.000"/>
+  <Test>
+    <Name>Check that basic event handling is working with ns3::ListScheduler</Name>
+    <Result>FAIL</Result>
+    <Time real="0.010" user="0.000" system="0.000"/>
+      <FailureDetails>
+        <Condition>m_b (actual) == true (limit)</Condition>
+        <Actual>0</Actual>
+        <Limit>1</Limit>
+        <Message>Event B did not run ?</Message>
+        <File>../src/core/test/simulator-test-suite.cc</File>
+        <Line>136</Line>
+      </FailureDetails>
+      <FailureDetails>
+        <Condition>m_d (actual) == true (limit)</Condition>
+        <Actual>0</Actual>
+        <Limit>1</Limit>
+        <Message>Event D did not run ?</Message>
+        <File>../src/core/test/simulator-test-suite.cc</File>
+        <Line>138</Line>
+      </FailureDetails>
+  </Test>
+</Test>

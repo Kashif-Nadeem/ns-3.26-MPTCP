@@ -1,0 +1,1209 @@
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/core/model/random-variable-stream.h:304: warning: reached end of file while inside a f$ block!
+The command that should end the block seems to be missing!
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/traffic-control/model/traffic-control-layer.h:36: warning: missing title after \defgroup traffic-control
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/traffic-control/model/traffic-control-layer.h:36: Trying to add group traffic-control to itself!
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/core/model/unused.h:32: warning: documentation for unknown define NS_UNUSED found.
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/doc/introspected-doxygen.h:27423: warning: no matching file member found for 
+ns3::Ptr< const ns3::AttributeAccessor > ns3::MakeIeMeshIdAccessor(T1 a1)Possible candidates:
+  Ptr< const AttributeAccessor > MakeIeMeshIdAccessor(T1 a1)
+  Ptr< const AttributeAccessor > MakeIeMeshIdAccessor(T1 a1, T2 a2)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/doc/introspected-doxygen.h:27429: warning: no matching file member found for 
+ns3::Ptr< const ns3::AttributeAccessor > ns3::MakeIeMeshIdAccessor(T1 a1, T2 a2)Possible candidates:
+  Ptr< const AttributeAccessor > MakeIeMeshIdAccessor(T1 a1)
+  Ptr< const AttributeAccessor > MakeIeMeshIdAccessor(T1 a1, T2 a2)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/doc/introspected-doxygen.h:27442: warning: no matching file member found for 
+ns3::Ptr< const ns3::AttributeChecker > ns3::MakeIeMeshIdChecker(void)Possible candidates:
+  Ptr< const AttributeChecker > MakeIeMeshIdChecker(void)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/doc/introspected-doxygen.h:28304: warning: no matching file member found for 
+ns3::Ptr< const ns3::AttributeAccessor > ns3::MakeValueClassTestAccessor(T1 a1)Possible candidates:
+  Ptr< const AttributeAccessor > MakeValueClassTestAccessor(T1 a1)
+  Ptr< const AttributeAccessor > MakeValueClassTestAccessor(T1 a1, T2 a2)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/doc/introspected-doxygen.h:28310: warning: no matching file member found for 
+ns3::Ptr< const ns3::AttributeAccessor > ns3::MakeValueClassTestAccessor(T1 a1, T2 a2)Possible candidates:
+  Ptr< const AttributeAccessor > MakeValueClassTestAccessor(T1 a1)
+  Ptr< const AttributeAccessor > MakeValueClassTestAccessor(T1 a1, T2 a2)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/doc/introspected-doxygen.h:28323: warning: no matching file member found for 
+ns3::Ptr< const ns3::AttributeChecker > ns3::MakeValueClassTestChecker(void)Possible candidates:
+  Ptr< const AttributeChecker > MakeValueClassTestChecker(void)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/doc/introspected-doxygen.h:28591: warning: no matching class member found for 
+  Boolean ns3::BooleanValue::BooleanValue(const Boolean &value)
+Possible candidates:
+  ns3::BooleanValue::BooleanValue()
+  ns3::BooleanValue::BooleanValue(bool value)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/doc/introspected-doxygen.h:28654: warning: no matching class member found for 
+  Callback ns3::CallbackValue::CallbackValue(const ns3::Callback< R, T1, T2, T3, T4, T5, T6, T7, T8, T9 > &value)
+Possible candidates:
+  ns3::CallbackValue::CallbackValue()
+  ns3::CallbackValue::CallbackValue(const CallbackBase &base)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/doc/introspected-doxygen.h:28659: warning: no uniquely matching class member found for 
+  Callback ns3::CallbackValue::Get(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/doc/introspected-doxygen.h:28773: warning: no matching class member found for 
+  Enum ns3::EnumValue::EnumValue(const int &value)
+Possible candidates:
+  ns3::EnumValue::EnumValue()
+  ns3::EnumValue::EnumValue(int value)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/doc/introspected-doxygen.h:28819: warning: no matching file member found for 
+ns3::Ptr< const ns3::AttributeChecker > ns3::MakeEnumChecker(void)Possible candidates:
+  Ptr< const AttributeChecker > MakeEnumChecker(int v1, std::string n1, int v2, std::string n2, int v3, std::string n3, int v4, std::string n4, int v5, std::string n5, int v6, std::string n6, int v7, std::string n7, int v8, std::string n8, int v9, std::string n9, int v10, std::string n10, int v11, std::string n11, int v12, std::string n12, int v13, std::string n13, int v14, std::string n14, int v15, std::string n15, int v16, std::string n16, int v17, std::string n17, int v18, std::string n18, int v19, std::string n19, int v20, std::string n20, int v21, std::string n21, int v22, std::string n22)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/doc/introspected-doxygen.h:28897: warning: no matching class member found for 
+  Pointer ns3::PointerValue::PointerValue(const Pointer &value)
+Possible candidates:
+  ns3::PointerValue::PointerValue()
+  ns3::PointerValue::PointerValue(Ptr< Object > object)
+  template < T >
+  ns3::PointerValue::PointerValue(const Ptr< T > &object)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/doc/introspected-doxygen.h:28960: warning: documented function `RandomVariable ns3::RandomVariableValue::RandomVariableValue' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/doc/introspected-doxygen.h:28965: warning: no uniquely matching class member found for 
+  RandomVariable ns3::RandomVariableValue::Get(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/doc/introspected-doxygen.h:28969: warning: no uniquely matching class member found for 
+  bool ns3::RandomVariableValue::GetAccessor(T &value) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/doc/introspected-doxygen.h:28976: warning: no uniquely matching class member found for 
+  void ns3::RandomVariableValue::Set(const RandomVariable &value)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/doc/introspected-doxygen.h:28981: warning: no uniquely matching class member found for 
+  RandomVariable ns3::RandomVariableValue::m_value
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/doc/introspected-doxygen.h:28987: warning: documented function `ns3::Ptr< const ns3::AttributeAccessor > ns3::MakeRandomVariableAccessor' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/doc/introspected-doxygen.h:28993: warning: documented function `ns3::Ptr< const ns3::AttributeAccessor > ns3::MakeRandomVariableAccessor' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/doc/introspected-doxygen.h:29006: warning: documented function `ns3::Ptr< const ns3::AttributeChecker > ns3::MakeRandomVariableChecker' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/core/model/nstime.h:979: warning: Member documentation for MakeTimeChecker found several times in @ingroup groups!
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/doc/introspected-doxygen.h:29131: The member will remain in group time, and won't be put into group attribute_Time
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/doc/introspected-doxygen.h:29212: warning: no uniquely matching class member found for 
+  EmptyAttribute ns3::EmptyAttributeValue::Get(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/doc/introspected-doxygen.h:29216: warning: no uniquely matching class member found for 
+  bool ns3::EmptyAttributeValue::GetAccessor(T &value) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/doc/introspected-doxygen.h:29223: warning: no uniquely matching class member found for 
+  void ns3::EmptyAttributeValue::Set(const EmptyAttribute &value)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/doc/introspected-doxygen.h:29228: warning: no uniquely matching class member found for 
+  EmptyAttribute ns3::EmptyAttributeValue::m_value
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/doc/introspected-doxygen.h:29251: warning: no uniquely matching class member found for 
+  bool ns3::ObjectPtrContainerValue::GetAccessor(T &value) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/doc/introspected-doxygen.h:29258: warning: no uniquely matching class member found for 
+  void ns3::ObjectPtrContainerValue::Set(const ObjectPtrContainer &value)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/doc/introspected-doxygen.h:29263: warning: no uniquely matching class member found for 
+  ObjectPtrContainer ns3::ObjectPtrContainerValue::m_value
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/doc/introspected-doxygen.h:29287: warning: no matching file member found for 
+ns3::Ptr< const ns3::AttributeAccessor > ns3::MakeObjectVectorAccessor(T1 a1)Possible candidates:
+  Ptr< const AttributeAccessor > MakeObjectVectorAccessor(U T::*memberVariable)
+  Ptr< const AttributeAccessor > MakeObjectVectorAccessor(Ptr< U >(T::*get)(INDEX) const, INDEX(T::*getN)(void) const)
+  Ptr< const AttributeAccessor > MakeObjectVectorAccessor(INDEX(T::*getN)(void) const, Ptr< U >(T::*get)(INDEX) const)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/doc/introspected-doxygen.h:29293: warning: no matching file member found for 
+ns3::Ptr< const ns3::AttributeAccessor > ns3::MakeObjectVectorAccessor(T1 a1, T2 a2)Possible candidates:
+  Ptr< const AttributeAccessor > MakeObjectVectorAccessor(U T::*memberVariable)
+  Ptr< const AttributeAccessor > MakeObjectVectorAccessor(Ptr< U >(T::*get)(INDEX) const, INDEX(T::*getN)(void) const)
+  Ptr< const AttributeAccessor > MakeObjectVectorAccessor(INDEX(T::*getN)(void) const, Ptr< U >(T::*get)(INDEX) const)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/doc/introspected-doxygen.h:29317: warning: no matching file member found for 
+ns3::Ptr< const ns3::AttributeAccessor > ns3::MakeObjectMapAccessor(T1 a1)Possible candidates:
+  Ptr< const AttributeAccessor > MakeObjectMapAccessor(U T::*memberVariable)
+  Ptr< const AttributeAccessor > MakeObjectMapAccessor(Ptr< U >(T::*get)(INDEX) const, INDEX(T::*getN)(void) const)
+  Ptr< const AttributeAccessor > MakeObjectMapAccessor(INDEX(T::*getN)(void) const, Ptr< U >(T::*get)(INDEX) const)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/doc/introspected-doxygen.h:29323: warning: no matching file member found for 
+ns3::Ptr< const ns3::AttributeAccessor > ns3::MakeObjectMapAccessor(T1 a1, T2 a2)Possible candidates:
+  Ptr< const AttributeAccessor > MakeObjectMapAccessor(U T::*memberVariable)
+  Ptr< const AttributeAccessor > MakeObjectMapAccessor(Ptr< U >(T::*get)(INDEX) const, INDEX(T::*getN)(void) const)
+  Ptr< const AttributeAccessor > MakeObjectMapAccessor(INDEX(T::*getN)(void) const, Ptr< U >(T::*get)(INDEX) const)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/core/model/callback.cc:130: warning: no matching class member found for 
+  std::string ns3::CallbackBase::Demangle(const std::string &mangled)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/core/model/int64x64-128.cc:65: warning: documented function `void int64x64_t::Mul' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/core/model/int64x64-128.cc:74: warning: documented function `uint128_t int64x64_t::Umul' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/core/model/int64x64-128.cc:114: warning: documented function `void int64x64_t::Div' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/core/model/int64x64-128.cc:123: warning: documented function `uint128_t int64x64_t::Udiv' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/core/model/int64x64-128.cc:192: warning: documented function `void int64x64_t::MulByInvert' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/core/model/int64x64-128.cc:202: warning: documented function `uint128_t int64x64_t::UmulByInvert' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/core/model/int64x64-128.cc:218: warning: documented function `int64x64_t int64x64_t::Invert' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/core/model/int64x64-cairo.cc:75: warning: documented function `void int64x64_t::Mul' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/core/model/int64x64-cairo.cc:84: warning: documented function `cairo_uint128_t int64x64_t::Umul' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/core/model/int64x64-cairo.cc:120: warning: documented function `void int64x64_t::Div' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/core/model/int64x64-cairo.cc:129: warning: documented function `cairo_uint128_t int64x64_t::Udiv' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/core/model/int64x64-cairo.cc:195: warning: documented function `void int64x64_t::MulByInvert' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/core/model/int64x64-cairo.cc:205: warning: documented function `cairo_uint128_t int64x64_t::UmulByInvert' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/core/model/int64x64-cairo.cc:219: warning: documented function `int64x64_t int64x64_t::Invert' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/core/model/log.cc:660: warning: documented function `ParameterLogger & ns3::ParameterLogger::operator<< < const char * >' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/core/model/log.h:463: warning: documented function `ParameterLogger & ns3::ParameterLogger::operator<< < std::string >' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/core/model/log.h:472: warning: documented function `ParameterLogger & ns3::ParameterLogger::operator<< < const char * >' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/core/model/random-variable-stream.cc:192: warning: no uniquely matching class member found for 
+  uint32_t ns3::UniformRandomVariable::GetInteger(uint32_t min, uint32_t max)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/core/model/random-variable-stream.cc:206: warning: no uniquely matching class member found for 
+  uint32_t ns3::UniformRandomVariable::GetInteger(void)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/internet/model/nsc-sysctl.cc:159: warning: no uniquely matching class member found for 
+  TypeId ns3::Ns3NscStack::Ns3NscStack::GetTypeId(void)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/network/utils/mac48-address.cc:48: warning: no matching file member found for 
+static char ns3::AsciiToLowCase(char c)Possible candidates:
+  char AsciiToLowCase(char c)
+  static char AsciiToLowCase(char c)
+  static char AsciiToLowCase(char c)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/network/utils/mac64-address.cc:48: warning: no matching file member found for 
+static char ns3::AsciiToLowCase(char c)Possible candidates:
+  char AsciiToLowCase(char c)
+  static char AsciiToLowCase(char c)
+  static char AsciiToLowCase(char c)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/traffic-control/model/codel-queue-disc.h:139: warning: no matching class member found for 
+  CoDelQueueDiscNewtonStepTest()
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/traffic-control/model/codel-queue-disc.h:140: warning: no matching class member found for 
+  CoDelQueueDiscControlLawTest()
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:112: warning: documented function `ns3::OfdmDcdChannelEncodings::OfdmDcdChannelEncodings' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:116: warning: documented function `ns3::OfdmDcdChannelEncodings::~OfdmDcdChannelEncodings' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:121: warning: documented function `void ns3::OfdmDcdChannelEncodings::SetChannelNr' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:127: warning: no matching class member found for 
+  void ns3::OfdmDcdChannelEncodings::SetTtg(uint8_t ttg)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:133: warning: no matching class member found for 
+  void ns3::OfdmDcdChannelEncodings::SetRtg(uint8_t rtg)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:139: warning: documented function `void ns3::OfdmDcdChannelEncodings::SetBaseStationId' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:145: warning: documented function `void ns3::OfdmDcdChannelEncodings::SetFrameDurationCode' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:151: warning: documented function `void ns3::OfdmDcdChannelEncodings::SetFrameNumber' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:157: warning: documented function `uint8_t ns3::OfdmDcdChannelEncodings::GetChannelNr' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:163: warning: no uniquely matching class member found for 
+  uint8_t ns3::OfdmDcdChannelEncodings::GetTtg(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:169: warning: no uniquely matching class member found for 
+  uint8_t ns3::OfdmDcdChannelEncodings::GetRtg(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:175: warning: documented function `Mac48Address ns3::OfdmDcdChannelEncodings::GetBaseStationId' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:181: warning: no matching class member found for 
+  uint8_t ns3::OfdmDcdChannelEncodings::GetFrameDurationCode(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:187: warning: documented function `uint32_t ns3::OfdmDcdChannelEncodings::GetFrameNumber' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:193: warning: no uniquely matching class member found for 
+  uint16_t ns3::OfdmDcdChannelEncodings::GetSize(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:199: warning: no uniquely matching class member found for 
+  Buffer::Iterator ns3::OfdmDcdChannelEncodings::DoWrite(Buffer::Iterator start) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:212: warning: no uniquely matching class member found for 
+  Buffer::Iterator ns3::OfdmDcdChannelEncodings::DoRead(Buffer::Iterator start)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:230: warning: documented function `ns3::OfdmDlBurstProfile::OfdmDlBurstProfile' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:234: warning: documented function `ns3::OfdmDlBurstProfile::~OfdmDlBurstProfile' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:239: warning: no uniquely matching class member found for 
+  void ns3::OfdmDlBurstProfile::SetType(uint8_t type)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:245: warning: no uniquely matching class member found for 
+  void ns3::OfdmDlBurstProfile::SetLength(uint8_t length)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:251: warning: no matching class member found for 
+  void ns3::OfdmDlBurstProfile::SetDiuc(uint8_t diuc)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:257: warning: documented function `void ns3::OfdmDlBurstProfile::SetFecCodeType' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:263: warning: no uniquely matching class member found for 
+  uint8_t ns3::OfdmDlBurstProfile::GetType(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:269: warning: no uniquely matching class member found for 
+  uint8_t ns3::OfdmDlBurstProfile::GetLength(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:275: warning: no matching class member found for 
+  uint8_t ns3::OfdmDlBurstProfile::GetDiuc(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:281: warning: documented function `uint8_t ns3::OfdmDlBurstProfile::GetFecCodeType' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:287: warning: no uniquely matching class member found for 
+  uint16_t ns3::OfdmDlBurstProfile::GetSize(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:293: warning: no uniquely matching class member found for 
+  Buffer::Iterator ns3::OfdmDlBurstProfile::Write(Buffer::Iterator start) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:304: warning: no uniquely matching class member found for 
+  Buffer::Iterator ns3::OfdmDlBurstProfile::Read(Buffer::Iterator start)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:321: warning: documented function `ns3::Dcd::Dcd' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:325: warning: documented function `ns3::Dcd::~Dcd' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:330: warning: documented function `void ns3::Dcd::SetConfigurationChangeCount' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:336: warning: documented function `void ns3::Dcd::SetChannelEncodings' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:342: warning: documented function `void ns3::Dcd::SetNrDlBurstProfiles' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:348: warning: documented function `void ns3::Dcd::AddDlBurstProfile' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:354: warning: documented function `uint8_t ns3::Dcd::GetConfigurationChangeCount' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:360: warning: documented function `OfdmDcdChannelEncodings ns3::Dcd::GetChannelEncodings' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:366: warning: documented function `std::vector< OfdmDlBurstProfile > ns3::Dcd::GetDlBurstProfiles' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:372: warning: documented function `uint8_t ns3::Dcd::GetNrDlBurstProfiles' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:378: warning: no uniquely matching class member found for 
+  std::string ns3::Dcd::GetName(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:384: warning: no uniquely matching class member found for 
+  TypeId ns3::Dcd::GetTypeId(void)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:395: warning: no uniquely matching class member found for 
+  TypeId ns3::Dcd::GetInstanceTypeId(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:401: warning: no uniquely matching class member found for 
+  void ns3::Dcd::Print(std::ostream &os) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:409: warning: no uniquely matching class member found for 
+  uint32_t ns3::Dcd::GetSerializedSize(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:424: warning: no uniquely matching class member found for 
+  void ns3::Dcd::Serialize(Buffer::Iterator start) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:440: warning: no uniquely matching class member found for 
+  uint32_t ns3::Dcd::Deserialize(Buffer::Iterator start)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:463: warning: documented function `ns3::OfdmDlMapIe::OfdmDlMapIe' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:467: warning: documented function `ns3::OfdmDlMapIe::~OfdmDlMapIe' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:472: warning: no uniquely matching class member found for 
+  void ns3::OfdmDlMapIe::SetCid(Cid cid)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:478: warning: no matching class member found for 
+  void ns3::OfdmDlMapIe::SetDiuc(uint8_t diuc)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:484: warning: no matching class member found for 
+  void ns3::OfdmDlMapIe::SetPreamblePresent(uint8_t preamblePresent)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:490: warning: no uniquely matching class member found for 
+  void ns3::OfdmDlMapIe::SetStartTime(uint16_t startTime)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:496: warning: no uniquely matching class member found for 
+  Cid ns3::OfdmDlMapIe::GetCid(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:502: warning: no matching class member found for 
+  uint8_t ns3::OfdmDlMapIe::GetDiuc(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:508: warning: no matching class member found for 
+  uint8_t ns3::OfdmDlMapIe::GetPreamblePresent(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:514: warning: no uniquely matching class member found for 
+  uint16_t ns3::OfdmDlMapIe::GetStartTime(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:520: warning: no uniquely matching class member found for 
+  uint16_t ns3::OfdmDlMapIe::GetSize(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:526: warning: no uniquely matching class member found for 
+  Buffer::Iterator ns3::OfdmDlMapIe::Write(Buffer::Iterator start) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:537: warning: no uniquely matching class member found for 
+  Buffer::Iterator ns3::OfdmDlMapIe::Read(Buffer::Iterator start)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:553: warning: documented function `ns3::DlMap::DlMap' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:557: warning: documented function `ns3::DlMap::~DlMap' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:562: warning: documented function `void ns3::DlMap::SetDcdCount' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:568: warning: documented function `void ns3::DlMap::SetBaseStationId' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:574: warning: documented function `void ns3::DlMap::AddDlMapElement' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:580: warning: documented function `uint8_t ns3::DlMap::GetDcdCount' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:586: warning: documented function `Mac48Address ns3::DlMap::GetBaseStationId' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:592: warning: documented function `std::list< OfdmDlMapIe > ns3::DlMap::GetDlMapElements' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:598: warning: no uniquely matching class member found for 
+  std::string ns3::DlMap::GetName(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:604: warning: no uniquely matching class member found for 
+  TypeId ns3::DlMap::GetTypeId(void)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:615: warning: no uniquely matching class member found for 
+  TypeId ns3::DlMap::GetInstanceTypeId(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:621: warning: no uniquely matching class member found for 
+  void ns3::DlMap::Print(std::ostream &os) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:629: warning: no uniquely matching class member found for 
+  uint32_t ns3::DlMap::GetSerializedSize(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:644: warning: no uniquely matching class member found for 
+  void ns3::DlMap::Serialize(Buffer::Iterator start) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/dl-mac-messages.cc:659: warning: no uniquely matching class member found for 
+  uint32_t ns3::DlMap::Deserialize(Buffer::Iterator start)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:121: warning: documented function `ns3::RngReq::RngReq' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:125: warning: documented function `ns3::RngReq::~RngReq' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:130: warning: documented function `void ns3::RngReq::SetReqDlBurstProfile' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:136: warning: no uniquely matching class member found for 
+  void ns3::RngReq::SetMacAddress(Mac48Address macAddress)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:142: warning: documented function `void ns3::RngReq::SetRangingAnomalies' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:148: warning: documented function `uint8_t ns3::RngReq::GetReqDlBurstProfile' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:154: warning: no uniquely matching class member found for 
+  Mac48Address ns3::RngReq::GetMacAddress(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:160: warning: documented function `uint8_t ns3::RngReq::GetRangingAnomalies' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:166: warning: no uniquely matching class member found for 
+  std::string ns3::RngReq::GetName(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:172: warning: no uniquely matching class member found for 
+  TypeId ns3::RngReq::GetTypeId(void)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:183: warning: no uniquely matching class member found for 
+  TypeId ns3::RngReq::GetInstanceTypeId(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:189: warning: no uniquely matching class member found for 
+  void ns3::RngReq::Print(std::ostream &os) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:196: warning: documented function `void ns3::RngReq::PrintDebug' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:204: warning: no uniquely matching class member found for 
+  uint32_t ns3::RngReq::GetSerializedSize(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:210: warning: no uniquely matching class member found for 
+  void ns3::RngReq::Serialize(Buffer::Iterator start) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:220: warning: no uniquely matching class member found for 
+  uint32_t ns3::RngReq::Deserialize(Buffer::Iterator start)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:250: warning: documented function `ns3::RngRsp::RngRsp' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:254: warning: documented function `ns3::RngRsp::~RngRsp' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:259: warning: documented function `void ns3::RngRsp::SetTimingAdjust' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:265: warning: documented function `void ns3::RngRsp::SetPowerLevelAdjust' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:271: warning: documented function `void ns3::RngRsp::SetOffsetFreqAdjust' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:277: warning: documented function `void ns3::RngRsp::SetRangStatus' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:283: warning: documented function `void ns3::RngRsp::SetDlFreqOverride' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:289: warning: documented function `void ns3::RngRsp::SetUlChnlIdOverride' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:295: warning: documented function `void ns3::RngRsp::SetDlOperBurstProfile' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:301: warning: no uniquely matching class member found for 
+  void ns3::RngRsp::SetMacAddress(Mac48Address macAddress)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:307: warning: no matching class member found for 
+  void ns3::RngRsp::SetBasicCid(Cid basicCid)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:313: warning: no matching class member found for 
+  void ns3::RngRsp::SetPrimaryCid(Cid primaryCid)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:319: warning: documented function `void ns3::RngRsp::SetAasBdcastPermission' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:325: warning: documented function `void ns3::RngRsp::SetFrameNumber' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:331: warning: documented function `void ns3::RngRsp::SetInitRangOppNumber' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:337: warning: documented function `void ns3::RngRsp::SetRangSubchnl' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:343: warning: documented function `uint32_t ns3::RngRsp::GetTimingAdjust' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:349: warning: documented function `uint8_t ns3::RngRsp::GetPowerLevelAdjust' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:355: warning: documented function `uint32_t ns3::RngRsp::GetOffsetFreqAdjust' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:361: warning: documented function `uint8_t ns3::RngRsp::GetRangStatus' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:367: warning: documented function `uint32_t ns3::RngRsp::GetDlFreqOverride' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:373: warning: documented function `uint8_t ns3::RngRsp::GetUlChnlIdOverride' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:379: warning: documented function `uint16_t ns3::RngRsp::GetDlOperBurstProfile' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:385: warning: no uniquely matching class member found for 
+  Mac48Address ns3::RngRsp::GetMacAddress(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:391: warning: no uniquely matching class member found for 
+  Cid ns3::RngRsp::GetBasicCid(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:397: warning: no uniquely matching class member found for 
+  Cid ns3::RngRsp::GetPrimaryCid(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:403: warning: documented function `uint8_t ns3::RngRsp::GetAasBdcastPermission' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:409: warning: documented function `uint32_t ns3::RngRsp::GetFrameNumber' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:415: warning: documented function `uint8_t ns3::RngRsp::GetInitRangOppNumber' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:421: warning: documented function `uint8_t ns3::RngRsp::GetRangSubchnl' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:427: warning: no uniquely matching class member found for 
+  std::string ns3::RngRsp::GetName(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:433: warning: no uniquely matching class member found for 
+  TypeId ns3::RngRsp::GetTypeId(void)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:444: warning: no uniquely matching class member found for 
+  TypeId ns3::RngRsp::GetInstanceTypeId(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:450: warning: no uniquely matching class member found for 
+  void ns3::RngRsp::Print(std::ostream &os) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:463: warning: no uniquely matching class member found for 
+  uint32_t ns3::RngRsp::GetSerializedSize(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:469: warning: no uniquely matching class member found for 
+  void ns3::RngRsp::Serialize(Buffer::Iterator start) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:490: warning: no uniquely matching class member found for 
+  uint32_t ns3::RngRsp::Deserialize(Buffer::Iterator start)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:520: warning: documented function `ns3::DsaReq::DsaReq' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:524: warning: documented function `ns3::DsaReq::DsaReq' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:530: warning: documented function `ns3::DsaReq::~DsaReq' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:535: warning: documented function `void ns3::DsaReq::SetTransactionId' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:541: warning: documented function `uint16_t ns3::DsaReq::GetTransactionId' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:547: warning: no matching class member found for 
+  void ns3::DsaReq::SetSfid(uint32_t sfid)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:553: warning: no matching class member found for 
+  uint32_t ns3::DsaReq::GetSfid(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:559: warning: no uniquely matching class member found for 
+  void ns3::DsaReq::SetCid(Cid cid)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:565: warning: no uniquely matching class member found for 
+  Cid ns3::DsaReq::GetCid(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:572: warning: no uniquely matching class member found for 
+  std::string ns3::DsaReq::GetName(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:578: warning: no uniquely matching class member found for 
+  TypeId ns3::DsaReq::GetTypeId(void)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:589: warning: no uniquely matching class member found for 
+  TypeId ns3::DsaReq::GetInstanceTypeId(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:595: warning: no uniquely matching class member found for 
+  void ns3::DsaReq::Print(std::ostream &os) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:601: warning: no uniquely matching class member found for 
+  uint32_t ns3::DsaReq::GetSerializedSize(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:609: warning: no uniquely matching class member found for 
+  void ns3::DsaReq::Serialize(Buffer::Iterator start) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:618: warning: no uniquely matching class member found for 
+  uint32_t ns3::DsaReq::Deserialize(Buffer::Iterator start)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:629: warning: no uniquely matching class member found for 
+  ServiceFlow ns3::DsaReq::GetServiceFlow(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:635: warning: no uniquely matching class member found for 
+  void ns3::DsaReq::SetServiceFlow(ServiceFlow sf)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:648: warning: documented function `ns3::DsaRsp::DsaRsp' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:652: warning: documented function `ns3::DsaRsp::~DsaRsp' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:657: warning: documented function `void ns3::DsaRsp::SetTransactionId' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:663: warning: documented function `uint16_t ns3::DsaRsp::GetTransactionId' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:669: warning: no uniquely matching class member found for 
+  ServiceFlow ns3::DsaRsp::GetServiceFlow(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:675: warning: no uniquely matching class member found for 
+  void ns3::DsaRsp::SetServiceFlow(ServiceFlow sf)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:681: warning: documented function `void ns3::DsaRsp::SetConfirmationCode' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:687: warning: documented function `uint16_t ns3::DsaRsp::GetConfirmationCode' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:693: warning: no matching class member found for 
+  void ns3::DsaRsp::SetSfid(uint32_t sfid)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:699: warning: no matching class member found for 
+  uint32_t ns3::DsaRsp::GetSfid(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:705: warning: no uniquely matching class member found for 
+  void ns3::DsaRsp::SetCid(Cid cid)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:711: warning: no uniquely matching class member found for 
+  Cid ns3::DsaRsp::GetCid(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:717: warning: no uniquely matching class member found for 
+  std::string ns3::DsaRsp::GetName(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:723: warning: no uniquely matching class member found for 
+  TypeId ns3::DsaRsp::GetTypeId(void)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:734: warning: no uniquely matching class member found for 
+  TypeId ns3::DsaRsp::GetInstanceTypeId(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:740: warning: no uniquely matching class member found for 
+  void ns3::DsaRsp::Print(std::ostream &os) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:747: warning: no uniquely matching class member found for 
+  uint32_t ns3::DsaRsp::GetSerializedSize(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:754: warning: no uniquely matching class member found for 
+  void ns3::DsaRsp::Serialize(Buffer::Iterator start) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:764: warning: no uniquely matching class member found for 
+  uint32_t ns3::DsaRsp::Deserialize(Buffer::Iterator start)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:782: warning: documented function `ns3::DsaAck::DsaAck' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:786: warning: documented function `ns3::DsaAck::~DsaAck' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:791: warning: documented function `void ns3::DsaAck::SetTransactionId' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:797: warning: documented function `uint16_t ns3::DsaAck::GetTransactionId' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:803: warning: documented function `void ns3::DsaAck::SetConfirmationCode' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:809: warning: documented function `uint16_t ns3::DsaAck::GetConfirmationCode' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:815: warning: no uniquely matching class member found for 
+  std::string ns3::DsaAck::GetName(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:821: warning: no uniquely matching class member found for 
+  TypeId ns3::DsaAck::GetTypeId(void)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:832: warning: no uniquely matching class member found for 
+  TypeId ns3::DsaAck::GetInstanceTypeId(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:838: warning: no uniquely matching class member found for 
+  void ns3::DsaAck::Print(std::ostream &os) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:844: warning: no uniquely matching class member found for 
+  uint32_t ns3::DsaAck::GetSerializedSize(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:850: warning: no uniquely matching class member found for 
+  void ns3::DsaAck::Serialize(Buffer::Iterator start) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/mac-messages.cc:858: warning: no uniquely matching class member found for 
+  uint32_t ns3::DsaAck::Deserialize(Buffer::Iterator start)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ofdm-downlink-frame-prefix.cc:136: warning: documented function `ns3::OfdmDownlinkFramePrefix::OfdmDownlinkFramePrefix' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ofdm-downlink-frame-prefix.cc:140: warning: documented function `ns3::OfdmDownlinkFramePrefix::~OfdmDownlinkFramePrefix' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ofdm-downlink-frame-prefix.cc:146: warning: no uniquely matching class member found for 
+  TypeId ns3::OfdmDownlinkFramePrefix::GetTypeId(void)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ofdm-downlink-frame-prefix.cc:157: warning: documented function `void ns3::OfdmDownlinkFramePrefix::SetBaseStationId' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ofdm-downlink-frame-prefix.cc:163: warning: documented function `void ns3::OfdmDownlinkFramePrefix::SetFrameNumber' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ofdm-downlink-frame-prefix.cc:170: warning: documented function `void ns3::OfdmDownlinkFramePrefix::SetConfigurationChangeCount' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ofdm-downlink-frame-prefix.cc:177: warning: documented function `void ns3::OfdmDownlinkFramePrefix::AddDlFramePrefixElement' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ofdm-downlink-frame-prefix.cc:183: warning: documented function `void ns3::OfdmDownlinkFramePrefix::SetHcs' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ofdm-downlink-frame-prefix.cc:189: warning: documented function `Mac48Address ns3::OfdmDownlinkFramePrefix::GetBaseStationId' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ofdm-downlink-frame-prefix.cc:195: warning: documented function `uint32_t ns3::OfdmDownlinkFramePrefix::GetFrameNumber' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ofdm-downlink-frame-prefix.cc:201: warning: documented function `uint8_t ns3::OfdmDownlinkFramePrefix::GetConfigurationChangeCount' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ofdm-downlink-frame-prefix.cc:207: warning: documented function `std::vector< DlFramePrefixIe > ns3::OfdmDownlinkFramePrefix::GetDlFramePrefixElements' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ofdm-downlink-frame-prefix.cc:213: warning: documented function `uint8_t ns3::OfdmDownlinkFramePrefix::GetHcs' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ofdm-downlink-frame-prefix.cc:219: warning: no uniquely matching class member found for 
+  std::string ns3::OfdmDownlinkFramePrefix::GetName(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ofdm-downlink-frame-prefix.cc:225: warning: no uniquely matching class member found for 
+  void ns3::OfdmDownlinkFramePrefix::Print(std::ostream &os) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ofdm-downlink-frame-prefix.cc:235: warning: no uniquely matching class member found for 
+  uint32_t ns3::OfdmDownlinkFramePrefix::GetSerializedSize(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ofdm-downlink-frame-prefix.cc:250: warning: no uniquely matching class member found for 
+  void ns3::OfdmDownlinkFramePrefix::Serialize(Buffer::Iterator start) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ofdm-downlink-frame-prefix.cc:268: warning: no uniquely matching class member found for 
+  uint32_t ns3::OfdmDownlinkFramePrefix::Deserialize(Buffer::Iterator start)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/send-params.cc:42: warning: documented function `ns3::OfdmSendParams::OfdmSendParams' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/send-params.cc:46: warning: documented function `ns3::OfdmSendParams::~OfdmSendParams' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:108: warning: documented function `ns3::OfdmUcdChannelEncodings::OfdmUcdChannelEncodings' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:112: warning: documented function `ns3::OfdmUcdChannelEncodings::~OfdmUcdChannelEncodings' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:118: warning: documented function `void ns3::OfdmUcdChannelEncodings::SetSbchnlReqRegionFullParams' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:124: warning: documented function `void ns3::OfdmUcdChannelEncodings::SetSbchnlFocContCodes' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:130: warning: documented function `uint8_t ns3::OfdmUcdChannelEncodings::GetSbchnlReqRegionFullParams' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:136: warning: documented function `uint8_t ns3::OfdmUcdChannelEncodings::GetSbchnlFocContCodes' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:142: warning: no uniquely matching class member found for 
+  uint16_t ns3::OfdmUcdChannelEncodings::GetSize(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:148: warning: no uniquely matching class member found for 
+  Buffer::Iterator ns3::OfdmUcdChannelEncodings::DoWrite(Buffer::Iterator start) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:157: warning: no uniquely matching class member found for 
+  Buffer::Iterator ns3::OfdmUcdChannelEncodings::DoRead(Buffer::Iterator start)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:171: warning: documented function `ns3::OfdmUlBurstProfile::OfdmUlBurstProfile' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:175: warning: documented function `ns3::OfdmUlBurstProfile::~OfdmUlBurstProfile' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:180: warning: no uniquely matching class member found for 
+  void ns3::OfdmUlBurstProfile::SetType(uint8_t type)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:186: warning: no uniquely matching class member found for 
+  void ns3::OfdmUlBurstProfile::SetLength(uint8_t length)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:192: warning: documented function `void ns3::OfdmUlBurstProfile::SetUiuc' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:198: warning: documented function `void ns3::OfdmUlBurstProfile::SetFecCodeType' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:204: warning: no uniquely matching class member found for 
+  uint8_t ns3::OfdmUlBurstProfile::GetType(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:210: warning: no uniquely matching class member found for 
+  uint8_t ns3::OfdmUlBurstProfile::GetLength(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:216: warning: documented function `uint8_t ns3::OfdmUlBurstProfile::GetUiuc' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:222: warning: documented function `uint8_t ns3::OfdmUlBurstProfile::GetFecCodeType' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:228: warning: no uniquely matching class member found for 
+  uint16_t ns3::OfdmUlBurstProfile::GetSize(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:234: warning: no uniquely matching class member found for 
+  Buffer::Iterator ns3::OfdmUlBurstProfile::Write(Buffer::Iterator start) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:245: warning: no uniquely matching class member found for 
+  Buffer::Iterator ns3::OfdmUlBurstProfile::Read(Buffer::Iterator start)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:264: warning: documented function `ns3::Ucd::Ucd' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:268: warning: documented function `ns3::Ucd::~Ucd' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:273: warning: documented function `void ns3::Ucd::SetConfigurationChangeCount' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:279: warning: documented function `void ns3::Ucd::SetRangingBackoffStart' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:285: warning: documented function `void ns3::Ucd::SetRangingBackoffEnd' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:291: warning: documented function `void ns3::Ucd::SetRequestBackoffStart' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:297: warning: documented function `void ns3::Ucd::SetRequestBackoffEnd' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:303: warning: documented function `void ns3::Ucd::SetChannelEncodings' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:309: warning: documented function `void ns3::Ucd::AddUlBurstProfile' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:315: warning: documented function `void ns3::Ucd::SetNrUlBurstProfiles' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:322: warning: documented function `uint8_t ns3::Ucd::GetConfigurationChangeCount' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:328: warning: documented function `uint8_t ns3::Ucd::GetRangingBackoffStart' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:334: warning: documented function `uint8_t ns3::Ucd::GetRangingBackoffEnd' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:340: warning: documented function `uint8_t ns3::Ucd::GetRequestBackoffStart' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:346: warning: documented function `uint8_t ns3::Ucd::GetRequestBackoffEnd' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:352: warning: documented function `OfdmUcdChannelEncodings ns3::Ucd::GetChannelEncodings' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:358: warning: documented function `std::vector< OfdmUlBurstProfile > ns3::Ucd::GetUlBurstProfiles' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:364: warning: documented function `uint8_t ns3::Ucd::GetNrUlBurstProfiles' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:370: warning: no uniquely matching class member found for 
+  std::string ns3::Ucd::GetName(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:376: warning: no uniquely matching class member found for 
+  TypeId ns3::Ucd::GetTypeId(void)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:387: warning: no uniquely matching class member found for 
+  TypeId ns3::Ucd::GetInstanceTypeId(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:393: warning: no uniquely matching class member found for 
+  void ns3::Ucd::Print(std::ostream &os) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:405: warning: no uniquely matching class member found for 
+  uint32_t ns3::Ucd::GetSerializedSize(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:420: warning: no uniquely matching class member found for 
+  void ns3::Ucd::Serialize(Buffer::Iterator start) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:439: warning: no uniquely matching class member found for 
+  uint32_t ns3::Ucd::Deserialize(Buffer::Iterator start)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:467: warning: documented function `ns3::OfdmUlMapIe::OfdmUlMapIe' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:471: warning: documented function `ns3::OfdmUlMapIe::~OfdmUlMapIe' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:476: warning: no uniquely matching class member found for 
+  void ns3::OfdmUlMapIe::SetCid(Cid cid)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:482: warning: no uniquely matching class member found for 
+  void ns3::OfdmUlMapIe::SetStartTime(uint16_t startTime)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:488: warning: documented function `void ns3::OfdmUlMapIe::SetSubchannelIndex' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:494: warning: documented function `void ns3::OfdmUlMapIe::SetUiuc' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:500: warning: no matching class member found for 
+  void ns3::OfdmUlMapIe::SetDuration(uint16_t duration)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:507: warning: documented function `void ns3::OfdmUlMapIe::SetMidambleRepetitionInterval' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:513: warning: no uniquely matching class member found for 
+  Cid ns3::OfdmUlMapIe::GetCid(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:519: warning: no uniquely matching class member found for 
+  uint16_t ns3::OfdmUlMapIe::GetStartTime(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:525: warning: documented function `uint8_t ns3::OfdmUlMapIe::GetSubchannelIndex' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:531: warning: documented function `uint8_t ns3::OfdmUlMapIe::GetUiuc' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:537: warning: no uniquely matching class member found for 
+  uint16_t ns3::OfdmUlMapIe::GetDuration(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:543: warning: documented function `uint8_t ns3::OfdmUlMapIe::GetMidambleRepetitionInterval' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:549: warning: no uniquely matching class member found for 
+  uint16_t ns3::OfdmUlMapIe::GetSize(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:555: warning: no uniquely matching class member found for 
+  Buffer::Iterator ns3::OfdmUlMapIe::Write(Buffer::Iterator start) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:568: warning: no uniquely matching class member found for 
+  Buffer::Iterator ns3::OfdmUlMapIe::Read(Buffer::Iterator start)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:587: warning: documented function `ns3::UlMap::UlMap' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:591: warning: documented function `ns3::UlMap::~UlMap' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:596: warning: documented function `void ns3::UlMap::SetUcdCount' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:602: warning: documented function `void ns3::UlMap::SetAllocationStartTime' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:608: warning: documented function `void ns3::UlMap::AddUlMapElement' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:614: warning: documented function `uint8_t ns3::UlMap::GetUcdCount' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:620: warning: documented function `uint32_t ns3::UlMap::GetAllocationStartTime' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:626: warning: documented function `std::list< OfdmUlMapIe > ns3::UlMap::GetUlMapElements' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:632: warning: no uniquely matching class member found for 
+  std::string ns3::UlMap::GetName(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:638: warning: no uniquely matching class member found for 
+  TypeId ns3::UlMap::GetTypeId(void)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:649: warning: no uniquely matching class member found for 
+  TypeId ns3::UlMap::GetInstanceTypeId(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:655: warning: no uniquely matching class member found for 
+  void ns3::UlMap::Print(std::ostream &os) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:663: warning: no uniquely matching class member found for 
+  uint32_t ns3::UlMap::GetSerializedSize(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:677: warning: no uniquely matching class member found for 
+  void ns3::UlMap::Serialize(Buffer::Iterator start) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/ul-mac-messages.cc:693: warning: no uniquely matching class member found for 
+  uint32_t ns3::UlMap::Deserialize(Buffer::Iterator start)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:109: warning: documented function `ns3::GenericMacHeader::GenericMacHeader' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:117: warning: documented function `ns3::GenericMacHeader::~GenericMacHeader' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:121: warning: documented function `void ns3::GenericMacHeader::SetHt' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:126: warning: documented function `void ns3::GenericMacHeader::SetEc' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:131: warning: no uniquely matching class member found for 
+  void ns3::GenericMacHeader::SetType(uint8_t type)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:136: warning: documented function `void ns3::GenericMacHeader::SetCi' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:141: warning: documented function `void ns3::GenericMacHeader::SetEks' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:146: warning: documented function `void ns3::GenericMacHeader::SetLen' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:151: warning: no uniquely matching class member found for 
+  void ns3::GenericMacHeader::SetCid(Cid cid)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:156: warning: documented function `void ns3::GenericMacHeader::SetHcs' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:161: warning: documented function `uint8_t ns3::GenericMacHeader::GetHt' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:166: warning: documented function `uint8_t ns3::GenericMacHeader::GetEc' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:171: warning: no uniquely matching class member found for 
+  uint8_t ns3::GenericMacHeader::GetType(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:176: warning: documented function `uint8_t ns3::GenericMacHeader::GetCi' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:181: warning: documented function `uint8_t ns3::GenericMacHeader::GetEks' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:186: warning: documented function `uint16_t ns3::GenericMacHeader::GetLen' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:191: warning: no uniquely matching class member found for 
+  Cid ns3::GenericMacHeader::GetCid(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:196: warning: documented function `uint8_t ns3::GenericMacHeader::GetHcs' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:201: warning: no uniquely matching class member found for 
+  std::string ns3::GenericMacHeader::GetName(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:206: warning: no uniquely matching class member found for 
+  TypeId ns3::GenericMacHeader::GetTypeId(void)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:216: warning: no uniquely matching class member found for 
+  TypeId ns3::GenericMacHeader::GetInstanceTypeId(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:221: warning: no uniquely matching class member found for 
+  void ns3::GenericMacHeader::Print(std::ostream &os) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:228: warning: no uniquely matching class member found for 
+  uint32_t ns3::GenericMacHeader::GetSerializedSize(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:233: warning: no uniquely matching class member found for 
+  void ns3::GenericMacHeader::Serialize(Buffer::Iterator start) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:264: warning: no uniquely matching class member found for 
+  uint32_t ns3::GenericMacHeader::Deserialize(Buffer::Iterator start)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:301: warning: documented function `bool ns3::GenericMacHeader::check_hcs' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:316: warning: documented function `ns3::BandwidthRequestHeader::BandwidthRequestHeader' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:320: warning: documented function `ns3::BandwidthRequestHeader::~BandwidthRequestHeader' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:324: warning: documented function `void ns3::BandwidthRequestHeader::SetHt' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:329: warning: documented function `void ns3::BandwidthRequestHeader::SetEc' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:334: warning: no uniquely matching class member found for 
+  void ns3::BandwidthRequestHeader::SetType(uint8_t type)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:339: warning: documented function `void ns3::BandwidthRequestHeader::SetBr' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:344: warning: no uniquely matching class member found for 
+  void ns3::BandwidthRequestHeader::SetCid(Cid cid)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:349: warning: documented function `void ns3::BandwidthRequestHeader::SetHcs' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:354: warning: documented function `uint8_t ns3::BandwidthRequestHeader::GetHt' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:359: warning: documented function `uint8_t ns3::BandwidthRequestHeader::GetEc' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:364: warning: no uniquely matching class member found for 
+  uint8_t ns3::BandwidthRequestHeader::GetType(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:369: warning: documented function `uint32_t ns3::BandwidthRequestHeader::GetBr' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:374: warning: no uniquely matching class member found for 
+  Cid ns3::BandwidthRequestHeader::GetCid(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:379: warning: documented function `uint8_t ns3::BandwidthRequestHeader::GetHcs' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:384: warning: no uniquely matching class member found for 
+  std::string ns3::BandwidthRequestHeader::GetName(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:389: warning: no uniquely matching class member found for 
+  TypeId ns3::BandwidthRequestHeader::GetTypeId(void)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:399: warning: no uniquely matching class member found for 
+  TypeId ns3::BandwidthRequestHeader::GetInstanceTypeId(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:404: warning: no uniquely matching class member found for 
+  void ns3::BandwidthRequestHeader::Print(std::ostream &os) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:412: warning: no uniquely matching class member found for 
+  uint32_t ns3::BandwidthRequestHeader::GetSerializedSize(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:420: warning: no uniquely matching class member found for 
+  void ns3::BandwidthRequestHeader::Serialize(Buffer::Iterator start) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:449: warning: no uniquely matching class member found for 
+  uint32_t ns3::BandwidthRequestHeader::Deserialize(Buffer::Iterator start)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:486: warning: documented function `bool ns3::BandwidthRequestHeader::check_hcs' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:498: warning: documented function `ns3::GrantManagementSubheader::GrantManagementSubheader' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:502: warning: documented function `ns3::GrantManagementSubheader::~GrantManagementSubheader' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:506: warning: documented function `void ns3::GrantManagementSubheader::SetSi' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:511: warning: documented function `void ns3::GrantManagementSubheader::SetPm' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:516: warning: documented function `void ns3::GrantManagementSubheader::SetPbr' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:521: warning: documented function `uint8_t ns3::GrantManagementSubheader::GetSi' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:526: warning: documented function `uint8_t ns3::GrantManagementSubheader::GetPm' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:531: warning: documented function `uint16_t ns3::GrantManagementSubheader::GetPbr' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:536: warning: no uniquely matching class member found for 
+  std::string ns3::GrantManagementSubheader::GetName(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:541: warning: no uniquely matching class member found for 
+  TypeId ns3::GrantManagementSubheader::GetTypeId(void)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:551: warning: no uniquely matching class member found for 
+  TypeId ns3::GrantManagementSubheader::GetInstanceTypeId(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:556: warning: no uniquely matching class member found for 
+  void ns3::GrantManagementSubheader::Print(std::ostream &os) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:562: warning: no uniquely matching class member found for 
+  uint32_t ns3::GrantManagementSubheader::GetSerializedSize(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:567: warning: no uniquely matching class member found for 
+  void ns3::GrantManagementSubheader::Serialize(Buffer::Iterator start) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:575: warning: no uniquely matching class member found for 
+  uint32_t ns3::GrantManagementSubheader::Deserialize(Buffer::Iterator start)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:591: warning: documented function `ns3::FragmentationSubheader::FragmentationSubheader' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:595: warning: documented function `ns3::FragmentationSubheader::~FragmentationSubheader' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:600: warning: documented function `void ns3::FragmentationSubheader::SetFc' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:606: warning: documented function `void ns3::FragmentationSubheader::SetFsn' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:612: warning: documented function `uint8_t ns3::FragmentationSubheader::GetFc' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:618: warning: documented function `uint8_t ns3::FragmentationSubheader::GetFsn' was not declared or defined.
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:625: warning: no uniquely matching class member found for 
+  std::string ns3::FragmentationSubheader::GetName(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:631: warning: no uniquely matching class member found for 
+  TypeId ns3::FragmentationSubheader::GetTypeId(void)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:642: warning: no uniquely matching class member found for 
+  TypeId ns3::FragmentationSubheader::GetInstanceTypeId(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:648: warning: no uniquely matching class member found for 
+  void ns3::FragmentationSubheader::Print(std::ostream &os) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:655: warning: no uniquely matching class member found for 
+  uint32_t ns3::FragmentationSubheader::GetSerializedSize(void) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:661: warning: no uniquely matching class member found for 
+  void ns3::FragmentationSubheader::Serialize(Buffer::Iterator start) const
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wimax/model/wimax-mac-header.cc:669: warning: no uniquely matching class member found for 
+  uint32_t ns3::FragmentationSubheader::Deserialize(Buffer::Iterator start)
+
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/core/model/wall-clock-synchronizer.h:84: warning: Unsupported symbol &mu; found
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/core/model/wall-clock-synchronizer.h:86: warning: Unsupported symbol &mu; found
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/lte/test/lte-test-ue-measurements.h:128: warning: explicit link request to 'RecvMeasurementReport' could not be resolved
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/lte/test/lte-test-ue-measurements.h:232: warning: explicit link request to 'RecvMeasurementReport' could not be resolved
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/lte/test/lte-test-ue-measurements.h:341: warning: explicit link request to 'RecvMeasurementReport' could not be resolved
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/utils/print-introspected-doxygen.cc:674: warning: Unsupported xml/html tag <name> found
+deprecated:110: warning: Unsupported xml/html tag <SpectrumValue> found
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/core/model/hash-fnv.cc:177: warning: Unsupported xml/html tag <Landon> found
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/core/model/hash-fnv.cc:192: warning: Unsupported xml/html tag <Landon> found
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/core/model/hash-fnv.cc:230: warning: Unsupported xml/html tag <Landon> found
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/core/model/hash-fnv.cc:245: warning: Unsupported xml/html tag <Landon> found
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/lte/test/test-lte-handover-target.cc:95: warning: explicit link request to 'HandoverStart' could not be resolved
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/lte/test/lte-test-ue-measurements.h:341: warning: explicit link request to 'RecvMeasurementReport' could not be resolved
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/lte/test/lte-test-ue-measurements.h:341: warning: explicit link request to 'RecvMeasurementReport' could not be resolved
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/lte/test/lte-test-ue-measurements.h:324: warning: explicit link request to 'RecvMeasurementReport' could not be resolved
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/lte/test/lte-test-ue-measurements.h:128: warning: explicit link request to 'RecvMeasurementReport' could not be resolved
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/lte/test/lte-test-ue-measurements.h:128: warning: explicit link request to 'RecvMeasurementReport' could not be resolved
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/lte/test/lte-test-ue-measurements.h:111: warning: explicit link request to 'RecvMeasurementReport' could not be resolved
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/lte/test/lte-test-ue-measurements.h:232: warning: explicit link request to 'RecvMeasurementReport' could not be resolved
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/lte/test/lte-test-ue-measurements.h:232: warning: explicit link request to 'RecvMeasurementReport' could not be resolved
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/lte/test/lte-test-ue-measurements.h:215: warning: explicit link request to 'RecvMeasurementReport' could not be resolved
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/lte/test/test-lte-x2-handover.cc:47: warning: The following parameters of LteX2HandoverTestCase::LteX2HandoverTestCase(uint32_t nUes, uint32_t nDedicatedBearers, std::list< HandoverEvent > handoverEventList, std::string handoverEventListName, bool useUdp, std::string schedulerType, bool admitHo, bool useIdealRrc) are not documented:
+  parameter 'schedulerType'
+  parameter 'admitHo'
+  parameter 'useIdealRrc'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wave/examples/vanet-routing-compare.cc:472: warning: Found unknown command `\parm'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wave/examples/vanet-routing-compare.cc:471: warning: The following parameters of RoutingHelper::SetupRoutingPacketReceive(Ipv4Address addr, Ptr< Node > node) are not documented:
+  parameter 'node'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wave/examples/vanet-routing-compare.cc:203: warning: argument 'socket' of command @param is not found in the argument list of RoutingStats::GetCumulativeTxBytes()
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/test/tx-duration-test.cc:45: warning: The following parameters of TxDurationTest::CheckPayloadDuration(uint32_t size, WifiMode payloadMode, uint32_t channelWidth, bool isShortGuardInterval, WifiPreamble preamble, uint32_t knownDurationMicroSeconds) are not documented:
+  parameter 'preamble'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/ampdu-subframe-header.h:53: warning: argument 'crc' of command @param is not found in the argument list of ns3::AmpduSubframeHeader::SetSig()
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/energy/helper/basic-energy-harvester-helper.h:44: warning: argument 'node' of command @param is not found in the argument list of ns3::BasicEnergyHarvesterHelper::DoInstall(Ptr< EnergySource > source) const inherited from member DoInstall at line 83 in file /home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/energy/helper/energy-harvester-helper.h
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/energy/helper/basic-energy-harvester-helper.h:44: warning: The following parameters of ns3::BasicEnergyHarvesterHelper::DoInstall(Ptr< EnergySource > source) const are not documented:
+  parameter 'source'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/brite/helper/brite-topology-helper.h:165: warning: argument 'network' of command @param is not found in the argument list of ns3::BriteTopologyHelper::AssignIpv6Addresses(Ipv6AddressHelper &address)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/brite/helper/brite-topology-helper.h:165: warning: argument 'prefix' of command @param is not found in the argument list of ns3::BriteTopologyHelper::AssignIpv6Addresses(Ipv6AddressHelper &address)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/brite/helper/brite-topology-helper.h:165: warning: The following parameters of ns3::BriteTopologyHelper::AssignIpv6Addresses(Ipv6AddressHelper &address) are not documented:
+  parameter 'address'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/brite/helper/brite-topology-helper.h:133: warning: The following parameters of ns3::BriteTopologyHelper::GetNodeForAs(uint32_t asNum, uint32_t nodeNum) are not documented:
+  parameter 'nodeNum'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wave/model/bsm-application.h:81: warning: argument 'stream' of command @param is not found in the argument list of ns3::BsmApplication::AssignStreams(int64_t streamIndex)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wave/model/bsm-application.h:81: warning: The following parameters of ns3::BsmApplication::AssignStreams(int64_t streamIndex) are not documented:
+  parameter 'streamIndex'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wave/model/bsm-application.h:105: warning: The following parameters of ns3::BsmApplication::GenerateWaveTraffic(Ptr< Socket > socket, uint32_t pktSize, uint32_t pktCount, Time pktInterval, uint32_t sendingNodeId) are not documented:
+  parameter 'sendingNodeId'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wave/model/bsm-application.h:52: warning: argument 'gpsAccuracy' of command @param is not found in the argument list of ns3::BsmApplication::Setup(Ipv4InterfaceContainer &i, int nodeId, Time totalTime, uint32_t wavePacketSize, Time waveInterval, double gpsAccuracyNs, std::vector< double > rangesSq, Ptr< WaveBsmStats > waveBsmStats, std::vector< int > *nodesMoving, int mode, Time txDelay)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wave/model/bsm-application.h:52: warning: argument 'range' of command @param is not found in the argument list of ns3::BsmApplication::Setup(Ipv4InterfaceContainer &i, int nodeId, Time totalTime, uint32_t wavePacketSize, Time waveInterval, double gpsAccuracyNs, std::vector< double > rangesSq, Ptr< WaveBsmStats > waveBsmStats, std::vector< int > *nodesMoving, int mode, Time txDelay)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wave/model/bsm-application.h:52: warning: argument 'collection' of command @param is not found in the argument list of ns3::BsmApplication::Setup(Ipv4InterfaceContainer &i, int nodeId, Time totalTime, uint32_t wavePacketSize, Time waveInterval, double gpsAccuracyNs, std::vector< double > rangesSq, Ptr< WaveBsmStats > waveBsmStats, std::vector< int > *nodesMoving, int mode, Time txDelay)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wave/model/bsm-application.h:52: warning: argument 'indicators' of command @param is not found in the argument list of ns3::BsmApplication::Setup(Ipv4InterfaceContainer &i, int nodeId, Time totalTime, uint32_t wavePacketSize, Time waveInterval, double gpsAccuracyNs, std::vector< double > rangesSq, Ptr< WaveBsmStats > waveBsmStats, std::vector< int > *nodesMoving, int mode, Time txDelay)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wave/model/bsm-application.h:52: warning: The following parameters of ns3::BsmApplication::Setup(Ipv4InterfaceContainer &i, int nodeId, Time totalTime, uint32_t wavePacketSize, Time waveInterval, double gpsAccuracyNs, std::vector< double > rangesSq, Ptr< WaveBsmStats > waveBsmStats, std::vector< int > *nodesMoving, int mode, Time txDelay) are not documented:
+  parameter 'gpsAccuracyNs'
+  parameter 'rangesSq'
+  parameter 'waveBsmStats'
+  parameter 'nodesMoving'
+  parameter 'mode'
+  parameter 'txDelay'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wave/model/channel-scheduler.h:179: warning: The following parameters of ns3::ChannelScheduler::AssignExtendedAccess(uint32_t channelNumber, uint32_t extends, bool immediate) are not documented:
+  parameter 'extends'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wave/model/channel-scheduler.h:144: warning: End of list marker found without any preceding list items
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wave/model/channel-scheduler.h:111: warning: End of list marker found without any preceding list items
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wave/model/channel-scheduler.h:115: warning: End of list marker found without any preceding list items
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wave/model/channel-scheduler.h:147: warning: argument 'sch_info' of command @param is not found in the argument list of ns3::ChannelScheduler::StartSch(const SchInfo &schInfo)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wave/model/channel-scheduler.h:147: warning: The following parameters of ns3::ChannelScheduler::StartSch(const SchInfo &schInfo) are not documented:
+  parameter 'schInfo'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/core/model/command-line.h:96: warning: explicit link request to 'AttributeName' could not be resolved
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wave/model/default-channel-scheduler.h:71: warning: The following parameters of ns3::DefaultChannelScheduler::AssignExtendedAccess(uint32_t channelNumber, uint32_t extends, bool immediate) are not documented:
+  parameter 'extends'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wave/model/default-channel-scheduler.h:46: warning: End of list marker found without any preceding list items
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/dsss-parameter-set.h:43: warning: argument 'qosInfo' of command @param is not found in the argument list of ns3::DsssParameterSet::SetCurrentChannel(uint8_t currentChannel)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/dsss-parameter-set.h:43: warning: The following parameters of ns3::DsssParameterSet::SetCurrentChannel(uint8_t currentChannel) are not documented:
+  parameter 'currentChannel'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-parameter-set.h:61: warning: argument 'aifsn' of command @param is not found in the argument list of ns3::EdcaParameterSet::SetBeAci(uint8_t aci)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-parameter-set.h:61: warning: The following parameters of ns3::EdcaParameterSet::SetBeAci(uint8_t aci) are not documented:
+  parameter 'aci'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-parameter-set.h:55: warning: argument 'aifsn' of command @param is not found in the argument list of ns3::EdcaParameterSet::SetBeAcm(uint8_t acm)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-parameter-set.h:55: warning: The following parameters of ns3::EdcaParameterSet::SetBeAcm(uint8_t acm) are not documented:
+  parameter 'acm'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-parameter-set.h:73: warning: argument 'aifsn' of command @param is not found in the argument list of ns3::EdcaParameterSet::SetBeCWmax(uint8_t cwMax)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-parameter-set.h:73: warning: The following parameters of ns3::EdcaParameterSet::SetBeCWmax(uint8_t cwMax) are not documented:
+  parameter 'cwMax'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-parameter-set.h:67: warning: argument 'aifsn' of command @param is not found in the argument list of ns3::EdcaParameterSet::SetBeCWmin(uint8_t cwMin)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-parameter-set.h:67: warning: The following parameters of ns3::EdcaParameterSet::SetBeCWmin(uint8_t cwMin) are not documented:
+  parameter 'cwMin'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-parameter-set.h:79: warning: argument 'aifsn' of command @param is not found in the argument list of ns3::EdcaParameterSet::SetBeTXOPLimit(uint16_t txop)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-parameter-set.h:79: warning: The following parameters of ns3::EdcaParameterSet::SetBeTXOPLimit(uint16_t txop) are not documented:
+  parameter 'txop'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-parameter-set.h:97: warning: argument 'aifsn' of command @param is not found in the argument list of ns3::EdcaParameterSet::SetBkAci(uint8_t aci)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-parameter-set.h:97: warning: The following parameters of ns3::EdcaParameterSet::SetBkAci(uint8_t aci) are not documented:
+  parameter 'aci'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-parameter-set.h:91: warning: argument 'aifsn' of command @param is not found in the argument list of ns3::EdcaParameterSet::SetBkAcm(uint8_t acm)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-parameter-set.h:91: warning: The following parameters of ns3::EdcaParameterSet::SetBkAcm(uint8_t acm) are not documented:
+  parameter 'acm'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-parameter-set.h:109: warning: argument 'aifsn' of command @param is not found in the argument list of ns3::EdcaParameterSet::SetBkCWmax(uint8_t cwMax)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-parameter-set.h:109: warning: The following parameters of ns3::EdcaParameterSet::SetBkCWmax(uint8_t cwMax) are not documented:
+  parameter 'cwMax'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-parameter-set.h:103: warning: argument 'aifsn' of command @param is not found in the argument list of ns3::EdcaParameterSet::SetBkCWmin(uint8_t cwMin)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-parameter-set.h:103: warning: The following parameters of ns3::EdcaParameterSet::SetBkCWmin(uint8_t cwMin) are not documented:
+  parameter 'cwMin'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-parameter-set.h:115: warning: argument 'aifsn' of command @param is not found in the argument list of ns3::EdcaParameterSet::SetBkTXOPLimit(uint16_t txop)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-parameter-set.h:115: warning: The following parameters of ns3::EdcaParameterSet::SetBkTXOPLimit(uint16_t txop) are not documented:
+  parameter 'txop'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-parameter-set.h:133: warning: argument 'aifsn' of command @param is not found in the argument list of ns3::EdcaParameterSet::SetViAci(uint8_t aci)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-parameter-set.h:133: warning: The following parameters of ns3::EdcaParameterSet::SetViAci(uint8_t aci) are not documented:
+  parameter 'aci'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-parameter-set.h:127: warning: argument 'aifsn' of command @param is not found in the argument list of ns3::EdcaParameterSet::SetViAcm(uint8_t acm)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-parameter-set.h:127: warning: The following parameters of ns3::EdcaParameterSet::SetViAcm(uint8_t acm) are not documented:
+  parameter 'acm'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-parameter-set.h:145: warning: argument 'aifsn' of command @param is not found in the argument list of ns3::EdcaParameterSet::SetViCWmax(uint8_t cwMax)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-parameter-set.h:145: warning: The following parameters of ns3::EdcaParameterSet::SetViCWmax(uint8_t cwMax) are not documented:
+  parameter 'cwMax'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-parameter-set.h:139: warning: argument 'aifsn' of command @param is not found in the argument list of ns3::EdcaParameterSet::SetViCWmin(uint8_t cwMin)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-parameter-set.h:139: warning: The following parameters of ns3::EdcaParameterSet::SetViCWmin(uint8_t cwMin) are not documented:
+  parameter 'cwMin'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-parameter-set.h:151: warning: argument 'aifsn' of command @param is not found in the argument list of ns3::EdcaParameterSet::SetViTXOPLimit(uint16_t txop)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-parameter-set.h:151: warning: The following parameters of ns3::EdcaParameterSet::SetViTXOPLimit(uint16_t txop) are not documented:
+  parameter 'txop'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-parameter-set.h:169: warning: argument 'aifsn' of command @param is not found in the argument list of ns3::EdcaParameterSet::SetVoAci(uint8_t aci)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-parameter-set.h:169: warning: The following parameters of ns3::EdcaParameterSet::SetVoAci(uint8_t aci) are not documented:
+  parameter 'aci'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-parameter-set.h:163: warning: argument 'aifsn' of command @param is not found in the argument list of ns3::EdcaParameterSet::SetVoAcm(uint8_t acm)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-parameter-set.h:163: warning: The following parameters of ns3::EdcaParameterSet::SetVoAcm(uint8_t acm) are not documented:
+  parameter 'acm'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-parameter-set.h:181: warning: argument 'aifsn' of command @param is not found in the argument list of ns3::EdcaParameterSet::SetVoCWmax(uint8_t cwMax)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-parameter-set.h:181: warning: The following parameters of ns3::EdcaParameterSet::SetVoCWmax(uint8_t cwMax) are not documented:
+  parameter 'cwMax'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-parameter-set.h:175: warning: argument 'aifsn' of command @param is not found in the argument list of ns3::EdcaParameterSet::SetVoCWmin(uint8_t cwMin)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-parameter-set.h:175: warning: The following parameters of ns3::EdcaParameterSet::SetVoCWmin(uint8_t cwMin) are not documented:
+  parameter 'cwMin'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-parameter-set.h:187: warning: argument 'aifsn' of command @param is not found in the argument list of ns3::EdcaParameterSet::SetVoTXOPLimit(uint16_t txop)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-parameter-set.h:187: warning: The following parameters of ns3::EdcaParameterSet::SetVoTXOPLimit(uint16_t txop) are not documented:
+  parameter 'txop'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-txop-n.h:177: warning: argument 'recipient' of command @param is not found in the argument list of ns3::EdcaTxopN::GetBaAgreementExists(Mac48Address address, uint8_t tid) const
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-txop-n.h:177: warning: The following parameters of ns3::EdcaTxopN::GetBaAgreementExists(Mac48Address address, uint8_t tid) const are not documented:
+  parameter 'address'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-txop-n.h:186: warning: argument 'recipient' of command @param is not found in the argument list of ns3::EdcaTxopN::GetNOutstandingPacketsInBa(Mac48Address address, uint8_t tid)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-txop-n.h:186: warning: The following parameters of ns3::EdcaTxopN::GetNOutstandingPacketsInBa(Mac48Address address, uint8_t tid) are not documented:
+  parameter 'address'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-txop-n.cc:202: warning: argument 'recipient' of command @param is not found in the argument list of ns3::EdcaTxopN::AggregationCapableTransmissionListener::GetBlockAckAgreementExists(Mac48Address address, uint8_t tid) inherited from member GetBlockAckAgreementExists at line 264 in file /home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/mac-low.h
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/edca-txop-n.cc:202: warning: The following parameters of ns3::EdcaTxopN::AggregationCapableTransmissionListener::GetBlockAckAgreementExists(Mac48Address address, uint8_t tid) are not documented:
+  parameter 'address'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/energy/helper/energy-harvester-helper.h:83: warning: argument 'node' of command @param is not found in the argument list of ns3::EnergyHarvesterHelper::DoInstall(Ptr< EnergySource > source) const
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/energy/helper/energy-harvester-helper.h:83: warning: The following parameters of ns3::EnergyHarvesterHelper::DoInstall(Ptr< EnergySource > source) const are not documented:
+  parameter 'source'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/energy/helper/energy-harvester-helper.h:74: warning: argument 'nodeName' of command @param is not found in the argument list of ns3::EnergyHarvesterHelper::Install(std::string sourceName) const
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/energy/helper/energy-harvester-helper.h:74: warning: The following parameters of ns3::EnergyHarvesterHelper::Install(std::string sourceName) const are not documented:
+  parameter 'sourceName'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/lte/model/epc-enb-application.h:161: warning: The following parameters of ns3::EpcEnbApplication::SendToLteSocket(Ptr< Packet > packet, uint16_t rnti, uint8_t bid) are not documented:
+  parameter 'rnti'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/lte/model/epc-mme.h:85: warning: The following parameters of ns3::EpcMme::AddEnb(uint16_t ecgi, Ipv4Address enbS1UAddr, EpcS1apSapEnb *enbS1apSap) are not documented:
+  parameter 'enbS1UAddr'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/lte/model/epc-s1ap-sap.h:72: warning: argument 'List' of command @param is not found in the argument list of ns3::EpcS1apSapMme::ErabReleaseIndication(uint64_t mmeUeS1Id, uint16_t enbUeS1Id, std::list< ErabToBeReleasedIndication > erabToBeReleaseIndication)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/lte/model/epc-sgw-pgw-application.h:97: warning: The following parameters of ns3::EpcSgwPgwApplication::SendToTunDevice(Ptr< Packet > packet, uint32_t teid) are not documented:
+  parameter 'teid'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/lte/model/epc-sgw-pgw-application.h:179: warning: argument 'the' of command @param is not found in the argument list of ns3::EpcSgwPgwApplication::UeInfo::RemoveBearer(uint8_t bearerId)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/lte/model/epc-tft-classifier.h:49: warning: The following parameters of ns3::EpcTftClassifier::Add(Ptr< EpcTft > tft, uint32_t id) are not documented:
+  parameter 'id'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/lte/model/epc-tft-classifier.h:65: warning: The following parameters of ns3::EpcTftClassifier::Classify(Ptr< Packet > p, EpcTft::Direction direction) are not documented:
+  parameter 'direction'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/lte/model/epc-ue-nas.h:172: warning: Found unknown command `\pararm'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/error-rate-model.h:48: warning: argument 'txvector' of command @param is not found in the argument list of ns3::ErrorRateModel::GetChunkSuccessRate(WifiMode mode, WifiTxVector txVector, double snr, uint32_t nbits) const
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/error-rate-model.h:48: warning: The following parameters of ns3::ErrorRateModel::GetChunkSuccessRate(WifiMode mode, WifiTxVector txVector, double snr, uint32_t nbits) const are not documented:
+  parameter 'txVector'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/ideal-wifi-manager.h:94: warning: argument 'non' of command @param is not found in the argument list of ns3::IdealWifiManager::GetChannelWidthForMode(WifiMode mode) const
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/ideal-wifi-manager.h:94: warning: argument 'V' of command @param is not found in the argument list of ns3::IdealWifiManager::GetChannelWidthForMode(WifiMode mode) const
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/ideal-wifi-manager.h:94: warning: argument 'HT' of command @param is not found in the argument list of ns3::IdealWifiManager::GetChannelWidthForMode(WifiMode mode) const
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/ideal-wifi-manager.h:94: warning: The following parameters of ns3::IdealWifiManager::GetChannelWidthForMode(WifiMode mode) const are not documented:
+  parameter 'mode'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/lte/model/lte-enb-rrc.h:711: warning: explicit link request to 'AddUeMeasReportConfig' could not be resolved
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/lte/model/lte-enb-rrc.h:716: warning: explicit link request to 'InstallEnbDevice' could not be resolved
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/lte/model/lte-harq-phy.h:125: warning: The following parameters of ns3::LteHarqPhy::ResetUlHarqProcessStatus(uint16_t rnti, uint8_t id) are not documented:
+  parameter 'rnti'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/lte/model/lte-harq-phy.h:97: warning: The following parameters of ns3::LteHarqPhy::UpdateDlHarqProcessStatus(uint8_t id, uint8_t layer, double mi, uint16_t infoBytes, uint16_t codeBytes) are not documented:
+  parameter 'codeBytes'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/lte/model/lte-harq-phy.h:115: warning: The following parameters of ns3::LteHarqPhy::UpdateUlHarqProcessStatus(uint16_t rnti, double mi, uint16_t infoBytes, uint16_t codeBytes) are not documented:
+  parameter 'codeBytes'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/lte/model/lte-mac-sap.h:98: warning: The following parameters of ns3::LteMacSapUser::NotifyTxOpportunity(uint32_t bytes, uint8_t layer, uint8_t harqId) are not documented:
+  parameter 'harqId'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/lte/model/lte-rlc.cc:44: warning: The following parameters of ns3::LteRlcSpecificLteMacSapUser::NotifyTxOpportunity(uint32_t bytes, uint8_t layer, uint8_t harqId) are not documented:
+  parameter 'harqId'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/lte/model/lte-spectrum-phy.h:374: warning: The following parameters of ns3::LteSpectrumPhy::AddExpectedTb(uint16_t rnti, uint8_t ndi, uint16_t size, uint8_t mcs, std::vector< int > map, uint8_t layer, uint8_t harqId, uint8_t rv, bool downlink) are not documented:
+  parameter 'rv'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/lte/model/lte-ue-phy-sap.h:56: warning: The following parameters of ns3::LteUePhySapProvider::SendRachPreamble(uint32_t prachId, uint32_t raRnti) are not documented:
+  parameter 'raRnti'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/mac-low.h:1014: warning: argument 'dataTxVector' of command @param is not found in the argument list of ns3::MacLow::GetBlockAckDuration(Mac48Address to, WifiTxVector blockAckReqTxVector, enum BlockAckType type) const
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/mac-low.h:1014: warning: The following parameters of ns3::MacLow::GetBlockAckDuration(Mac48Address to, WifiTxVector blockAckReqTxVector, enum BlockAckType type) const are not documented:
+  parameter 'blockAckReqTxVector'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/mac-low.h:741: warning: argument 'isEndOfFrame' of command @param is not found in the argument list of ns3::MacLow::ReceiveError(Ptr< Packet > packet, double rxSnr)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/mac-low.h:530: warning: argument 'phy' of command @param is not found in the argument list of ns3::MacLow::ResetPhy(void)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/mac-low.h:897: warning: argument 'hdr' of command @param is not found in the argument list of ns3::MacLow::SendMpdu(Ptr< const Packet > packet, WifiTxVector txVector, WifiPreamble preamble, enum mpduType mpdutype)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/mac-low.h:264: warning: argument 'recipient' of command @param is not found in the argument list of ns3::MacLowAggregationCapableTransmissionListener::GetBlockAckAgreementExists(Mac48Address address, uint8_t tid)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/mac-low.h:264: warning: The following parameters of ns3::MacLowAggregationCapableTransmissionListener::GetBlockAckAgreementExists(Mac48Address address, uint8_t tid) are not documented:
+  parameter 'address'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/lte/model/epc-s1ap-sap.h:196: warning: argument 'List' of command @param is not found in the argument list of ns3::MemberEpcS1apSapMme< C >::ErabReleaseIndication(uint64_t mmeUeS1Id, uint16_t enbUeS1Id, std::list< ErabToBeReleasedIndication > erabToBeReleaseIndication) inherited from member ErabReleaseIndication at line 72 in file /home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/lte/model/epc-s1ap-sap.h
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/doc/introspected-doxygen.h:12201: warning: explicit link request to 'streams' could not be resolved
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/minstrel-ht-wifi-manager.h:363: warning: explicit link request to 'streams' could not be resolved
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/minstrel-ht-wifi-manager.h:227: warning: argument 'phy' of command @param is not found in the argument list of ns3::MinstrelHtWifiManager::SetupMac(Ptr< WifiMac > mac) inherited from member SetupMac at line 109 in file /home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/wifi-remote-station-manager.h
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/minstrel-ht-wifi-manager.h:227: warning: The following parameters of ns3::MinstrelHtWifiManager::SetupMac(Ptr< WifiMac > mac) are not documented:
+  parameter 'mac'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/minstrel-wifi-manager.h:165: warning: argument 'phy' of command @param is not found in the argument list of ns3::MinstrelWifiManager::SetupMac(Ptr< WifiMac > mac) inherited from member SetupMac at line 109 in file /home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/wifi-remote-station-manager.h
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/minstrel-wifi-manager.h:165: warning: The following parameters of ns3::MinstrelWifiManager::SetupMac(Ptr< WifiMac > mac) are not documented:
+  parameter 'mac'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/nist-error-rate-model.h:46: warning: argument 'txvector' of command @param is not found in the argument list of ns3::NistErrorRateModel::GetChunkSuccessRate(WifiMode mode, WifiTxVector txVector, double snr, uint32_t nbits) const inherited from member GetChunkSuccessRate at line 48 in file /home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/error-rate-model.h
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/nist-error-rate-model.h:46: warning: The following parameters of ns3::NistErrorRateModel::GetChunkSuccessRate(WifiMode mode, WifiTxVector txVector, double snr, uint32_t nbits) const are not documented:
+  parameter 'txVector'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/core/model/non-copyable.h:48: warning: explicit link request to 'noncopyable' could not be resolved
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/mpi/model/null-message-mpi-interface.h:144: warning: Found unknown command `\bundle'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/mpi/model/null-message-mpi-interface.h:143: warning: The following parameters of ns3::NullMessageMpiInterface::SendNullMessage(const Time &guaranteeUpdate, Ptr< RemoteChannelBundle > bundle) are not documented:
+  parameter 'bundle'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wave/model/ocb-wifi-mac.h:96: warning: argument 'bssid' of command @param is not found in the argument list of ns3::OcbWifiMac::GetBssid(void) const
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/openflow/model/openflow-switch-net-device.h:278: warning: explicit link request to 'ENOMEM' could not be resolved
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/openflow/model/openflow-switch-net-device.h:278: warning: explicit link request to 'ENOBUFS' could not be resolved
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/openflow/model/openflow-switch-net-device.h:278: warning: explicit link request to 'ESRCH' could not be resolved
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/openflow/model/openflow-switch-net-device.h:136: warning: explicit link request to 'EXFULL' could not be resolved
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/openflow/model/openflow-switch-net-device.h:148: warning: explicit link request to 'EINVAL' could not be resolved
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/openflow/model/openflow-switch-net-device.h:306: warning: The following parameters of ns3::OpenFlowSwitchNetDevice::OutputPacket(uint32_t packet_uid, int out_port) are not documented:
+  parameter 'out_port'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/openflow/model/openflow-switch-net-device.h:470: warning: argument 'msg' of command @param is not found in the argument list of ns3::OpenFlowSwitchNetDevice::ReceiveEchoReply(const void *oh)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/openflow/model/openflow-switch-net-device.h:470: warning: The following parameters of ns3::OpenFlowSwitchNetDevice::ReceiveEchoReply(const void *oh) are not documented:
+  parameter 'oh'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/openflow/model/openflow-switch-net-device.h:470: warning: argument 'msg' of command @param is not found in the argument list of ns3::OpenFlowSwitchNetDevice::ReceiveEchoRequest(const void *oh)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/openflow/model/openflow-switch-net-device.h:470: warning: The following parameters of ns3::OpenFlowSwitchNetDevice::ReceiveEchoRequest(const void *oh) are not documented:
+  parameter 'oh'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/openflow/model/openflow-switch-net-device.h:253: warning: argument 'PacketType' of command @param is not found in the argument list of ns3::OpenFlowSwitchNetDevice::ReceiveFromDevice(Ptr< NetDevice > netdev, Ptr< const Packet > packet, uint16_t protocol, const Address &src, const Address &dst, PacketType packetType)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/openflow/model/openflow-switch-net-device.h:253: warning: The following parameters of ns3::OpenFlowSwitchNetDevice::ReceiveFromDevice(Ptr< NetDevice > netdev, Ptr< const Packet > packet, uint16_t protocol, const Address &src, const Address &dst, PacketType packetType) are not documented:
+  parameter 'packetType'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/openflow/model/openflow-switch-net-device.h:470: warning: argument 'msg' of command @param is not found in the argument list of ns3::OpenFlowSwitchNetDevice::ReceiveStatsRequest(const void *oh)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/openflow/model/openflow-switch-net-device.h:470: warning: The following parameters of ns3::OpenFlowSwitchNetDevice::ReceiveStatsRequest(const void *oh) are not documented:
+  parameter 'oh'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/mpi/model/remote-channel-bundle.h:74: warning: argument 'guarantee' of command @param is not found in the argument list of ns3::RemoteChannelBundle::SetGuaranteeTime(Time time)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/mpi/model/remote-channel-bundle.h:74: warning: The following parameters of ns3::RemoteChannelBundle::SetGuaranteeTime(Time time) are not documented:
+  parameter 'time'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/spectrum/model/spectrum-channel.h:105: warning: Unsupported xml/html tag <SpectrumValue> found
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/internet/test/tcp-general-test.h:271: warning: The following parameters of ns3::TcpGeneralTest::CreateSocket(Ptr< Node > node, TypeId socketType, TypeId congControl) are not documented:
+  parameter 'socketType'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/internet/test/tcp-general-test.h:607: warning: argument 'oldValue' of command @param is not found in the argument list of ns3::TcpGeneralTest::RttTrace(Time oldTime, Time newTime)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/internet/test/tcp-general-test.h:607: warning: argument 'newValue' of command @param is not found in the argument list of ns3::TcpGeneralTest::RttTrace(Time oldTime, Time newTime)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/internet/test/tcp-general-test.h:607: warning: The following parameters of ns3::TcpGeneralTest::RttTrace(Time oldTime, Time newTime) are not documented:
+  parameter 'oldTime'
+  parameter 'newTime'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/internet/test/tcp-rtt-estimation.cc:50: warning: argument 'oldValue' of command @param is not found in the argument list of ns3::TcpRttEstimationTest::RttTrace(Time oldTime, Time newTime) inherited from member RttTrace at line 607 in file /home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/internet/test/tcp-general-test.h
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/internet/test/tcp-rtt-estimation.cc:50: warning: argument 'newValue' of command @param is not found in the argument list of ns3::TcpRttEstimationTest::RttTrace(Time oldTime, Time newTime) inherited from member RttTrace at line 607 in file /home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/internet/test/tcp-general-test.h
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/internet/test/tcp-rtt-estimation.cc:50: warning: The following parameters of ns3::TcpRttEstimationTest::RttTrace(Time oldTime, Time newTime) are not documented:
+  parameter 'oldTime'
+  parameter 'newTime'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/lte/model/lte-ue-phy.cc:82: warning: The following parameters of ns3::UeMemberLteUePhySapProvider::SendRachPreamble(uint32_t prachId, uint32_t raRnti) are not documented:
+  parameter 'raRnti'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wave/model/vsa-manager.h:130: warning: argument 'channelNumber' of command @param is not found in the argument list of ns3::VsaManager::RemoveByOrganizationIdentifier(const OrganizationIdentifier &oi)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wave/model/vsa-manager.h:130: warning: The following parameters of ns3::VsaManager::RemoveByOrganizationIdentifier(const OrganizationIdentifier &oi) are not documented:
+  parameter 'oi'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/core/model/wall-clock-synchronizer.h:84: warning: Unsupported symbol &mu; found
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/core/model/wall-clock-synchronizer.h:86: warning: Unsupported symbol &mu; found
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/core/model/wall-clock-synchronizer.h:84: warning: Unsupported symbol &mu; found
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/core/model/wall-clock-synchronizer.h:86: warning: Unsupported symbol &mu; found
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wave/helper/wave-bsm-helper.h:80: warning: argument 'gpsAccuracy' of command @param is not found in the argument list of ns3::WaveBsmHelper::Install(Ipv4InterfaceContainer &i, Time totalTime, uint32_t wavePacketSize, Time waveInterval, double gpsAccuracyNs, std::vector< double > ranges, int chAccessMode, Time txMaxDelay)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wave/helper/wave-bsm-helper.h:80: warning: argument 'range' of command @param is not found in the argument list of ns3::WaveBsmHelper::Install(Ipv4InterfaceContainer &i, Time totalTime, uint32_t wavePacketSize, Time waveInterval, double gpsAccuracyNs, std::vector< double > ranges, int chAccessMode, Time txMaxDelay)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wave/helper/wave-bsm-helper.h:80: warning: The following parameters of ns3::WaveBsmHelper::Install(Ipv4InterfaceContainer &i, Time totalTime, uint32_t wavePacketSize, Time waveInterval, double gpsAccuracyNs, std::vector< double > ranges, int chAccessMode, Time txMaxDelay) are not documented:
+  parameter 'gpsAccuracyNs'
+  parameter 'ranges'
+  parameter 'chAccessMode'
+  parameter 'txMaxDelay'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wave/helper/wave-bsm-stats.h:148: warning: argument 'range' of command @param is not found in the argument list of ns3::WaveBsmStats::SetExpectedRxPktCount(int index, int count)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wave/helper/wave-bsm-stats.h:148: warning: The following parameters of ns3::WaveBsmStats::SetExpectedRxPktCount(int index, int count) are not documented:
+  parameter 'index'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wave/helper/wave-bsm-stats.h:156: warning: argument 'range' of command @param is not found in the argument list of ns3::WaveBsmStats::SetRxPktInRangeCount(int index, int count)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wave/helper/wave-bsm-stats.h:156: warning: The following parameters of ns3::WaveBsmStats::SetRxPktInRangeCount(int index, int count) are not documented:
+  parameter 'index'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wave/model/wave-net-device.h:196: warning: argument 'sch_info' of command @param is not found in the argument list of ns3::WaveNetDevice::StartSch(const SchInfo &schInfo)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wave/model/wave-net-device.h:196: warning: The following parameters of ns3::WaveNetDevice::StartSch(const SchInfo &schInfo) are not documented:
+  parameter 'schInfo'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wave/model/wave-net-device.h:207: warning: argument 'vsa_info' of command @param is not found in the argument list of ns3::WaveNetDevice::StartVsa(const VsaInfo &vsaInfo)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wave/model/wave-net-device.h:207: warning: The following parameters of ns3::WaveNetDevice::StartVsa(const VsaInfo &vsaInfo) are not documented:
+  parameter 'vsaInfo'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wave/helper/wifi-80211p-helper.h:63: warning: argument 'mac' of command @param is not found in the argument list of ns3::Wifi80211pHelper::Install(const WifiPhyHelper &phy, const WifiMacHelper &macHelper, NodeContainer c) const
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wave/helper/wifi-80211p-helper.h:63: warning: The following parameters of ns3::Wifi80211pHelper::Install(const WifiPhyHelper &phy, const WifiMacHelper &macHelper, NodeContainer c) const are not documented:
+  parameter 'macHelper'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/wifi-phy.h:477: warning: argument 'mode' of command @param is not found in the argument list of ns3::WifiPhy::IsMcsSupported(WifiMode mcs) const
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/wifi-phy.h:477: warning: The following parameters of ns3::WifiPhy::IsMcsSupported(WifiMode mcs) const are not documented:
+  parameter 'mcs'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/wifi-phy-tag.h:46: warning: argument 'mpduType' of command @param is not found in the argument list of ns3::WifiPhyTag::WifiPhyTag(WifiTxVector txVector, WifiPreamble preamble, enum mpduType mpdutype)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/wifi-phy-tag.h:46: warning: The following parameters of ns3::WifiPhyTag::WifiPhyTag(WifiTxVector txVector, WifiPreamble preamble, enum mpduType mpdutype) are not documented:
+  parameter 'mpdutype'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/wifi-remote-station-manager.h:109: warning: argument 'phy' of command @param is not found in the argument list of ns3::WifiRemoteStationManager::SetupMac(Ptr< WifiMac > mac)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/wifi-remote-station-manager.h:109: warning: The following parameters of ns3::WifiRemoteStationManager::SetupMac(Ptr< WifiMac > mac) are not documented:
+  parameter 'mac'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/spectrum/model/wifi-spectrum-value-helper.h:97: warning: argument 'centerFrequency' of command @param is not found in the argument list of ns3::WifiSpectrumValueHelper::CreateNoisePowerSpectralDensity(double noiseFigure, Ptr< SpectrumModel > spectrumModel)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/spectrum/model/wifi-spectrum-value-helper.h:97: warning: argument 'channelWidth' of command @param is not found in the argument list of ns3::WifiSpectrumValueHelper::CreateNoisePowerSpectralDensity(double noiseFigure, Ptr< SpectrumModel > spectrumModel)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/spectrum/model/wifi-spectrum-value-helper.h:97: warning: The following parameters of ns3::WifiSpectrumValueHelper::CreateNoisePowerSpectralDensity(double noiseFigure, Ptr< SpectrumModel > spectrumModel) are not documented:
+  parameter 'noiseFigure'
+  parameter 'spectrumModel'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/wifi-tx-vector.h:163: warning: argument 'aggregated' of command @param is not found in the argument list of ns3::WifiTxVector::SetAggregation(bool aggregation)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/wifi-tx-vector.h:163: warning: The following parameters of ns3::WifiTxVector::SetAggregation(bool aggregation) are not documented:
+  parameter 'aggregation'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/yans-error-rate-model.h:63: warning: argument 'txvector' of command @param is not found in the argument list of ns3::YansErrorRateModel::GetChunkSuccessRate(WifiMode mode, WifiTxVector txVector, double snr, uint32_t nbits) const inherited from member GetChunkSuccessRate at line 48 in file /home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/error-rate-model.h
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/yans-error-rate-model.h:63: warning: The following parameters of ns3::YansErrorRateModel::GetChunkSuccessRate(WifiMode mode, WifiTxVector txVector, double snr, uint32_t nbits) const are not documented:
+  parameter 'txVector'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/yans-wifi-channel.h:124: warning: argument 'atts' of command @param is not found in the argument list of ns3::YansWifiChannel::Receive(uint32_t i, Ptr< Packet > packet, struct Parameters parameters) const
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/yans-wifi-channel.h:124: warning: argument 'txVector' of command @param is not found in the argument list of ns3::YansWifiChannel::Receive(uint32_t i, Ptr< Packet > packet, struct Parameters parameters) const
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/yans-wifi-channel.h:124: warning: argument 'preamble' of command @param is not found in the argument list of ns3::YansWifiChannel::Receive(uint32_t i, Ptr< Packet > packet, struct Parameters parameters) const
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/wifi/model/yans-wifi-channel.h:124: warning: The following parameters of ns3::YansWifiChannel::Receive(uint32_t i, Ptr< Packet > packet, struct Parameters parameters) const are not documented:
+  parameter 'parameters'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/mesh/model/dot11s/hwmp-protocol-mac.h:72: warning: argument 'dest' of command @param is not found in the argument list of ns3::dot11s::HwmpProtocolMac::ForwardPerr(std::vector< HwmpProtocol::FailedDestination > destinations, std::vector< Mac48Address > receivers)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/mesh/model/dot11s/hwmp-protocol-mac.h:72: warning: argument 'originator_seqno' of command @param is not found in the argument list of ns3::dot11s::HwmpProtocolMac::ForwardPerr(std::vector< HwmpProtocol::FailedDestination > destinations, std::vector< Mac48Address > receivers)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/mesh/model/dot11s/hwmp-protocol-mac.h:72: warning: argument 'dst_seqno' of command @param is not found in the argument list of ns3::dot11s::HwmpProtocolMac::ForwardPerr(std::vector< HwmpProtocol::FailedDestination > destinations, std::vector< Mac48Address > receivers)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/mesh/model/dot11s/hwmp-protocol-mac.h:72: warning: The following parameters of ns3::dot11s::HwmpProtocolMac::ForwardPerr(std::vector< HwmpProtocol::FailedDestination > destinations, std::vector< Mac48Address > receivers) are not documented:
+  parameter 'destinations'
+  parameter 'receivers'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/mesh/model/dot11s/hwmp-protocol-mac.h:72: warning: argument 'dest' of command @param is not found in the argument list of ns3::dot11s::HwmpProtocolMac::InitiatePerr(std::vector< HwmpProtocol::FailedDestination > destinations, std::vector< Mac48Address > receivers)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/mesh/model/dot11s/hwmp-protocol-mac.h:72: warning: argument 'originator_seqno' of command @param is not found in the argument list of ns3::dot11s::HwmpProtocolMac::InitiatePerr(std::vector< HwmpProtocol::FailedDestination > destinations, std::vector< Mac48Address > receivers)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/mesh/model/dot11s/hwmp-protocol-mac.h:72: warning: argument 'dst_seqno' of command @param is not found in the argument list of ns3::dot11s::HwmpProtocolMac::InitiatePerr(std::vector< HwmpProtocol::FailedDestination > destinations, std::vector< Mac48Address > receivers)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/mesh/model/dot11s/hwmp-protocol-mac.h:72: warning: The following parameters of ns3::dot11s::HwmpProtocolMac::InitiatePerr(std::vector< HwmpProtocol::FailedDestination > destinations, std::vector< Mac48Address > receivers) are not documented:
+  parameter 'destinations'
+  parameter 'receivers'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/mesh/model/dot11s/hwmp-protocol-mac.h:72: warning: argument 'dest' of command @param is not found in the argument list of ns3::dot11s::HwmpProtocolMac::SendPrep(IePrep prep, Mac48Address receiver)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/mesh/model/dot11s/hwmp-protocol-mac.h:72: warning: argument 'originator_seqno' of command @param is not found in the argument list of ns3::dot11s::HwmpProtocolMac::SendPrep(IePrep prep, Mac48Address receiver)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/mesh/model/dot11s/hwmp-protocol-mac.h:72: warning: argument 'dst_seqno' of command @param is not found in the argument list of ns3::dot11s::HwmpProtocolMac::SendPrep(IePrep prep, Mac48Address receiver)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/mesh/model/dot11s/hwmp-protocol-mac.h:72: warning: The following parameters of ns3::dot11s::HwmpProtocolMac::SendPrep(IePrep prep, Mac48Address receiver) are not documented:
+  parameter 'prep'
+  parameter 'receiver'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/mesh/model/dot11s/hwmp-protocol-mac.h:72: warning: argument 'dest' of command @param is not found in the argument list of ns3::dot11s::HwmpProtocolMac::SendPreq(IePreq preq)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/mesh/model/dot11s/hwmp-protocol-mac.h:72: warning: argument 'originator_seqno' of command @param is not found in the argument list of ns3::dot11s::HwmpProtocolMac::SendPreq(IePreq preq)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/mesh/model/dot11s/hwmp-protocol-mac.h:72: warning: argument 'dst_seqno' of command @param is not found in the argument list of ns3::dot11s::HwmpProtocolMac::SendPreq(IePreq preq)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/mesh/model/dot11s/hwmp-protocol-mac.h:72: warning: The following parameters of ns3::dot11s::HwmpProtocolMac::SendPreq(IePreq preq) are not documented:
+  parameter 'preq'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/mesh/model/dot11s/hwmp-protocol-mac.h:72: warning: argument 'dest' of command @param is not found in the argument list of ns3::dot11s::HwmpProtocolMac::SendPreq(std::vector< IePreq > preq)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/mesh/model/dot11s/hwmp-protocol-mac.h:72: warning: argument 'originator_seqno' of command @param is not found in the argument list of ns3::dot11s::HwmpProtocolMac::SendPreq(std::vector< IePreq > preq)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/mesh/model/dot11s/hwmp-protocol-mac.h:72: warning: argument 'dst_seqno' of command @param is not found in the argument list of ns3::dot11s::HwmpProtocolMac::SendPreq(std::vector< IePreq > preq)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/mesh/model/dot11s/hwmp-protocol-mac.h:72: warning: The following parameters of ns3::dot11s::HwmpProtocolMac::SendPreq(std::vector< IePreq > preq) are not documented:
+  parameter 'preq'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/dsr/model/dsr-routing.h:443: warning: The following parameters of ns3::dsr::DsrRouting::ScheduleCachedReply(Ptr< Packet > packet, Ipv4Address source, Ipv4Address destination, Ptr< Ipv4Route > route, double hops) are not documented:
+  parameter 'hops'
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/olsr/model/olsr-header.cc:82: warning: argument 'olsr_format' of command @param is not found in the argument list of ns3::olsr::EmfToSeconds(uint8_t olsrFormat)
+/home/kashif/ns3/ns-allinone-3.26/ns-3.26/src/olsr/model/olsr-header.cc:82: warning: The following parameters of ns3::olsr::EmfToSeconds(uint8_t olsrFormat) are not documented:
+  parameter 'olsrFormat'

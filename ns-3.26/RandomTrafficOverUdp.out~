@@ -1,0 +1,572 @@
+Waf: Entering directory `/home/kashif/ns3/ns-allinone-3.26/ns-3.26/build'
+[ 957/2699] Compiling examples/MyPrograms/random-traffic-example.cc
+[2655/2699] Linking build/examples/MyPrograms/ns3.26-random-traffic-example-debug
+Waf: Leaving directory `/home/kashif/ns3/ns-allinone-3.26/ns-3.26/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (21.673s)
+AnimationInterface WARNING:Node:0 Does not have a mobility model. Use SetConstantPosition if it is stationary
+AnimationInterface WARNING:Node:1 Does not have a mobility model. Use SetConstantPosition if it is stationary
+AnimationInterface WARNING:Node:0 Does not have a mobility model. Use SetConstantPosition if it is stationary
+AnimationInterface WARNING:Node:1 Does not have a mobility model. Use SetConstantPosition if it is stationary
+ Packet Interval  +243510637.0ns
+ packet size: 1739
+random time: +11295199.0ns
+Sending time: 
++243510637.0nsattached deadline: +254805836.0ns
+Udp sending packet 1 at-time 0.243511 data-size 1739
+ RandomTrafficUdp sending packet 1 at 0.243511 of size 1739 Total bytes sent 1739
+ Packet Interval  +33162057.0ns
+ received deadline= +254805836.0ns
+Current time= 0.247376
+ number of dropped packets: 0
+Udp received packet 1 at 0.247376 data size 1739
+ packet size: 1233
+random time: +1127971.0ns
+Sending time: 
++276672694.0nsattached deadline: +277800665.0ns
+Udp sending packet 2 at-time 0.276673 data-size 1233
+ RandomTrafficUdp sending packet 2 at 0.276673 of size 1233 Total bytes sent 2972
+ Packet Interval  +73805241.0ns
+ received deadline= +277800665.0ns
+Current time= 0.279693
+ number of dropped packets: 1
+Udp received packet 2 at 0.279693 data size 1233
+ packet size: 1667
+random time: +11795694.0ns
+Sending time: 
++350477935.0nsattached deadline: +362273629.0ns
+Udp sending packet 3 at-time 0.350478 data-size 1667
+ RandomTrafficUdp sending packet 3 at 0.350478 of size 1667 Total bytes sent 4639
+ Packet Interval  +425752815.0ns
+ received deadline= +362273629.0ns
+Current time= 0.354228
+ number of dropped packets: 1
+Udp received packet 3 at 0.354228 data size 1667
+ packet size: 148
+random time: +9670470.0ns
+Sending time: 
++776230750.0nsattached deadline: +785901220.0ns
+Udp sending packet 4 at-time 0.776231 data-size 148
+ RandomTrafficUdp sending packet 4 at 0.776231 of size 148 Total bytes sent 4787
+ Packet Interval  +33362078.0ns
+ received deadline= +785901220.0ns
+Current time= 0.777516
+ number of dropped packets: 1
+Udp received packet 4 at 0.777516 data size 148
+ packet size: 1597
+random time: +267369.0ns
+Sending time: 
++809592828.0nsattached deadline: +809860197.0ns
+Udp sending packet 5 at-time 0.809593 data-size 1597
+ RandomTrafficUdp sending packet 5 at 0.809593 of size 1597 Total bytes sent 6384
+ Packet Interval  +96778550.0ns
+ received deadline= +809860197.0ns
+Current time= 0.813231
+ number of dropped packets: 2
+Udp received packet 5 at 0.813231 data size 1597
+ packet size: 223
+random time: +3368309.0ns
+Sending time: 
++906371378.0nsattached deadline: +909739687.0ns
+Udp sending packet 6 at-time 0.906371 data-size 223
+ RandomTrafficUdp sending packet 6 at 0.906371 of size 223 Total bytes sent 6607
+ Packet Interval  +24064827.0ns
+ received deadline= +909739687.0ns
+Current time= 0.907776
+ number of dropped packets: 2
+Udp received packet 6 at 0.907776 data size 223
+ packet size: 1036
+random time: +8877033.0ns
+Sending time: 
++930436205.0nsattached deadline: +939313238.0ns
+Udp sending packet 7 at-time 0.930436 data-size 1036
+ RandomTrafficUdp sending packet 7 at 0.930436 of size 1036 Total bytes sent 7643
+ Packet Interval  +160906338.0ns
+ received deadline= +939313238.0ns
+Current time= 0.933142
+ number of dropped packets: 2
+Udp received packet 7 at 0.933142 data size 1036
+ packet size: 570
+random time: +56500455.0ns
+Sending time: 
++1091342543.0nsattached deadline: +1147842998.0ns
+Udp sending packet 8 at-time 1.09134 data-size 570
+ RandomTrafficUdp sending packet 8 at 1.09134 of size 570 Total bytes sent 8213
+ Packet Interval  +128688077.0ns
+ received deadline= +1147842998.0ns
+Current time= 1.0933
+ number of dropped packets: 2
+Udp received packet 8 at 1.0933 data size 570
+ packet size: 24
+random time: +30620203.0ns
+Sending time: 
++1220030620.0nsattached deadline: +1250650823.0ns
+Udp sending packet 9 at-time 1.22003 data-size 24
+ RandomTrafficUdp sending packet 9 at 1.22003 of size 24 Total bytes sent 8237
+ Packet Interval  +228013536.0ns
+ received deadline= +1250650823.0ns
+Current time= 1.22112
+ number of dropped packets: 2
+Udp received packet 9 at 1.22112 data size 24
+ packet size: 211
+random time: +5898330.0ns
+Sending time: 
++1448044156.0nsattached deadline: +1453942486.0ns
+Udp sending packet 10 at-time 1.44804 data-size 211
+ RandomTrafficUdp sending packet 10 at 1.44804 of size 211 Total bytes sent 8448
+ Packet Interval  +234815292.0ns
+ received deadline= +1453942486.0ns
+Current time= 1.44943
+ number of dropped packets: 2
+Udp received packet 10 at 1.44943 data size 211
+ packet size: 73
+random time: +2007664.0ns
+Sending time: 
++1682859448.0nsattached deadline: +1684867112.0ns
+Udp sending packet 11 at-time 1.68286 data-size 73
+ RandomTrafficUdp sending packet 11 at 1.68286 of size 73 Total bytes sent 8521
+ Packet Interval  +152632036.0ns
+ received deadline= +1684867112.0ns
+Current time= 1.68402
+ number of dropped packets: 2
+Udp received packet 11 at 1.68402 data size 73
+ packet size: 588
+random time: +57003033.0ns
+Sending time: 
++1835491484.0nsattached deadline: +1892494517.0ns
+Udp sending packet 12 at-time 1.83549 data-size 588
+ RandomTrafficUdp sending packet 12 at 1.83549 of size 588 Total bytes sent 9109
+ Packet Interval  +56982715.0ns
+ received deadline= +1892494517.0ns
+Current time= 1.83748
+ number of dropped packets: 2
+Udp received packet 12 at 1.83748 data size 588
+ packet size: 622
+random time: +21718600.0ns
+Sending time: 
++1892474199.0nsattached deadline: +1914192799.0ns
+Udp sending packet 13 at-time 1.89247 data-size 622
+ RandomTrafficUdp sending packet 13 at 1.89247 of size 622 Total bytes sent 9731
+ Packet Interval  +18658235.0ns
+ received deadline= +1914192799.0ns
+Current time= 1.89452
+ number of dropped packets: 2
+Udp received packet 13 at 1.89452 data size 622
+ packet size: 1919
+random time: +3225089.0ns
+Sending time: 
++1911132434.0nsattached deadline: +1914357523.0ns
+Udp sending packet 14 at-time 1.91113 data-size 1919
+ RandomTrafficUdp sending packet 14 at 1.91113 of size 1919 Total bytes sent 11650
+ Packet Interval  +7094680.0ns
+ received deadline= +1914357523.0ns
+Current time= 1.91529
+ number of dropped packets: 3
+Udp received packet 14 at 1.91529 data size 1919
+ packet size: 271
+random time: +3067.0ns
+Sending time: 
++1918227114.0nsattached deadline: +1918230181.0ns
+Udp sending packet 15 at-time 1.91823 data-size 271
+ RandomTrafficUdp sending packet 15 at 1.91823 of size 271 Total bytes sent 11921
+ Packet Interval  +72606086.0ns
+ received deadline= +1918230181.0ns
+Current time= 1.91971
+ number of dropped packets: 4
+Udp received packet 15 at 1.91971 data size 271
+ packet size: 589
+random time: +4646872.0ns
+Sending time: 
++1990833200.0nsattached deadline: +1995480072.0ns
+Udp sending packet 16 at-time 1.99083 data-size 589
+ RandomTrafficUdp sending packet 16 at 1.99083 of size 589 Total bytes sent 12510
+ Packet Interval  +10235058.0ns
+ received deadline= +1995480072.0ns
+Current time= 1.99282
+ number of dropped packets: 4
+Udp received packet 16 at 1.99282 data size 589
+ packet size: 722
+random time: +23990679.0ns
+Sending time: 
++2001068258.0nsattached deadline: +2025058937.0ns
+Udp sending packet 17 at-time 2.00107 data-size 722
+ RandomTrafficUdp sending packet 17 at 2.00107 of size 722 Total bytes sent 13232
+ Packet Interval  +68950830.0ns
+ received deadline= +2025058937.0ns
+Current time= 2.00327
+ number of dropped packets: 4
+Udp received packet 17 at 2.00327 data size 722
+ packet size: 539
+random time: +2071861.0ns
+Sending time: 
++2070019088.0nsattached deadline: +2072090949.0ns
+Udp sending packet 18 at-time 2.07002 data-size 539
+ RandomTrafficUdp sending packet 18 at 2.07002 of size 539 Total bytes sent 13771
+ Packet Interval  +58900545.0ns
+ received deadline= +2072090949.0ns
+Current time= 2.07193
+ number of dropped packets: 4
+Udp received packet 18 at 2.07193 data size 539
+ packet size: 14
+random time: +15162308.0ns
+Sending time: 
++2128919633.0nsattached deadline: +2144081941.0ns
+Udp sending packet 19 at-time 2.12892 data-size 14
+ RandomTrafficUdp sending packet 19 at 2.12892 of size 14 Total bytes sent 13785
+ Packet Interval  +384128101.0ns
+ received deadline= +2144081941.0ns
+Current time= 2.12999
+ number of dropped packets: 4
+Udp received packet 19 at 2.12999 data size 14
+ packet size: 113
+random time: +2187841.0ns
+Sending time: 
++2513047734.0nsattached deadline: +2515235575.0ns
+Udp sending packet 20 at-time 2.51305 data-size 113
+ RandomTrafficUdp sending packet 20 at 2.51305 of size 113 Total bytes sent 13898
+ Packet Interval  +215258476.0ns
+ received deadline= +2515235575.0ns
+Current time= 2.51428
+ number of dropped packets: 4
+Udp received packet 20 at 2.51428 data size 113
+ packet size: 124
+random time: +17840141.0ns
+Sending time: 
++2728306210.0nsattached deadline: +2746146351.0ns
+Udp sending packet 21 at-time 2.72831 data-size 124
+ RandomTrafficUdp sending packet 21 at 2.72831 of size 124 Total bytes sent 14022
+ Packet Interval  +274146154.0ns
+ received deadline= +2746146351.0ns
+Current time= 2.72955
+ number of dropped packets: 4
+Udp received packet 21 at 2.72955 data size 124
+ packet size: 858
+random time: +4503804.0ns
+Sending time: 
++3002452364.0nsattached deadline: +3006956168.0ns
+Udp sending packet 22 at-time 3.00245 data-size 858
+ RandomTrafficUdp sending packet 22 at 3.00245 of size 858 Total bytes sent 14880
+ Packet Interval  +3372050.0ns
+ received deadline= +3006956168.0ns
+Current time= 3.00487
+ number of dropped packets: 4
+Udp received packet 22 at 3.00487 data size 858
+ packet size: 620
+random time: +2183781.0ns
+Sending time: 
++3005824414.0nsattached deadline: +3008008195.0ns
+Udp sending packet 23 at-time 3.00582 data-size 620
+ RandomTrafficUdp sending packet 23 at 3.00582 of size 620 Total bytes sent 15500
+ Packet Interval  +56056746.0ns
+ received deadline= +3008008195.0ns
+Current time= 3.00786
+ number of dropped packets: 4
+Udp received packet 23 at 3.00786 data size 620
+ packet size: 71
+random time: +29224629.0ns
+Sending time: 
++3061881160.0nsattached deadline: +3091105789.0ns
+Udp sending packet 24 at-time 3.06188 data-size 71
+ RandomTrafficUdp sending packet 24 at 3.06188 of size 71 Total bytes sent 15571
+ Packet Interval  +153939545.0ns
+ received deadline= +3091105789.0ns
+Current time= 3.06304
+ number of dropped packets: 4
+Udp received packet 24 at 3.06304 data size 71
+ packet size: 161
+random time: +18126599.0ns
+Sending time: 
++3215820705.0nsattached deadline: +3233947304.0ns
+Udp sending packet 25 at-time 3.21582 data-size 161
+ RandomTrafficUdp sending packet 25 at 3.21582 of size 161 Total bytes sent 15732
+ Packet Interval  +9822412.0ns
+ received deadline= +3233947304.0ns
+Current time= 3.21713
+ number of dropped packets: 4
+Udp received packet 25 at 3.21713 data size 161
+ packet size: 94
+random time: +2340517.0ns
+Sending time: 
++3225643117.0nsattached deadline: +3227983634.0ns
+Udp sending packet 26 at-time 3.22564 data-size 94
+ RandomTrafficUdp sending packet 26 at 3.22564 of size 94 Total bytes sent 15826
+ Packet Interval  +26007591.0ns
+ received deadline= +3227983634.0ns
+Current time= 3.22684
+ number of dropped packets: 4
+Udp received packet 26 at 3.22684 data size 94
+ packet size: 1385
+random time: +2118503.0ns
+Sending time: 
++3251650708.0nsattached deadline: +3253769211.0ns
+Udp sending packet 27 at-time 3.25165 data-size 1385
+ RandomTrafficUdp sending packet 27 at 3.25165 of size 1385 Total bytes sent 17211
+ Packet Interval  +152205822.0ns
+ received deadline= +3253769211.0ns
+Current time= 3.25491
+ number of dropped packets: 5
+Udp received packet 27 at 3.25491 data size 1385
+ packet size: 438
+random time: +1410014.0ns
+Sending time: 
++3403856530.0nsattached deadline: +3405266544.0ns
+Udp sending packet 28 at-time 3.40386 data-size 438
+ RandomTrafficUdp sending packet 28 at 3.40386 of size 438 Total bytes sent 17649
+ Packet Interval  +162748159.0ns
+ received deadline= +3405266544.0ns
+Current time= 3.40561
+ number of dropped packets: 6
+Udp received packet 28 at 3.40561 data size 438
+ packet size: 273
+random time: +4410456.0ns
+Sending time: 
++3566604689.0nsattached deadline: +3571015145.0ns
+Udp sending packet 29 at-time 3.5666 data-size 273
+ RandomTrafficUdp sending packet 29 at 3.5666 of size 273 Total bytes sent 17922
+ Packet Interval  +196428544.0ns
+ received deadline= +3571015145.0ns
+Current time= 3.56809
+ number of dropped packets: 6
+Udp received packet 29 at 3.56809 data size 273
+ packet size: 103
+random time: +3323657.0ns
+Sending time: 
++3763033233.0nsattached deadline: +3766356890.0ns
+Udp sending packet 30 at-time 3.76303 data-size 103
+ RandomTrafficUdp sending packet 30 at 3.76303 of size 103 Total bytes sent 18025
+ Packet Interval  +64389835.0ns
+ received deadline= +3766356890.0ns
+Current time= 3.76425
+ number of dropped packets: 6
+Udp received packet 30 at 3.76425 data size 103
+ packet size: 558
+random time: +34288028.0ns
+Sending time: 
++3827423068.0nsattached deadline: +3861711096.0ns
+Udp sending packet 31 at-time 3.82742 data-size 558
+ RandomTrafficUdp sending packet 31 at 3.82742 of size 558 Total bytes sent 18583
+ Packet Interval  +19005356.0ns
+ received deadline= +3861711096.0ns
+Current time= 3.82936
+ number of dropped packets: 6
+Udp received packet 31 at 3.82936 data size 558
+ packet size: 118
+random time: +9128976.0ns
+Sending time: 
++3846428424.0nsattached deadline: +3855557400.0ns
+Udp sending packet 32 at-time 3.84643 data-size 118
+ RandomTrafficUdp sending packet 32 at 3.84643 of size 118 Total bytes sent 18701
+ Packet Interval  +29940683.0ns
+ received deadline= +3855557400.0ns
+Current time= 3.84767
+ number of dropped packets: 6
+Udp received packet 32 at 3.84767 data size 118
+ packet size: 593
+random time: +281194.0ns
+Sending time: 
++3876369107.0nsattached deadline: +3876650301.0ns
+Udp sending packet 33 at-time 3.87637 data-size 593
+ RandomTrafficUdp sending packet 33 at 3.87637 of size 593 Total bytes sent 19294
+ Packet Interval  +16509354.0ns
+ received deadline= +3876650301.0ns
+Current time= 3.87837
+ number of dropped packets: 7
+Udp received packet 33 at 3.87837 data size 593
+ packet size: 529
+random time: +933958.0ns
+Sending time: 
++3892878461.0nsattached deadline: +3893812419.0ns
+Udp sending packet 34 at-time 3.89288 data-size 529
+ RandomTrafficUdp sending packet 34 at 3.89288 of size 529 Total bytes sent 19823
+ Packet Interval  +35283862.0ns
+ received deadline= +3893812419.0ns
+Current time= 3.89477
+ number of dropped packets: 8
+Udp received packet 34 at 3.89477 data size 529
+ packet size: 322
+random time: +1476479.0ns
+Sending time: 
++3928162323.0nsattached deadline: +3929638802.0ns
+Udp sending packet 35 at-time 3.92816 data-size 322
+ RandomTrafficUdp sending packet 35 at 3.92816 of size 322 Total bytes sent 20145
+ Packet Interval  +43242133.0ns
+ received deadline= +3929638802.0ns
+Current time= 3.92973
+ number of dropped packets: 9
+Udp received packet 35 at 3.92973 data size 322
+ packet size: 426
+random time: +12599062.0ns
+Sending time: 
++3971404456.0nsattached deadline: +3984003518.0ns
+Udp sending packet 36 at-time 3.9714 data-size 426
+ RandomTrafficUdp sending packet 36 at 3.9714 of size 426 Total bytes sent 20571
+ Packet Interval  +83352078.0ns
+ received deadline= +3984003518.0ns
+Current time= 3.97313
+ number of dropped packets: 9
+Udp received packet 36 at 3.97313 data size 426
+ packet size: 256
+random time: +5390092.0ns
+Sending time: 
++4054756534.0nsattached deadline: +4060146626.0ns
+Udp sending packet 37 at-time 4.05476 data-size 256
+ RandomTrafficUdp sending packet 37 at 4.05476 of size 256 Total bytes sent 20827
+ Packet Interval  +19247503.0ns
+ received deadline= +4060146626.0ns
+Current time= 4.05621
+ number of dropped packets: 9
+Udp received packet 37 at 4.05621 data size 256
+ packet size: 58
+random time: +24038767.0ns
+Sending time: 
++4074004037.0nsattached deadline: +4098042804.0ns
+Udp sending packet 38 at-time 4.074 data-size 58
+ RandomTrafficUdp sending packet 38 at 4.074 of size 58 Total bytes sent 20885
+ Packet Interval  +252806034.0ns
+ received deadline= +4098042804.0ns
+Current time= 4.07514
+ number of dropped packets: 9
+Udp received packet 38 at 4.07514 data size 58
+ packet size: 1787
+random time: +17984712.0ns
+Sending time: 
++4326810071.0nsattached deadline: +4344794783.0ns
+Udp sending packet 39 at-time 4.32681 data-size 1787
+ RandomTrafficUdp sending packet 39 at 4.32681 of size 1787 Total bytes sent 22672
+ Packet Interval  +43993392.0ns
+ received deadline= +4344794783.0ns
+Current time= 4.33075
+ number of dropped packets: 9
+Udp received packet 39 at 4.33075 data size 1787
+ packet size: 972
+random time: +2605262.0ns
+Sending time: 
++4370803463.0nsattached deadline: +4373408725.0ns
+Udp sending packet 40 at-time 4.3708 data-size 972
+ RandomTrafficUdp sending packet 40 at 4.3708 of size 972 Total bytes sent 23644
+ Packet Interval  +170570697.0ns
+ received deadline= +4373408725.0ns
+Current time= 4.37341
+ number of dropped packets: 9
+Udp received packet 40 at 4.37341 data size 972
+ packet size: 369
+random time: +25008061.0ns
+Sending time: 
++4541374160.0nsattached deadline: +4566382221.0ns
+Udp sending packet 41 at-time 4.54137 data-size 369
+ RandomTrafficUdp sending packet 41 at 4.54137 of size 369 Total bytes sent 24013
+ Packet Interval  +18004999.0ns
+ received deadline= +4566382221.0ns
+Current time= 4.54301
+ number of dropped packets: 9
+Udp received packet 41 at 4.54301 data size 369
+ packet size: 43
+random time: +13317630.0ns
+Sending time: 
++4559379159.0nsattached deadline: +4572696789.0ns
+Udp sending packet 42 at-time 4.55938 data-size 43
+ RandomTrafficUdp sending packet 42 at 4.55938 of size 43 Total bytes sent 24056
+ Packet Interval  +87073087.0ns
+ received deadline= +4572696789.0ns
+Current time= 4.5605
+ number of dropped packets: 9
+Udp received packet 42 at 4.5605 data size 43
+ packet size: 439
+random time: +1322459.0ns
+Sending time: 
++4646452246.0nsattached deadline: +4647774705.0ns
+Udp sending packet 43 at-time 4.64645 data-size 439
+ RandomTrafficUdp sending packet 43 at 4.64645 of size 439 Total bytes sent 24495
+ Packet Interval  +111833631.0ns
+ received deadline= +4647774705.0ns
+Current time= 4.6482
+ number of dropped packets: 10
+Udp received packet 43 at 4.6482 data size 439
+ packet size: 467
+random time: +5823799.0ns
+Sending time: 
++4758285877.0nsattached deadline: +4764109676.0ns
+Udp sending packet 44 at-time 4.75829 data-size 467
+ RandomTrafficUdp sending packet 44 at 4.75829 of size 467 Total bytes sent 24962
+ Packet Interval  +136256042.0ns
+ received deadline= +4764109676.0ns
+Current time= 4.76008
+ number of dropped packets: 10
+Udp received packet 44 at 4.76008 data size 467
+ packet size: 751
+random time: +38916378.0ns
+Sending time: 
++4894541919.0nsattached deadline: +4933458297.0ns
+Udp sending packet 45 at-time 4.89454 data-size 751
+ RandomTrafficUdp sending packet 45 at 4.89454 of size 751 Total bytes sent 25713
+ Packet Interval  +65599805.0ns
+ received deadline= +4933458297.0ns
+Current time= 4.89679
+ number of dropped packets: 10
+Udp received packet 45 at 4.89679 data size 751
+ packet size: 93
+random time: +15002785.0ns
+Sending time: 
++4960141724.0nsattached deadline: +4975144509.0ns
+Udp sending packet 46 at-time 4.96014 data-size 93
+ RandomTrafficUdp sending packet 46 at 4.96014 of size 93 Total bytes sent 25806
+ Packet Interval  +86500712.0ns
+ received deadline= +4975144509.0ns
+Current time= 4.96134
+ number of dropped packets: 10
+Udp received packet 46 at 4.96134 data size 93
+ packet size: 1447
+random time: +17511553.0ns
+Sending time: 
++5046642436.0nsattached deadline: +5064153989.0ns
+Udp sending packet 47 at-time 5.04664 data-size 1447
+ RandomTrafficUdp sending packet 47 at 5.04664 of size 1447 Total bytes sent 27253
+ Packet Interval  +43224484.0ns
+ received deadline= +5064153989.0ns
+Current time= 5.05001
+ number of dropped packets: 10
+Udp received packet 47 at 5.05001 data size 1447
+ packet size: 316
+random time: +70162658.0ns
+Sending time: 
++5089866920.0nsattached deadline: +5160029578.0ns
+Udp sending packet 48 at-time 5.08987 data-size 316
+ RandomTrafficUdp sending packet 48 at 5.08987 of size 316 Total bytes sent 27569
+ Packet Interval  +103586380.0ns
+ received deadline= +5160029578.0ns
+Current time= 5.09142
+ number of dropped packets: 10
+Udp received packet 48 at 5.09142 data size 316
+ packet size: 372
+random time: +4770558.0ns
+Sending time: 
++5193453300.0nsattached deadline: +5198223858.0ns
+Udp sending packet 49 at-time 5.19345 data-size 372
+ RandomTrafficUdp sending packet 49 at 5.19345 of size 372 Total bytes sent 27941
+ Packet Interval  +6682334.0ns
+ received deadline= +5198223858.0ns
+Current time= 5.1951
+ number of dropped packets: 10
+Udp received packet 49 at 5.1951 data size 372
+ packet size: 553
+random time: +209876.0ns
+Sending time: 
++5200135634.0nsattached deadline: +5200345510.0ns
+Udp sending packet 50 at-time 5.20014 data-size 553
+ RandomTrafficUdp sending packet 50 at 5.20014 of size 553 Total bytes sent 28494
+ Packet Interval  +41083475.0ns
+ received deadline= +5200345510.0ns
+Current time= 5.20207
+ number of dropped packets: 11
+Udp received packet 50 at 5.20207 data size 553
+ packet size: 2025
+random time: +10838533.0ns
+Sending time: 
++5241219109.0nsattached deadline: +5252057642.0ns
+Udp sending packet 51 at-time 5.24122 data-size 2025
+ RandomTrafficUdp sending packet 51 at 5.24122 of size 2025 Total bytes sent 30519
+ received deadline= +5252057642.0ns
+Current time= 5.24554
+ number of dropped packets: 11
+Udp received packet 51 at 5.24554 data size 2025
+Total Bytes Received: 30519

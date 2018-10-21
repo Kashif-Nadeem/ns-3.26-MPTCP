@@ -1,0 +1,8 @@
+Udp sending packet 1 at-time 2 data-size 1024
+ Sending client-time 2 sent-bytes 1024
+ Receiving server-time 2.00369 received-bytes 1024
+Udp received packet 1 at 2.00369 data size 1024
+Udp sending packet 2 at-time 2.1 data-size 1024
+ Sending client-time 2.1 sent-bytes 1024
+ Receiving server-time 2.10369 received-bytes 1024
+Udp received packet 2 at 2.10369 data size 1024

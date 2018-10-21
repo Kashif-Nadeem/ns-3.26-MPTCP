@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# clean output file:
+echo > outputfile  #output file name
+#,$udpsenttime,$udpsentbytes,$udpreceivedtime,$udpreceivedbytes,$serverreceivedtime,$serverreceivedbytes
+# grab data:
+while read line; do
+ udpsenttime=$(echo "$line" | grep -oE -- 'at-time [0-9]+' | cut -f2 -d" ")
+ udpsentbytes=$(echo "$line" | grep -oE -- 'data-size [0-9]+' | cut -f2 -d" ")
+ clientsenttime=$(echo "$line" | grep -oE -- 'client-time [0-9]+' | cut -f2 -d" ")
+ clientsentbytes=$(echo "$line" | grep -oE -- 'sent-bytes [0-9]+' | cut -f2 -d" ")
+ serverreceivedtime=$(echo "$line" | grep -oE -- 'server-time [0-9]+' | cut -f2 -d" ")
+ serverreceivedbytes=$(echo "$line" | grep -oE -- 'received-bytes [0-9]+' | cut -f2 -d" ")
+ udpreceivedtime=$(echo "$line" | grep -oE -- 'at [0-9]+' | cut -f2 -d" ")
+ udpreceivedbytes=$(echo "$line" | grep -oE -- 'size [0-9]+' | cut -f2 -d" ")
+ echo "$udpsenttime,$udpsentbytes,$clientsenttime,$clientsentbytes,$serverreceivedtime,$serverreceivedbytes,$udpreceivedtime,$udpreceivedbytes" >>  outputfile
+done < myprogram.out  #input file name
